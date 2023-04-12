@@ -122,8 +122,8 @@ where `config['main']['components_repository']` is set to
 [https://github.com/udacity/WGU-project-Build-an-ML-Pipeline-Starter/tree/main/components](https://github.com/udacity/WGU-project-Build-an-ML-Pipeline-Starter/tree/main/components).
 You can see the parameters that they require by looking into their `MLproject` file:
 
-- `get_data`: downloads the data. [MLproject](https://github.com/udacity/WGU-project-Build-an-ML-Pipeline-Starter/blob/master/components/get_data/MLproject)
-- `train_val_test_split`: segrgate the data (splits the data) [MLproject](https://github.com/udacity/WGU-project-Build-an-ML-Pipeline-Starter/blob/master/components/train_val_test_split/MLproject)
+- `get_data`: downloads the data. [MLproject](https://github.com/udacity/WGU-project-Build-an-ML-Pipeline-Starter/blob/main/components/get_data/MLproject)
+- `train_val_test_split`: segrgate the data (splits the data) [MLproject](https://github.com/udacity/WGU-project-Build-an-ML-Pipeline-Starter/blob/main/components/train_val_test_split/MLproject)
 
 ## In case of errors
 When you make an error writing your `conda.yml` file, you might end up with an environment for the pipeline or one
