@@ -119,7 +119,7 @@ _ = mlflow.run(
             )
 ```
 where `config['main']['components_repository']` is set to 
-[https://github.com/udacity/WGU-project-Build-an-ML-Pipeline-Starter#components](https://github.com/udacity/nWGU-project-Build-an-ML-Pipeline-Starter/tree/master/components).
+[https://github.com/udacity/WGU-project-Build-an-ML-Pipeline-Starter/tree/main/components](https://github.com/udacity/WGU-project-Build-an-ML-Pipeline-Starter/tree/main/components).
 You can see the parameters that they require by looking into their `MLproject` file:
 
 - `get_data`: downloads the data. [MLproject](https://github.com/udacity/WGU-project-Build-an-ML-Pipeline-Starter/blob/master/components/get_data/MLproject)
