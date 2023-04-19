@@ -35,7 +35,7 @@ Commit and push to the repository often while you make progress towards the solu
 to add meaningful commit messages.
 
 ### Create environment
-Make sure to have conda installed and ready, then create a new environment using the ``environment.yml``
+Make sure to have conda installed and ready, then create a new environment using the ``environment.yaml``
 file provided in the root of the repository and activate it:
 
 ```bash
