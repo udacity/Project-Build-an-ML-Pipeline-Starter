@@ -1,0 +1,13 @@
+2024-02-01 11:41:36,067 INFO    MainThread:2867 [wandb_setup.py:_flush():68] Configure stats pid to 2867
+2024-02-01 11:41:36,067 INFO    MainThread:2867 [wandb_setup.py:_flush():68] Loading settings from /home/andrea_bredesen/.config/wandb/settings
+2024-02-01 11:41:36,067 INFO    MainThread:2867 [wandb_setup.py:_flush():68] Loading settings from /home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/src/data_check/wandb/settings
+2024-02-01 11:41:36,067 INFO    MainThread:2867 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'run_group': 'development', 'project': 'nyc_airbnb'}
+2024-02-01 11:41:36,067 WARNING MainThread:2867 [wandb_setup.py:_flush():68] Could not save program above cwd: /home/andrea_bredesen/miniconda3/envs/mlflow-af6473294b18f57ea960125076520147a7a4be59/bin/pytest
+2024-02-01 11:41:36,067 INFO    MainThread:2867 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': None, 'program': '/home/andrea_bredesen/miniconda3/envs/mlflow-af6473294b18f57ea960125076520147a7a4be59/bin/pytest'}
+2024-02-01 11:41:36,067 INFO    MainThread:2867 [wandb_init.py:_log_setup():478] Logging user logs to /home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/src/data_check/wandb/run-20240201_114136-o66ad69u/logs/debug.log
+2024-02-01 11:41:36,067 INFO    MainThread:2867 [wandb_init.py:_log_setup():479] Logging internal logs to /home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/src/data_check/wandb/run-20240201_114136-o66ad69u/logs/debug-internal.log
+2024-02-01 11:41:36,068 INFO    MainThread:2867 [wandb_init.py:init():518] calling init triggers
+2024-02-01 11:41:36,068 INFO    MainThread:2867 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2024-02-01 11:41:36,068 INFO    MainThread:2867 [wandb_init.py:init():566] wandb.init() called when a run is still active
+2024-02-01 11:41:42,227 WARNING MsgRouterThr:2867 [router.py:message_loop():77] message_loop has been closed

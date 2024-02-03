@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/16e0b3dd2d594465b5914d9220e57d43/artifacts
+end_time: 1706901402320
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 16e0b3dd2d594465b5914d9220e57d43
+run_name: skittish-grub-714
+run_uuid: 16e0b3dd2d594465b5914d9220e57d43
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706901384703
+status: 4
+tags: []
+user_id: andrea_bredesen

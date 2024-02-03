@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0ca22bd6b3814f2a9fc4dddcf1d17a24/artifacts
+end_time: 1706896618566
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0ca22bd6b3814f2a9fc4dddcf1d17a24
+run_name: masked-sponge-79
+run_uuid: 0ca22bd6b3814f2a9fc4dddcf1d17a24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706895961045
+status: 3
+tags: []
+user_id: andrea_bredesen

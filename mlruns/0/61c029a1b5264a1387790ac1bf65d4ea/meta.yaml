@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/61c029a1b5264a1387790ac1bf65d4ea/artifacts
+end_time: 1706807977069
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 61c029a1b5264a1387790ac1bf65d4ea
+run_name: thoughtful-bat-513
+run_uuid: 61c029a1b5264a1387790ac1bf65d4ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706807963260
+status: 4
+tags: []
+user_id: andrea_bredesen

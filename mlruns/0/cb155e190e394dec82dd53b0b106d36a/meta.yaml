@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/cb155e190e394dec82dd53b0b106d36a/artifacts
+end_time: 1706901124967
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cb155e190e394dec82dd53b0b106d36a
+run_name: melodic-penguin-499
+run_uuid: cb155e190e394dec82dd53b0b106d36a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706901107295
+status: 4
+tags: []
+user_id: andrea_bredesen

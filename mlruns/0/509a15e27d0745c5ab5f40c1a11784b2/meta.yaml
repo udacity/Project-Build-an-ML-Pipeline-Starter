@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/509a15e27d0745c5ab5f40c1a11784b2/artifacts
+end_time: 1706905686897
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 509a15e27d0745c5ab5f40c1a11784b2
+run_name: bedecked-lamb-719
+run_uuid: 509a15e27d0745c5ab5f40c1a11784b2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706905643936
+status: 3
+tags: []
+user_id: andrea_bredesen

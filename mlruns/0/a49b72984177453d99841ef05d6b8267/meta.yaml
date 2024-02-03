@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a49b72984177453d99841ef05d6b8267/artifacts
+end_time: 1706905863877
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a49b72984177453d99841ef05d6b8267
+run_name: angry-ram-932
+run_uuid: a49b72984177453d99841ef05d6b8267
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706905750099
+status: 3
+tags: []
+user_id: andrea_bredesen

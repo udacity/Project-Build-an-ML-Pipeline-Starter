@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/87dbc66d68ee469c811163906249bb0c/artifacts
+end_time: 1706806886658
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 87dbc66d68ee469c811163906249bb0c
+run_name: secretive-lamb-768
+run_uuid: 87dbc66d68ee469c811163906249bb0c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706806626452
+status: 4
+tags: []
+user_id: andrea_bredesen

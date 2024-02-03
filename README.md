@@ -1,13 +1,9 @@
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
-You are working for a property management company renting rooms and properties for short periods of 
-time on various rental platforms. You need to estimate the typical price for a given property based 
-on the price of similar properties. Your company receives new data in bulk every week. The model needs 
-to be retrained with the same cadence, necessitating an end-to-end pipeline that can be reused.
+As part of my Udacity Nanodegree, I'll be creating a Machine Learning pipeline. This pipeline works through the steps of downloading the data, cleaning, training, and testing. In the end, this pipeline will be used weekly to estimate the typical price for Airbnb rentals in New York City.
 
-In this project you will build such a pipeline.
 
 ## Table of contents
-
+**As provided by WGU**
 - [Preliminary steps](#preliminary-steps)
   * [Fork the Starter Kit](#fork-the-starter-kit)
   * [Create environment](#create-environment)
@@ -145,6 +141,15 @@ If you are ok with that list, execute this command to clean them up:
 ```
 
 This will iterate over all the environments created by `mlflow` and remove them.
+
+## 1.0.0 Version
+Train_Random_Forest parameters updated to max_depth = 50 ; n_estimators = 200
+
+## 1.0.1 Version
+Updated Basic Cleaning run lines 37-38 with df[idx].copy updates.
+
+## 1.0.2 Version
+Push to ensure all versions were updated including README file.
 
 
 ## License

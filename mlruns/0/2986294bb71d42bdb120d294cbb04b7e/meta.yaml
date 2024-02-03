@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2986294bb71d42bdb120d294cbb04b7e/artifacts
+end_time: 1706810465043
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2986294bb71d42bdb120d294cbb04b7e
+run_name: overjoyed-skink-60
+run_uuid: 2986294bb71d42bdb120d294cbb04b7e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706810443873
+status: 3
+tags: []
+user_id: andrea_bredesen

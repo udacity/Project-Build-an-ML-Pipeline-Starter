@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/421102c963ea47a6bb71b2ef4235a08e/artifacts
+end_time: 1706809305627
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 421102c963ea47a6bb71b2ef4235a08e
+run_name: secretive-bird-395
+run_uuid: 421102c963ea47a6bb71b2ef4235a08e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706809174182
+status: 4
+tags: []
+user_id: andrea_bredesen
