@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0410220d191e49569c97cc36c969490d/artifacts
+end_time: 1706898959266
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0410220d191e49569c97cc36c969490d
+run_name: fortunate-snipe-273
+run_uuid: 0410220d191e49569c97cc36c969490d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706898957425
+status: 4
+tags: []
+user_id: andrea_bredesen

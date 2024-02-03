@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/aadd0d7624ff472a8fccf17e5ee4113e/artifacts
+end_time: 1706901089212
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aadd0d7624ff472a8fccf17e5ee4113e
+run_name: classy-trout-716
+run_uuid: aadd0d7624ff472a8fccf17e5ee4113e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706901063754
+status: 4
+tags: []
+user_id: andrea_bredesen

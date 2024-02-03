@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/96044190402845cd9de5c49b458f5b80/artifacts
+end_time: 1706910279692
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 96044190402845cd9de5c49b458f5b80
+run_name: enchanting-skunk-263
+run_uuid: 96044190402845cd9de5c49b458f5b80
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706909788249
+status: 3
+tags: []
+user_id: andrea_bredesen

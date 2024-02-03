@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/40070f702c94433581c1e75d1acae9f1/artifacts
+end_time: 1706899971879
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 40070f702c94433581c1e75d1acae9f1
+run_name: aged-squid-890
+run_uuid: 40070f702c94433581c1e75d1acae9f1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706899923007
+status: 4
+tags: []
+user_id: andrea_bredesen

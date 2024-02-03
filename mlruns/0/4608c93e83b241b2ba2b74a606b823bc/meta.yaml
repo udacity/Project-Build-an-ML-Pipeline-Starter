@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/4608c93e83b241b2ba2b74a606b823bc/artifacts
+end_time: 1706901088790
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4608c93e83b241b2ba2b74a606b823bc
+run_name: vaunted-squid-325
+run_uuid: 4608c93e83b241b2ba2b74a606b823bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706901068727
+status: 4
+tags: []
+user_id: andrea_bredesen

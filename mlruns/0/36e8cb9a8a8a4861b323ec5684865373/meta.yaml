@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/36e8cb9a8a8a4861b323ec5684865373/artifacts
+end_time: 1706898923976
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 36e8cb9a8a8a4861b323ec5684865373
+run_name: able-fawn-51
+run_uuid: 36e8cb9a8a8a4861b323ec5684865373
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706898919814
+status: 4
+tags: []
+user_id: andrea_bredesen

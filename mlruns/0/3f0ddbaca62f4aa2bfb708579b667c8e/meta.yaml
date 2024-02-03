@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/3f0ddbaca62f4aa2bfb708579b667c8e/artifacts
+end_time: 1706810296552
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3f0ddbaca62f4aa2bfb708579b667c8e
+run_name: chill-eel-228
+run_uuid: 3f0ddbaca62f4aa2bfb708579b667c8e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706810220644
+status: 4
+tags: []
+user_id: andrea_bredesen

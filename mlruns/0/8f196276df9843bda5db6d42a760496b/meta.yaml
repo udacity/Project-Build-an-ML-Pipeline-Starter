@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8f196276df9843bda5db6d42a760496b/artifacts
+end_time: 1706906323125
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8f196276df9843bda5db6d42a760496b
+run_name: worried-turtle-666
+run_uuid: 8f196276df9843bda5db6d42a760496b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706906058281
+status: 3
+tags: []
+user_id: andrea_bredesen

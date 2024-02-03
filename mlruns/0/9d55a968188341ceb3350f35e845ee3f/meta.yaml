@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9d55a968188341ceb3350f35e845ee3f/artifacts
+end_time: 1706905687216
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9d55a968188341ceb3350f35e845ee3f
+run_name: languid-turtle-253
+run_uuid: 9d55a968188341ceb3350f35e845ee3f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706905599283
+status: 3
+tags: []
+user_id: andrea_bredesen

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/eb8bd420d9ec40b8a3c40caf6ed95237/artifacts
+end_time: 1706810464799
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eb8bd420d9ec40b8a3c40caf6ed95237
+run_name: victorious-loon-203
+run_uuid: eb8bd420d9ec40b8a3c40caf6ed95237
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706810447521
+status: 3
+tags: []
+user_id: andrea_bredesen

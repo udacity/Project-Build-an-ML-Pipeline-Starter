@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f844c94324584c34af6a7218f3daf040/artifacts
+end_time: 1706806876052
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f844c94324584c34af6a7218f3daf040
+run_name: bedecked-ox-696
+run_uuid: f844c94324584c34af6a7218f3daf040
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706806647837
+status: 4
+tags: []
+user_id: andrea_bredesen

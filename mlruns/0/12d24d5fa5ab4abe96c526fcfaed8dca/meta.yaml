@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/12d24d5fa5ab4abe96c526fcfaed8dca/artifacts
+end_time: 1706906865862
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 12d24d5fa5ab4abe96c526fcfaed8dca
+run_name: enthused-smelt-931
+run_uuid: 12d24d5fa5ab4abe96c526fcfaed8dca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706905745186
+status: 3
+tags: []
+user_id: andrea_bredesen

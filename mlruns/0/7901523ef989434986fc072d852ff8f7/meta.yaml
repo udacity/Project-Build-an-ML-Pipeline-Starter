@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7901523ef989434986fc072d852ff8f7/artifacts
+end_time: 1706901125339
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7901523ef989434986fc072d852ff8f7
+run_name: dashing-rook-286
+run_uuid: 7901523ef989434986fc072d852ff8f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706901103232
+status: 4
+tags: []
+user_id: andrea_bredesen

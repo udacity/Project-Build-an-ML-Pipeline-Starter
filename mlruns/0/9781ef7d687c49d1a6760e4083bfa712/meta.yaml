@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9781ef7d687c49d1a6760e4083bfa712/artifacts
+end_time: 1706640047741
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9781ef7d687c49d1a6760e4083bfa712
+run_name: upset-bass-868
+run_uuid: 9781ef7d687c49d1a6760e4083bfa712
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706639639970
+status: 3
+tags: []
+user_id: andrea_bredesen

@@ -1,0 +1,18 @@
+2024-02-02 13:16:35,066 Minimum price: 10, Maximum price: 350
+2024-02-02 13:16:35,089 Preparing sklearn pipeline
+Traceback (most recent call last):
+  File "/home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 294, in <module>
+    go(args)
+  File "/home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 69, in go
+    sk_pipe, processed_features = get_inference_pipeline(rf_config, args.max_tfidf_features)
+  File "/home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 167, in get_inference_pipeline
+    non_ordinal_categorical_preproc = make_pipeline(
+  File "/home/andrea_bredesen/miniconda3/envs/mlflow-d6c04384fb9356865b6d231fc3cbd1b1b9b4863e/lib/python3.9/site-packages/sklearn/pipeline.py", line 729, in make_pipeline
+    return Pipeline(_name_estimators(steps), memory=memory, verbose=verbose)
+  File "/home/andrea_bredesen/miniconda3/envs/mlflow-d6c04384fb9356865b6d231fc3cbd1b1b9b4863e/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/home/andrea_bredesen/miniconda3/envs/mlflow-d6c04384fb9356865b6d231fc3cbd1b1b9b4863e/lib/python3.9/site-packages/sklearn/pipeline.py", line 118, in __init__
+    self._validate_steps()
+  File "/home/andrea_bredesen/miniconda3/envs/mlflow-d6c04384fb9356865b6d231fc3cbd1b1b9b4863e/lib/python3.9/site-packages/sklearn/pipeline.py", line 154, in _validate_steps
+    names, estimators = zip(*self.steps)
+ValueError: not enough values to unpack (expected 2, got 0)

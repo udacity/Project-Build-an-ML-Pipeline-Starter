@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 294, in <module>
+    go(args)
+  File "/home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 47, in go
+    with open(args.rf_config) as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'rf_config'

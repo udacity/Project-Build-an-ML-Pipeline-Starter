@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/96098de02bfb440ea787f79d562284bf/artifacts
+end_time: 1706906864903
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 96098de02bfb440ea787f79d562284bf
+run_name: nervous-wren-670
+run_uuid: 96098de02bfb440ea787f79d562284bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706906323589
+status: 3
+tags: []
+user_id: andrea_bredesen

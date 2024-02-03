@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6ccce8c2606f4703b0a716a89bf48335/artifacts
+end_time: 1706906058095
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6ccce8c2606f4703b0a716a89bf48335
+run_name: peaceful-lynx-667
+run_uuid: 6ccce8c2606f4703b0a716a89bf48335
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706905864072
+status: 3
+tags: []
+user_id: andrea_bredesen

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ab41218366a54ebd897fae1ba5988347/artifacts
+end_time: 1706914221809
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ab41218366a54ebd897fae1ba5988347
+run_name: bustling-hawk-821
+run_uuid: ab41218366a54ebd897fae1ba5988347
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706914121914
+status: 3
+tags: []
+user_id: andrea_bredesen

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d8437c2abd244ce68ae4f9d170f087bf/artifacts
+end_time: 1706640051995
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d8437c2abd244ce68ae4f9d170f087bf
+run_name: sedate-newt-605
+run_uuid: d8437c2abd244ce68ae4f9d170f087bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706639015247
+status: 3
+tags: []
+user_id: andrea_bredesen

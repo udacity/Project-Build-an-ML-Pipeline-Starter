@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0f636ab15ac74e2cb133faae3e812041/artifacts
+end_time: 1706899622552
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0f636ab15ac74e2cb133faae3e812041
+run_name: capable-rat-13
+run_uuid: 0f636ab15ac74e2cb133faae3e812041
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706899163874
+status: 4
+tags: []
+user_id: andrea_bredesen

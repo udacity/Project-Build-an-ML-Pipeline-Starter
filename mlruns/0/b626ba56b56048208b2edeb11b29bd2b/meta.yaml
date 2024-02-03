@@ -1,0 +1,15 @@
+artifact_uri: file:///home/andrea_bredesen/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b626ba56b56048208b2edeb11b29bd2b/artifacts
+end_time: 1706808094664
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b626ba56b56048208b2edeb11b29bd2b
+run_name: respected-pug-952
+run_uuid: b626ba56b56048208b2edeb11b29bd2b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706808045609
+status: 3
+tags: []
+user_id: andrea_bredesen
