@@ -1,0 +1,15 @@
+artifact_uri: file:///home/falcon/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f1f922399264428fb8f314746b21d65c/artifacts
+end_time: 1710645444738
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f1f922399264428fb8f314746b21d65c
+run_name: youthful-auk-117
+run_uuid: f1f922399264428fb8f314746b21d65c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710645325355
+status: 3
+tags: []
+user_id: falcon

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/falcon/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b24801ce35794671b3f885cc31174f8e/artifacts
+end_time: 1710648722052
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b24801ce35794671b3f885cc31174f8e
+run_name: painted-dolphin-551
+run_uuid: b24801ce35794671b3f885cc31174f8e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710648442783
+status: 3
+tags: []
+user_id: falcon
