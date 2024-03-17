@@ -1,0 +1,15 @@
+artifact_uri: file:///home/falcon/Project-Build-an-ML-Pipeline-Starter/mlruns/0/18a1ae29ce954264bdcdbb27cd185d03/artifacts
+end_time: 1710646146028
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 18a1ae29ce954264bdcdbb27cd185d03
+run_name: angry-shrike-709
+run_uuid: 18a1ae29ce954264bdcdbb27cd185d03
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710646110734
+status: 3
+tags: []
+user_id: falcon

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/falcon/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c9ac8722222a4bb68b90c3bb8dd208f7/artifacts
+end_time: 1710648721890
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c9ac8722222a4bb68b90c3bb8dd208f7
+run_name: whimsical-deer-235
+run_uuid: c9ac8722222a4bb68b90c3bb8dd208f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710648651334
+status: 3
+tags: []
+user_id: falcon

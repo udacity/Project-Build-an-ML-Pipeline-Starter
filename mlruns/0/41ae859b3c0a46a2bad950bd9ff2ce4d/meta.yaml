@@ -1,0 +1,15 @@
+artifact_uri: file:///home/falcon/Project-Build-an-ML-Pipeline-Starter/mlruns/0/41ae859b3c0a46a2bad950bd9ff2ce4d/artifacts
+end_time: 1710648003626
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 41ae859b3c0a46a2bad950bd9ff2ce4d
+run_name: powerful-pug-662
+run_uuid: 41ae859b3c0a46a2bad950bd9ff2ce4d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710647966119
+status: 3
+tags: []
+user_id: falcon

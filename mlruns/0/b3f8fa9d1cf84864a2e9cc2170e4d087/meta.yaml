@@ -1,0 +1,15 @@
+artifact_uri: file:///home/falcon/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b3f8fa9d1cf84864a2e9cc2170e4d087/artifacts
+end_time: 1710648003477
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b3f8fa9d1cf84864a2e9cc2170e4d087
+run_name: secretive-horse-341
+run_uuid: b3f8fa9d1cf84864a2e9cc2170e4d087
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710647967588
+status: 3
+tags: []
+user_id: falcon

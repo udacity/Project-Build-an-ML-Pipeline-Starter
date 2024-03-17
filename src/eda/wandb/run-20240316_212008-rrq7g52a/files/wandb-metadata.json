@@ -1,0 +1,76 @@
+{
+    "os": "Linux-6.2.0-32-generic-x86_64-with-glibc2.37",
+    "python": "3.9.15",
+    "heartbeatAt": "2024-03-17T03:20:09.210260",
+    "startedAt": "2024-03-17T03:20:08.680021",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "src/eda/eda.ipynb",
+    "root": "/home/falcon/Project-Build-an-ML-Pipeline-Starter",
+    "git": {
+        "remote": "https://github.com/ebs-well/Project-Build-an-ML-Pipeline-Starter.git",
+        "commit": "077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98"
+    },
+    "email": null,
+    "host": "msiFlip",
+    "username": "falcon",
+    "executable": "/home/falcon/miniconda3/envs/nyc_airbnb_dev/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1320.9735,
+        "min": 400.0,
+        "max": 4500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1866.43,
+            "min": 400.0,
+            "max": 4500.0
+        },
+        {
+            "current": 1323.85,
+            "min": 400.0,
+            "max": 4500.0
+        },
+        {
+            "current": 1300.4,
+            "min": 400.0,
+            "max": 4500.0
+        },
+        {
+            "current": 1386.162,
+            "min": 400.0,
+            "max": 4500.0
+        },
+        {
+            "current": 1214.008,
+            "min": 400.0,
+            "max": 4500.0
+        },
+        {
+            "current": 1301.209,
+            "min": 400.0,
+            "max": 4500.0
+        },
+        {
+            "current": 802.841,
+            "min": 400.0,
+            "max": 4500.0
+        },
+        {
+            "current": 1372.888,
+            "min": 400.0,
+            "max": 4500.0
+        }
+    ],
+    "disk": {
+        "total": 446.36768341064453,
+        "used": 323.1552734375
+    },
+    "memory": {
+        "total": 15.319561004638672
+    }
+}

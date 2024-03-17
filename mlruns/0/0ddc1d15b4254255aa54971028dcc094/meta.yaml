@@ -1,0 +1,15 @@
+artifact_uri: file:///home/falcon/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0ddc1d15b4254255aa54971028dcc094/artifacts
+end_time: 1710648182250
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0ddc1d15b4254255aa54971028dcc094
+run_name: bustling-auk-59
+run_uuid: 0ddc1d15b4254255aa54971028dcc094
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710648088707
+status: 3
+tags: []
+user_id: falcon

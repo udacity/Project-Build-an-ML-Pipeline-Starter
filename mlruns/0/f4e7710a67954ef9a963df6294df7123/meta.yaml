@@ -1,0 +1,15 @@
+artifact_uri: file:///home/falcon/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f4e7710a67954ef9a963df6294df7123/artifacts
+end_time: 1710648182402
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f4e7710a67954ef9a963df6294df7123
+run_name: mercurial-asp-184
+run_uuid: f4e7710a67954ef9a963df6294df7123
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710648085225
+status: 3
+tags: []
+user_id: falcon

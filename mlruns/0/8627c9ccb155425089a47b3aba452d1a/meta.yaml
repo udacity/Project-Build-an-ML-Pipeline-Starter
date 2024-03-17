@@ -1,0 +1,15 @@
+artifact_uri: file:///home/falcon/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8627c9ccb155425089a47b3aba452d1a/artifacts
+end_time: 1710648612529
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8627c9ccb155425089a47b3aba452d1a
+run_name: caring-carp-942
+run_uuid: 8627c9ccb155425089a47b3aba452d1a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710648558321
+status: 3
+tags: []
+user_id: falcon

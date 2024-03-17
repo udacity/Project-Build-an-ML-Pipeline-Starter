@@ -1,0 +1,15 @@
+artifact_uri: file:///home/falcon/Project-Build-an-ML-Pipeline-Starter/mlruns/0/4d4d2b5291f64ff5bfd407339c626d5a/artifacts
+end_time: 1710646146188
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4d4d2b5291f64ff5bfd407339c626d5a
+run_name: indecisive-gnat-848
+run_uuid: 4d4d2b5291f64ff5bfd407339c626d5a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710646109181
+status: 3
+tags: []
+user_id: falcon

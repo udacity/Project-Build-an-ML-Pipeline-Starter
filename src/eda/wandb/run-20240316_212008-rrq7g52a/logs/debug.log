@@ -1,0 +1,39 @@
+2024-03-16 21:20:08,682 INFO    MainThread:54103 [wandb_setup.py:_flush():68] Configure stats pid to 54103
+2024-03-16 21:20:08,682 INFO    MainThread:54103 [wandb_setup.py:_flush():68] Loading settings from /home/falcon/.config/wandb/settings
+2024-03-16 21:20:08,682 INFO    MainThread:54103 [wandb_setup.py:_flush():68] Loading settings from /home/falcon/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/settings
+2024-03-16 21:20:08,682 INFO    MainThread:54103 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-03-16 21:20:08,682 INFO    MainThread:54103 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-03-16 21:20:08,682 INFO    MainThread:54103 [wandb_init.py:_log_setup():478] Logging user logs to /home/falcon/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240316_212008-rrq7g52a/logs/debug.log
+2024-03-16 21:20:08,683 INFO    MainThread:54103 [wandb_init.py:_log_setup():479] Logging internal logs to /home/falcon/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240316_212008-rrq7g52a/logs/debug-internal.log
+2024-03-16 21:20:08,683 INFO    MainThread:54103 [wandb_init.py:_jupyter_setup():428] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7ff6e0778d60>
+2024-03-16 21:20:08,683 INFO    MainThread:54103 [wandb_init.py:init():518] calling init triggers
+2024-03-16 21:20:08,683 INFO    MainThread:54103 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2024-03-16 21:20:08,683 INFO    MainThread:54103 [wandb_init.py:init():571] starting backend
+2024-03-16 21:20:08,684 INFO    MainThread:54103 [wandb_init.py:init():575] setting up manager
+2024-03-16 21:20:08,687 INFO    MainThread:54103 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-03-16 21:20:08,689 INFO    MainThread:54103 [wandb_init.py:init():582] backend started and connected
+2024-03-16 21:20:08,692 INFO    MainThread:54103 [wandb_run.py:_label_probe_notebook():1202] probe notebook
+2024-03-16 21:20:08,692 INFO    MainThread:54103 [wandb_run.py:_label_probe_notebook():1212] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-03-16 21:20:08,692 INFO    MainThread:54103 [wandb_init.py:init():670] updated telemetry
+2024-03-16 21:20:08,707 INFO    MainThread:54103 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2024-03-16 21:20:09,114 INFO    MainThread:54103 [wandb_run.py:_on_init():2121] communicating current version
+2024-03-16 21:20:09,198 INFO    MainThread:54103 [wandb_run.py:_on_init():2125] got version response upgrade_message: "wandb version 0.16.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-03-16 21:20:09,198 INFO    MainThread:54103 [wandb_init.py:init():758] starting run threads in backend
+2024-03-16 21:20:11,331 INFO    MainThread:54103 [wandb_run.py:_console_start():2101] atexit reg
+2024-03-16 21:20:11,332 INFO    MainThread:54103 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2024-03-16 21:20:11,332 INFO    MainThread:54103 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2024-03-16 21:20:11,332 INFO    MainThread:54103 [wandb_run.py:_redirect():2046] Redirects installed.
+2024-03-16 21:20:11,332 INFO    MainThread:54103 [wandb_init.py:init():798] run started, returning control to user process
+2024-03-16 21:20:12,470 INFO    MainThread:54103 [wandb_run.py:_finish():1844] finishing run ebs-stilwell/nyc_airbnb/rrq7g52a
+2024-03-16 21:20:12,497 INFO    MainThread:54103 [jupyter.py:save_history():478] saving 8 cells to _session_history.ipynb
+2024-03-16 21:20:12,497 INFO    MainThread:54103 [wandb_run.py:_config_callback():1249] config_cb ('_wandb', 'session_history') code/_session_history.ipynb None
+2024-03-16 21:20:12,499 INFO    MainThread:54103 [jupyter.py:_save_ipynb():390] looking for notebook: src/eda/eda.ipynb
+2024-03-16 21:20:12,499 INFO    MainThread:54103 [wandb_init.py:_jupyter_teardown():410] cleaning up jupyter logic
+2024-03-16 21:20:12,499 INFO    MainThread:54103 [wandb_run.py:_atexit_cleanup():2070] got exitcode: 0
+2024-03-16 21:20:12,499 INFO    MainThread:54103 [wandb_run.py:_restore():2053] restore
+2024-03-16 21:20:12,499 INFO    MainThread:54103 [wandb_run.py:_restore():2059] restore done
+2024-03-16 21:20:17,684 INFO    MainThread:54103 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2024-03-16 21:20:17,684 INFO    MainThread:54103 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2024-03-16 21:20:17,688 INFO    MainThread:54103 [wandb_run.py:_footer_sync_info():3383] logging synced files
