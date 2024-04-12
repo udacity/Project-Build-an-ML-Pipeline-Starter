@@ -1,0 +1,50 @@
+2024-04-04 10:05:15,554 INFO    MainThread:404938 [wandb_setup.py:_flush():68] Configure stats pid to 404938
+2024-04-04 10:05:15,554 INFO    MainThread:404938 [wandb_setup.py:_flush():68] Loading settings from /home/pglad/.config/wandb/settings
+2024-04-04 10:05:15,554 INFO    MainThread:404938 [wandb_setup.py:_flush():68] Loading settings from /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/settings
+2024-04-04 10:05:15,555 INFO    MainThread:404938 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-04-04 10:05:15,555 INFO    MainThread:404938 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-04 10:05:15,555 INFO    MainThread:404938 [wandb_init.py:_log_setup():478] Logging user logs to /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/logs/debug.log
+2024-04-04 10:05:15,555 INFO    MainThread:404938 [wandb_init.py:_log_setup():479] Logging internal logs to /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/logs/debug-internal.log
+2024-04-04 10:05:15,555 INFO    MainThread:404938 [wandb_init.py:_jupyter_setup():428] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f2c6467c940>
+2024-04-04 10:05:15,556 INFO    MainThread:404938 [wandb_init.py:init():518] calling init triggers
+2024-04-04 10:05:15,556 INFO    MainThread:404938 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2024-04-04 10:05:15,556 INFO    MainThread:404938 [wandb_init.py:init():571] starting backend
+2024-04-04 10:05:15,556 INFO    MainThread:404938 [wandb_init.py:init():575] setting up manager
+2024-04-04 10:05:15,560 INFO    MainThread:404938 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-04-04 10:05:15,564 INFO    MainThread:404938 [wandb_init.py:init():582] backend started and connected
+2024-04-04 10:05:15,568 INFO    MainThread:404938 [wandb_run.py:_label_probe_notebook():1202] probe notebook
+2024-04-04 10:05:15,568 INFO    MainThread:404938 [wandb_run.py:_label_probe_notebook():1212] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-04-04 10:05:15,568 INFO    MainThread:404938 [wandb_init.py:init():670] updated telemetry
+2024-04-04 10:05:15,607 INFO    MainThread:404938 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2024-04-04 10:05:16,368 INFO    MainThread:404938 [wandb_run.py:_on_init():2121] communicating current version
+2024-04-04 10:05:16,657 INFO    MainThread:404938 [wandb_run.py:_on_init():2125] got version response upgrade_message: "wandb version 0.16.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-04-04 10:05:16,657 INFO    MainThread:404938 [wandb_init.py:init():758] starting run threads in backend
+2024-04-04 10:05:20,933 INFO    MainThread:404938 [wandb_run.py:_console_start():2101] atexit reg
+2024-04-04 10:05:20,935 INFO    MainThread:404938 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2024-04-04 10:05:20,938 INFO    MainThread:404938 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2024-04-04 10:05:20,939 INFO    MainThread:404938 [wandb_run.py:_redirect():2046] Redirects installed.
+2024-04-04 10:05:20,940 INFO    MainThread:404938 [wandb_init.py:init():798] run started, returning control to user process
+2024-04-04 10:08:02,262 INFO    MainThread:404938 [wandb_setup.py:_flush():68] Configure stats pid to 404938
+2024-04-04 10:08:02,262 INFO    MainThread:404938 [wandb_setup.py:_flush():68] Loading settings from /home/pglad/.config/wandb/settings
+2024-04-04 10:08:02,262 INFO    MainThread:404938 [wandb_setup.py:_flush():68] Loading settings from /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/settings
+2024-04-04 10:08:02,262 INFO    MainThread:404938 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-04-04 10:08:02,262 INFO    MainThread:404938 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-04 10:08:02,262 INFO    MainThread:404938 [wandb_init.py:_log_setup():478] Logging user logs to /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100802-c6zzb4t4/logs/debug.log
+2024-04-04 10:08:02,262 INFO    MainThread:404938 [wandb_init.py:_log_setup():479] Logging internal logs to /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100802-c6zzb4t4/logs/debug-internal.log
+2024-04-04 10:08:02,262 INFO    MainThread:404938 [wandb_init.py:init():518] calling init triggers
+2024-04-04 10:08:02,262 INFO    MainThread:404938 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2024-04-04 10:08:02,263 INFO    MainThread:404938 [wandb_init.py:init():537] re-initializing run, found existing run on stack: 5roz8i24
+2024-04-04 10:08:02,266 INFO    MainThread:404938 [wandb_run.py:_finish():1844] finishing run pglad/nyc_airbnb/5roz8i24
+2024-04-04 10:08:02,311 INFO    MainThread:404938 [jupyter.py:save_history():478] saving 3 cells to _session_history.ipynb
+2024-04-04 10:08:02,312 INFO    MainThread:404938 [wandb_run.py:_config_callback():1249] config_cb ('_wandb', 'session_history') code/_session_history.ipynb None
+2024-04-04 10:08:02,314 INFO    MainThread:404938 [jupyter.py:_save_ipynb():390] looking for notebook: src/eda/eda.ipynb
+2024-04-04 10:08:02,314 INFO    MainThread:404938 [wandb_init.py:_jupyter_teardown():410] cleaning up jupyter logic
+2024-04-04 10:08:02,314 INFO    MainThread:404938 [wandb_run.py:_atexit_cleanup():2070] got exitcode: 0
+2024-04-04 10:08:02,314 INFO    MainThread:404938 [wandb_run.py:_restore():2053] restore
+2024-04-04 10:08:02,315 INFO    MainThread:404938 [wandb_run.py:_restore():2059] restore done
+2024-04-04 10:08:07,787 INFO    MainThread:404938 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2024-04-04 10:08:07,787 INFO    MainThread:404938 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2024-04-04 10:08:07,789 INFO    MainThread:404938 [wandb_run.py:_footer_sync_info():3383] logging synced files

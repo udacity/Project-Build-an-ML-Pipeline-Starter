@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9929a3c35a9c427099acfb748e3a4f4c/artifacts
+end_time: 1712251301781
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9929a3c35a9c427099acfb748e3a4f4c
+run_name: sedate-colt-380
+run_uuid: 9929a3c35a9c427099acfb748e3a4f4c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712251283670
+status: 3
+tags: []
+user_id: pglad

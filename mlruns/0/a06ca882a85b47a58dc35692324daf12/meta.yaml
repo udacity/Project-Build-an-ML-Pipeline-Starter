@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a06ca882a85b47a58dc35692324daf12/artifacts
+end_time: 1712250426060
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a06ca882a85b47a58dc35692324daf12
+run_name: adorable-newt-798
+run_uuid: a06ca882a85b47a58dc35692324daf12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712250423676
+status: 3
+tags: []
+user_id: pglad

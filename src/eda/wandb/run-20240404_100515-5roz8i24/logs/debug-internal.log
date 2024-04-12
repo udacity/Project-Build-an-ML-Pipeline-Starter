@@ -1,0 +1,550 @@
+2024-04-04 10:05:15,565 INFO    StreamThr :405374 [internal.py:wandb_internal():87] W&B internal server running at pid: 405374, started at: 2024-04-04 10:05:15.564334
+2024-04-04 10:05:15,568 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status
+2024-04-04 10:05:15,569 INFO    WriterThread:405374 [datastore.py:open_for_write():85] open: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/run-5roz8i24.wandb
+2024-04-04 10:05:15,571 DEBUG   SenderThread:405374 [sender.py:send():334] send: header
+2024-04-04 10:05:15,608 DEBUG   SenderThread:405374 [sender.py:send():334] send: run
+2024-04-04 10:05:16,375 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: check_version
+2024-04-04 10:05:16,376 INFO    SenderThread:405374 [dir_watcher.py:__init__():216] watching files in: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files
+2024-04-04 10:05:16,376 INFO    SenderThread:405374 [sender.py:_start_run_threads():1065] run started: 5roz8i24 with start time 1712246715.565513
+2024-04-04 10:05:16,376 DEBUG   SenderThread:405374 [sender.py:send_request():361] send_request: summary_record
+2024-04-04 10:05:16,377 INFO    SenderThread:405374 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-04-04 10:05:16,377 DEBUG   SenderThread:405374 [sender.py:send_request():361] send_request: check_version
+2024-04-04 10:05:16,670 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: run_start
+2024-04-04 10:05:17,377 INFO    Thread-13 :405374 [dir_watcher.py:_on_file_created():275] file/dir created: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/wandb-summary.json
+2024-04-04 10:05:17,648 DEBUG   HandlerThread:405374 [system_info.py:__init__():31] System info init
+2024-04-04 10:05:17,649 DEBUG   HandlerThread:405374 [system_info.py:__init__():46] System info init done
+2024-04-04 10:05:17,649 INFO    HandlerThread:405374 [system_monitor.py:start():151] Starting system monitor
+2024-04-04 10:05:17,649 INFO    SystemMonitor:405374 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-04-04 10:05:17,660 INFO    SystemMonitor:405374 [interfaces.py:start():168] Started cpu
+2024-04-04 10:05:17,660 INFO    HandlerThread:405374 [system_monitor.py:probe():172] Collecting system info
+2024-04-04 10:05:17,661 INFO    SystemMonitor:405374 [interfaces.py:start():168] Started disk
+2024-04-04 10:05:17,662 INFO    SystemMonitor:405374 [interfaces.py:start():168] Started gpu
+2024-04-04 10:05:17,662 INFO    SystemMonitor:405374 [interfaces.py:start():168] Started memory
+2024-04-04 10:05:17,664 INFO    SystemMonitor:405374 [interfaces.py:start():168] Started network
+2024-04-04 10:05:17,693 DEBUG   HandlerThread:405374 [system_info.py:probe():195] Probing system
+2024-04-04 10:05:17,708 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:17,709 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:17,710 DEBUG   HandlerThread:405374 [system_info.py:_probe_git():180] Probing git
+2024-04-04 10:05:17,721 DEBUG   HandlerThread:405374 [system_info.py:_probe_git():188] Probing git done
+2024-04-04 10:05:17,721 DEBUG   HandlerThread:405374 [system_info.py:probe():241] Probing system done
+2024-04-04 10:05:17,721 DEBUG   HandlerThread:405374 [system_monitor.py:probe():181] {'os': 'Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.9.15', 'heartbeatAt': '2024-04-04T16:05:17.694012', 'startedAt': '2024-04-04T16:05:15.546842', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'src/eda/eda.ipynb', 'root': '/home/pglad/Project-Build-an-ML-Pipeline-Starter', 'git': {'remote': 'https://github.com/pglad5/Project-Build-an-ML-Pipeline-Starter.git', 'commit': '077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98'}, 'email': None, 'host': 'DESKTOP-C2TKMV0', 'username': 'pglad', 'executable': '/home/pglad/miniconda3/envs/nyc_airbnb_dev/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2592.0070000000005, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2592.007, 'min': 0.0, 'max': 0.0}, {'current': 2592.007, 'min': 0.0, 'max': 0.0}, {'current': 2592.007, 'min': 0.0, 'max': 0.0}, {'current': 2592.007, 'min': 0.0, 'max': 0.0}, {'current': 2592.007, 'min': 0.0, 'max': 0.0}, {'current': 2592.007, 'min': 0.0, 'max': 0.0}, {'current': 2592.007, 'min': 0.0, 'max': 0.0}, {'current': 2592.007, 'min': 0.0, 'max': 0.0}, {'current': 2592.007, 'min': 0.0, 'max': 0.0}, {'current': 2592.007, 'min': 0.0, 'max': 0.0}, {'current': 2592.007, 'min': 0.0, 'max': 0.0}, {'current': 2592.007, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1006.853931427002, 'used': 13.089874267578125}, 'gpu': 'Quadro P2000', 'gpu_count': 1, 'gpu_devices': [{'name': 'Quadro P2000', 'memory_total': 4294967296}], 'memory': {'total': 7.630115509033203}}
+2024-04-04 10:05:17,721 INFO    HandlerThread:405374 [system_monitor.py:probe():182] Finished collecting system info
+2024-04-04 10:05:17,721 INFO    HandlerThread:405374 [system_monitor.py:probe():185] Publishing system info
+2024-04-04 10:05:17,721 DEBUG   HandlerThread:405374 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-04-04 10:05:17,722 DEBUG   HandlerThread:405374 [system_info.py:_save_pip():67] Saving pip packages done
+2024-04-04 10:05:17,722 DEBUG   HandlerThread:405374 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-04-04 10:05:18,377 INFO    Thread-13 :405374 [dir_watcher.py:_on_file_created():275] file/dir created: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/requirements.txt
+2024-04-04 10:05:18,377 INFO    Thread-13 :405374 [dir_watcher.py:_on_file_created():275] file/dir created: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/conda-environment.yaml
+2024-04-04 10:05:19,710 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:19,711 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:19,982 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:19,988 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:20,761 DEBUG   HandlerThread:405374 [system_info.py:_save_conda():86] Saving conda packages done
+2024-04-04 10:05:20,761 DEBUG   HandlerThread:405374 [system_info.py:_save_code():89] Saving code
+2024-04-04 10:05:20,761 WARNING HandlerThread:405374 [system_info.py:_save_code():91] unable to save code -- program entry not found
+2024-04-04 10:05:20,761 DEBUG   HandlerThread:405374 [system_info.py:_save_patches():127] Saving git patches
+2024-04-04 10:05:20,906 DEBUG   HandlerThread:405374 [system_info.py:_save_patches():169] Saving git patches done
+2024-04-04 10:05:20,907 INFO    HandlerThread:405374 [system_monitor.py:probe():187] Finished publishing system info
+2024-04-04 10:05:20,910 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:05:20,911 DEBUG   SenderThread:405374 [sender.py:send():334] send: files
+2024-04-04 10:05:20,911 INFO    SenderThread:405374 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2024-04-04 10:05:20,912 INFO    SenderThread:405374 [sender.py:_save_file():1319] saving file diff.patch with policy now
+2024-04-04 10:05:20,936 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-04 10:05:20,938 DEBUG   SenderThread:405374 [sender.py:send_request():361] send_request: stop_status
+2024-04-04 10:05:21,327 DEBUG   SenderThread:405374 [sender.py:send():334] send: telemetry
+2024-04-04 10:05:21,378 INFO    Thread-13 :405374 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/conda-environment.yaml
+2024-04-04 10:05:21,378 INFO    Thread-13 :405374 [dir_watcher.py:_on_file_created():275] file/dir created: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/wandb-metadata.json
+2024-04-04 10:05:21,379 INFO    Thread-13 :405374 [dir_watcher.py:_on_file_created():275] file/dir created: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/diff.patch
+2024-04-04 10:05:21,882 INFO    Thread-17 :405374 [upload_job.py:push():143] Uploaded file /tmp/tmppbq9ioxpwandb/1iz12u08-diff.patch
+2024-04-04 10:05:21,883 INFO    Thread-16 :405374 [upload_job.py:push():143] Uploaded file /tmp/tmppbq9ioxpwandb/ms6b415i-wandb-metadata.json
+2024-04-04 10:05:21,935 DEBUG   SenderThread:405374 [sender.py:send():334] send: use_artifact
+2024-04-04 10:05:21,989 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:21,989 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:22,267 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:22,272 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:23,379 INFO    Thread-13 :405374 [dir_watcher.py:_on_file_created():275] file/dir created: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/output.log
+2024-04-04 10:05:24,274 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:24,275 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:24,547 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:24,552 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:25,381 INFO    Thread-13 :405374 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/output.log
+2024-04-04 10:05:26,416 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:05:26,555 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:26,556 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:26,829 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:26,833 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:28,835 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:28,836 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:29,119 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:29,123 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:31,125 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:31,126 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:31,417 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:05:31,420 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:31,425 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:33,427 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:33,428 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:33,695 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:33,700 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:35,701 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:35,702 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:35,934 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:05:35,978 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:35,983 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:36,419 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:05:37,984 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:37,985 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:38,259 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:38,261 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:40,263 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:40,264 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:40,540 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:40,544 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:40,935 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:05:41,423 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:05:42,546 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:42,546 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:42,816 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:42,821 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:44,823 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:44,824 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:45,094 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:45,098 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:45,938 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:05:46,430 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:05:47,100 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:47,100 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:47,372 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:47,377 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:47,395 INFO    Thread-13 :405374 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/config.yaml
+2024-04-04 10:05:49,378 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:49,378 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:49,654 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:49,658 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:50,941 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:05:51,641 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:05:51,692 ERROR   gpu       :405374 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2024-04-04 10:05:51,694 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:51,695 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:51,976 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:51,981 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:53,983 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:53,984 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:54,256 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:54,260 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:55,943 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:05:56,262 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:56,262 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:56,535 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:56,540 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:56,643 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:05:58,541 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:58,541 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:05:58,834 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:05:58,839 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:00,841 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:00,842 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:00,945 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:06:01,132 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:01,137 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:01,646 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:06:03,138 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:03,139 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:03,417 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:03,422 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:05,424 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:05,425 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:05,695 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:05,700 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:05,947 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:06:06,648 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:06:07,701 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:07,702 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:07,976 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:07,980 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:09,983 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:09,984 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:10,267 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:10,272 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:10,949 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:06:11,651 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:06:12,274 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:12,275 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:12,559 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:12,564 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:14,566 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:14,567 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:14,836 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:14,837 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:15,951 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:06:16,652 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:06:16,839 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:16,840 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:17,109 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:17,113 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:17,664 DEBUG   SystemMonitor:405374 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-04-04 10:06:17,666 DEBUG   SenderThread:405374 [sender.py:send():334] send: stats
+2024-04-04 10:06:19,115 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:19,117 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:19,389 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:19,393 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:20,953 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:06:21,395 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:21,395 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:21,667 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:06:21,680 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:21,685 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:23,687 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:23,688 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:23,972 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:23,977 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:25,955 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:06:25,985 ERROR   gpu       :405374 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2024-04-04 10:06:25,986 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:25,986 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:26,250 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:26,255 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:26,670 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:06:28,256 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:28,256 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:28,527 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:28,531 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:30,532 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:30,532 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:30,803 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:30,808 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:30,957 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:06:31,672 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:06:32,809 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:32,810 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:33,079 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:33,084 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:35,085 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:35,086 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:35,353 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:35,358 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:35,958 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:06:36,673 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:06:37,360 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:37,361 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:37,653 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:37,658 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:39,660 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:39,661 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:39,935 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:39,940 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:40,960 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:06:41,675 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:06:41,942 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:41,943 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:42,212 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:42,216 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:44,218 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:44,219 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:44,499 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:44,504 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:45,962 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:06:46,506 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:46,507 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:46,677 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:06:46,773 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:46,777 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:47,669 DEBUG   SenderThread:405374 [sender.py:send():334] send: stats
+2024-04-04 10:06:48,780 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:48,781 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:49,059 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:49,064 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:50,965 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:06:51,065 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:51,066 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:51,355 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:51,359 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:52,672 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:06:53,362 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:53,363 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:53,644 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:53,648 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:55,651 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:55,651 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:55,915 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:55,920 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:55,966 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:06:57,674 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:06:57,921 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:57,922 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:06:58,204 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:06:58,208 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:00,217 ERROR   gpu       :405374 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2024-04-04 10:07:00,218 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:00,219 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:00,491 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:00,495 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:00,968 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:07:02,496 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:02,497 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:02,675 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:07:02,772 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:02,777 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:04,778 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:04,779 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:05,049 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:05,054 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:05,970 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:07:07,056 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:07,057 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:07,323 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:07,328 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:07,678 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:07:09,329 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:09,330 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:09,615 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:09,620 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:10,973 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:07:11,622 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:11,624 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:11,889 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:11,894 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:12,680 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:07:13,895 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:13,896 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:14,165 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:14,166 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:15,975 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:07:16,167 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:16,167 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:16,443 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:16,447 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:17,670 DEBUG   SenderThread:405374 [sender.py:send():334] send: stats
+2024-04-04 10:07:18,450 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:18,451 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:18,672 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:07:18,752 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:18,753 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:20,755 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:20,756 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:20,976 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:07:21,024 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:21,029 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:23,030 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:23,030 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:23,303 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:23,307 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:23,674 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:07:25,308 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:25,309 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:25,596 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:25,600 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:25,977 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:07:27,601 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:27,602 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:27,892 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:27,897 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:28,676 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:07:29,899 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:29,900 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:30,188 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:30,193 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:30,979 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:07:32,194 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:32,195 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:32,466 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:32,471 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:33,678 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:07:34,476 ERROR   gpu       :405374 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2024-04-04 10:07:34,477 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:34,478 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:34,746 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:34,750 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:35,981 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:07:36,752 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:36,753 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:37,027 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:37,032 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:38,680 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:07:39,033 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:39,034 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:39,326 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:39,331 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:40,984 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:07:41,333 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:41,335 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:41,618 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:41,622 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:43,624 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:43,625 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:43,681 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:07:43,903 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:43,907 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:45,910 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:45,911 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:45,986 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:07:46,201 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:46,205 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:47,671 DEBUG   SenderThread:405374 [sender.py:send():334] send: stats
+2024-04-04 10:07:48,207 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:48,207 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:48,483 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:48,488 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:49,672 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:07:50,489 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:50,490 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:50,769 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:50,774 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:50,987 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:07:52,776 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:52,777 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:53,044 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:53,049 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:54,675 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:07:55,051 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:55,053 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:55,343 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:55,347 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:55,989 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:07:57,349 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:57,351 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:57,619 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:57,624 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:59,625 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:59,626 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:07:59,676 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:07:59,897 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:07:59,901 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:08:00,992 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-04 10:08:01,903 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:08:01,904 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-04 10:08:02,196 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:08:02,201 ERROR   gpu       :405374 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-04 10:08:02,266 DEBUG   SenderThread:405374 [sender.py:send():334] send: telemetry
+2024-04-04 10:08:02,312 DEBUG   SenderThread:405374 [sender.py:send():334] send: config
+2024-04-04 10:08:02,316 DEBUG   SenderThread:405374 [sender.py:send():334] send: exit
+2024-04-04 10:08:02,317 INFO    SenderThread:405374 [sender.py:send_exit():557] handling exit code: 0
+2024-04-04 10:08:02,317 INFO    SenderThread:405374 [sender.py:send_exit():559] handling runtime: 165
+2024-04-04 10:08:02,321 INFO    SenderThread:405374 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-04-04 10:08:02,322 INFO    SenderThread:405374 [sender.py:send_exit():565] send defer
+2024-04-04 10:08:02,322 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: defer
+2024-04-04 10:08:02,322 INFO    HandlerThread:405374 [handler.py:handle_request_defer():170] handle defer: 0
+2024-04-04 10:08:02,323 DEBUG   SenderThread:405374 [sender.py:send_request():361] send_request: defer
+2024-04-04 10:08:02,323 INFO    SenderThread:405374 [sender.py:send_request_defer():581] handle sender defer: 0
+2024-04-04 10:08:02,323 INFO    SenderThread:405374 [sender.py:transition_state():585] send defer: 1
+2024-04-04 10:08:02,323 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: defer
+2024-04-04 10:08:02,323 INFO    HandlerThread:405374 [handler.py:handle_request_defer():170] handle defer: 1
+2024-04-04 10:08:02,324 DEBUG   SenderThread:405374 [sender.py:send_request():361] send_request: defer
+2024-04-04 10:08:02,324 INFO    SenderThread:405374 [sender.py:send_request_defer():581] handle sender defer: 1
+2024-04-04 10:08:02,324 INFO    SenderThread:405374 [sender.py:transition_state():585] send defer: 2
+2024-04-04 10:08:02,324 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: defer
+2024-04-04 10:08:02,325 INFO    HandlerThread:405374 [handler.py:handle_request_defer():170] handle defer: 2
+2024-04-04 10:08:02,325 INFO    HandlerThread:405374 [system_monitor.py:finish():161] Stopping system monitor
+2024-04-04 10:08:02,326 DEBUG   SystemMonitor:405374 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-04-04 10:08:02,327 DEBUG   SystemMonitor:405374 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-04-04 10:08:02,328 INFO    HandlerThread:405374 [interfaces.py:finish():175] Joined cpu
+2024-04-04 10:08:02,329 INFO    HandlerThread:405374 [interfaces.py:finish():175] Joined disk
+2024-04-04 10:08:02,338 ERROR   gpu       :405374 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2024-04-04 10:08:02,338 INFO    HandlerThread:405374 [interfaces.py:finish():175] Joined gpu
+2024-04-04 10:08:02,338 INFO    HandlerThread:405374 [interfaces.py:finish():175] Joined memory
+2024-04-04 10:08:02,339 INFO    HandlerThread:405374 [interfaces.py:finish():175] Joined network
+2024-04-04 10:08:02,339 DEBUG   SenderThread:405374 [sender.py:send_request():361] send_request: defer
+2024-04-04 10:08:02,339 INFO    SenderThread:405374 [sender.py:send_request_defer():581] handle sender defer: 2
+2024-04-04 10:08:02,339 INFO    SenderThread:405374 [sender.py:transition_state():585] send defer: 3
+2024-04-04 10:08:02,339 DEBUG   SenderThread:405374 [sender.py:send():334] send: stats
+2024-04-04 10:08:02,340 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: defer
+2024-04-04 10:08:02,340 INFO    HandlerThread:405374 [handler.py:handle_request_defer():170] handle defer: 3
+2024-04-04 10:08:02,340 DEBUG   SenderThread:405374 [sender.py:send_request():361] send_request: defer
+2024-04-04 10:08:02,340 INFO    SenderThread:405374 [sender.py:send_request_defer():581] handle sender defer: 3
+2024-04-04 10:08:02,340 INFO    SenderThread:405374 [sender.py:transition_state():585] send defer: 4
+2024-04-04 10:08:02,341 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: defer
+2024-04-04 10:08:02,341 INFO    HandlerThread:405374 [handler.py:handle_request_defer():170] handle defer: 4
+2024-04-04 10:08:02,341 DEBUG   SenderThread:405374 [sender.py:send_request():361] send_request: defer
+2024-04-04 10:08:02,341 INFO    SenderThread:405374 [sender.py:send_request_defer():581] handle sender defer: 4
+2024-04-04 10:08:02,341 INFO    SenderThread:405374 [sender.py:transition_state():585] send defer: 5
+2024-04-04 10:08:02,341 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: defer
+2024-04-04 10:08:02,342 INFO    HandlerThread:405374 [handler.py:handle_request_defer():170] handle defer: 5
+2024-04-04 10:08:02,342 DEBUG   SenderThread:405374 [sender.py:send():334] send: summary
+2024-04-04 10:08:02,342 INFO    SenderThread:405374 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-04-04 10:08:02,343 DEBUG   SenderThread:405374 [sender.py:send_request():361] send_request: defer
+2024-04-04 10:08:02,343 INFO    SenderThread:405374 [sender.py:send_request_defer():581] handle sender defer: 5
+2024-04-04 10:08:02,343 INFO    SenderThread:405374 [sender.py:transition_state():585] send defer: 6
+2024-04-04 10:08:02,343 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: defer
+2024-04-04 10:08:02,343 INFO    HandlerThread:405374 [handler.py:handle_request_defer():170] handle defer: 6
+2024-04-04 10:08:02,344 DEBUG   SenderThread:405374 [sender.py:send_request():361] send_request: defer
+2024-04-04 10:08:02,344 INFO    SenderThread:405374 [sender.py:send_request_defer():581] handle sender defer: 6
+2024-04-04 10:08:02,348 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: status_report
+2024-04-04 10:08:02,479 INFO    Thread-13 :405374 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/wandb-summary.json
+2024-04-04 10:08:02,479 INFO    Thread-13 :405374 [dir_watcher.py:_on_file_created():275] file/dir created: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/code/_session_history.ipynb
+2024-04-04 10:08:02,479 INFO    Thread-13 :405374 [dir_watcher.py:_on_file_created():275] file/dir created: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/code
+2024-04-04 10:08:02,570 INFO    SenderThread:405374 [sender.py:transition_state():585] send defer: 7
+2024-04-04 10:08:02,570 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: defer
+2024-04-04 10:08:02,570 INFO    HandlerThread:405374 [handler.py:handle_request_defer():170] handle defer: 7
+2024-04-04 10:08:02,570 DEBUG   SenderThread:405374 [sender.py:send_request():361] send_request: defer
+2024-04-04 10:08:02,570 INFO    SenderThread:405374 [sender.py:send_request_defer():581] handle sender defer: 7
+2024-04-04 10:08:03,320 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: poll_exit
+2024-04-04 10:08:03,481 INFO    Thread-13 :405374 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/config.yaml
+2024-04-04 10:08:04,633 INFO    SenderThread:405374 [sender.py:transition_state():585] send defer: 8
+2024-04-04 10:08:04,633 DEBUG   SenderThread:405374 [sender.py:send_request():361] send_request: poll_exit
+2024-04-04 10:08:04,634 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: defer
+2024-04-04 10:08:04,634 INFO    HandlerThread:405374 [handler.py:handle_request_defer():170] handle defer: 8
+2024-04-04 10:08:04,634 DEBUG   SenderThread:405374 [sender.py:send_request():361] send_request: defer
+2024-04-04 10:08:04,634 INFO    SenderThread:405374 [sender.py:send_request_defer():581] handle sender defer: 8
+2024-04-04 10:08:04,634 INFO    SenderThread:405374 [sender.py:transition_state():585] send defer: 9
+2024-04-04 10:08:04,635 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: defer
+2024-04-04 10:08:04,635 INFO    HandlerThread:405374 [handler.py:handle_request_defer():170] handle defer: 9
+2024-04-04 10:08:04,635 DEBUG   SenderThread:405374 [sender.py:send_request():361] send_request: defer
+2024-04-04 10:08:04,635 INFO    SenderThread:405374 [sender.py:send_request_defer():581] handle sender defer: 9
+2024-04-04 10:08:04,635 INFO    SenderThread:405374 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-04-04 10:08:05,481 INFO    Thread-13 :405374 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/output.log
+2024-04-04 10:08:05,482 INFO    SenderThread:405374 [dir_watcher.py:finish():392] scan: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files
+2024-04-04 10:08:05,482 INFO    SenderThread:405374 [dir_watcher.py:finish():406] scan save: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/wandb-summary.json wandb-summary.json
+2024-04-04 10:08:05,483 INFO    SenderThread:405374 [dir_watcher.py:finish():406] scan save: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/requirements.txt requirements.txt
+2024-04-04 10:08:05,483 INFO    SenderThread:405374 [dir_watcher.py:finish():406] scan save: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/wandb-metadata.json wandb-metadata.json
+2024-04-04 10:08:05,483 INFO    SenderThread:405374 [dir_watcher.py:finish():406] scan save: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/conda-environment.yaml conda-environment.yaml
+2024-04-04 10:08:05,483 INFO    SenderThread:405374 [dir_watcher.py:finish():406] scan save: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/output.log output.log
+2024-04-04 10:08:05,487 INFO    SenderThread:405374 [dir_watcher.py:finish():406] scan save: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/config.yaml config.yaml
+2024-04-04 10:08:05,493 INFO    SenderThread:405374 [dir_watcher.py:finish():406] scan save: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/diff.patch diff.patch
+2024-04-04 10:08:05,493 INFO    SenderThread:405374 [dir_watcher.py:finish():406] scan save: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/code/_session_history.ipynb code/_session_history.ipynb
+2024-04-04 10:08:05,494 INFO    SenderThread:405374 [sender.py:transition_state():585] send defer: 10
+2024-04-04 10:08:05,494 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: defer
+2024-04-04 10:08:05,494 INFO    HandlerThread:405374 [handler.py:handle_request_defer():170] handle defer: 10
+2024-04-04 10:08:05,498 DEBUG   SenderThread:405374 [sender.py:send_request():361] send_request: defer
+2024-04-04 10:08:05,498 INFO    SenderThread:405374 [sender.py:send_request_defer():581] handle sender defer: 10
+2024-04-04 10:08:05,498 INFO    SenderThread:405374 [file_pusher.py:finish():160] shutting down file pusher
+2024-04-04 10:08:05,908 INFO    Thread-18 :405374 [upload_job.py:push():143] Uploaded file /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/wandb-summary.json
+2024-04-04 10:08:05,911 INFO    Thread-19 :405374 [upload_job.py:push():143] Uploaded file /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/requirements.txt
+2024-04-04 10:08:05,934 INFO    Thread-21 :405374 [upload_job.py:push():143] Uploaded file /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/output.log
+2024-04-04 10:08:05,957 INFO    Thread-22 :405374 [upload_job.py:push():143] Uploaded file /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/config.yaml
+2024-04-04 10:08:05,958 INFO    Thread-20 :405374 [upload_job.py:push():143] Uploaded file /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/conda-environment.yaml
+2024-04-04 10:08:06,006 INFO    Thread-23 :405374 [upload_job.py:push():143] Uploaded file /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/files/code/_session_history.ipynb
+2024-04-04 10:08:06,207 INFO    Thread-12 :405374 [sender.py:transition_state():585] send defer: 11
+2024-04-04 10:08:06,208 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: defer
+2024-04-04 10:08:06,208 INFO    HandlerThread:405374 [handler.py:handle_request_defer():170] handle defer: 11
+2024-04-04 10:08:06,208 DEBUG   SenderThread:405374 [sender.py:send_request():361] send_request: defer
+2024-04-04 10:08:06,208 INFO    SenderThread:405374 [sender.py:send_request_defer():581] handle sender defer: 11
+2024-04-04 10:08:06,208 INFO    SenderThread:405374 [file_pusher.py:join():165] waiting for file pusher
+2024-04-04 10:08:06,208 INFO    SenderThread:405374 [sender.py:transition_state():585] send defer: 12
+2024-04-04 10:08:06,208 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: defer
+2024-04-04 10:08:06,209 INFO    HandlerThread:405374 [handler.py:handle_request_defer():170] handle defer: 12
+2024-04-04 10:08:06,209 DEBUG   SenderThread:405374 [sender.py:send_request():361] send_request: defer
+2024-04-04 10:08:06,209 INFO    SenderThread:405374 [sender.py:send_request_defer():581] handle sender defer: 12
+2024-04-04 10:08:06,372 INFO    SenderThread:405374 [sender.py:transition_state():585] send defer: 13
+2024-04-04 10:08:06,372 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: defer
+2024-04-04 10:08:06,372 INFO    HandlerThread:405374 [handler.py:handle_request_defer():170] handle defer: 13
+2024-04-04 10:08:06,372 DEBUG   SenderThread:405374 [sender.py:send_request():361] send_request: defer
+2024-04-04 10:08:06,372 INFO    SenderThread:405374 [sender.py:send_request_defer():581] handle sender defer: 13
+2024-04-04 10:08:06,372 INFO    SenderThread:405374 [sender.py:transition_state():585] send defer: 14
+2024-04-04 10:08:06,373 DEBUG   SenderThread:405374 [sender.py:send():334] send: final
+2024-04-04 10:08:06,373 DEBUG   SenderThread:405374 [sender.py:send():334] send: footer
+2024-04-04 10:08:06,373 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: defer
+2024-04-04 10:08:06,373 INFO    HandlerThread:405374 [handler.py:handle_request_defer():170] handle defer: 14
+2024-04-04 10:08:06,373 DEBUG   SenderThread:405374 [sender.py:send_request():361] send_request: defer
+2024-04-04 10:08:06,373 INFO    SenderThread:405374 [sender.py:send_request_defer():581] handle sender defer: 14
+2024-04-04 10:08:06,374 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: poll_exit
+2024-04-04 10:08:06,375 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: server_info
+2024-04-04 10:08:06,375 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: get_summary
+2024-04-04 10:08:06,375 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: sampled_history
+2024-04-04 10:08:06,376 DEBUG   SenderThread:405374 [sender.py:send_request():361] send_request: poll_exit
+2024-04-04 10:08:06,376 DEBUG   SenderThread:405374 [sender.py:send_request():361] send_request: server_info
+2024-04-04 10:08:06,783 DEBUG   HandlerThread:405374 [handler.py:handle_request():144] handle_request: shutdown
+2024-04-04 10:08:06,784 INFO    HandlerThread:405374 [handler.py:finish():841] shutting down handler
+2024-04-04 10:08:07,376 INFO    WriterThread:405374 [datastore.py:close():299] close: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240404_100515-5roz8i24/run-5roz8i24.wandb
+2024-04-04 10:08:07,782 INFO    SenderThread:405374 [sender.py:finish():1491] shutting down sender
+2024-04-04 10:08:07,784 INFO    SenderThread:405374 [file_pusher.py:finish():160] shutting down file pusher
+2024-04-04 10:08:07,784 INFO    SenderThread:405374 [file_pusher.py:join():165] waiting for file pusher

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/17ceb2b68fdb47cfb39797b8edf05179/artifacts
+end_time: 1712250652774
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 17ceb2b68fdb47cfb39797b8edf05179
+run_name: gentle-rook-288
+run_uuid: 17ceb2b68fdb47cfb39797b8edf05179
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712250650331
+status: 3
+tags: []
+user_id: pglad

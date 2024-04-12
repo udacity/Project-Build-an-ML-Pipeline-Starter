@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/62c97a7ca35b49fba7cba0397bce40ca/artifacts
+end_time: 1712245859456
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 62c97a7ca35b49fba7cba0397bce40ca
+run_name: upbeat-goose-991
+run_uuid: 62c97a7ca35b49fba7cba0397bce40ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712245846174
+status: 3
+tags: []
+user_id: pglad

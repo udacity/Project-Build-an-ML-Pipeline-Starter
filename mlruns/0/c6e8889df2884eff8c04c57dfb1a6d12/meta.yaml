@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c6e8889df2884eff8c04c57dfb1a6d12/artifacts
+end_time: 1712250983941
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c6e8889df2884eff8c04c57dfb1a6d12
+run_name: calm-lamb-906
+run_uuid: c6e8889df2884eff8c04c57dfb1a6d12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712250981607
+status: 3
+tags: []
+user_id: pglad

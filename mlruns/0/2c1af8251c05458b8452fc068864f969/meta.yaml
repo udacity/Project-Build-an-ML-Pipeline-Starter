@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2c1af8251c05458b8452fc068864f969/artifacts
+end_time: 1712245859645
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2c1af8251c05458b8452fc068864f969
+run_name: mercurial-cat-763
+run_uuid: 2c1af8251c05458b8452fc068864f969
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712245837980
+status: 3
+tags: []
+user_id: pglad

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/725d054a99e7435989a6a7a56063f358/artifacts
+end_time: 1712245836689
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 725d054a99e7435989a6a7a56063f358
+run_name: traveling-trout-513
+run_uuid: 725d054a99e7435989a6a7a56063f358
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712245339503
+status: 3
+tags: []
+user_id: pglad

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9659529c581c4d0d943547b360c84be3/artifacts
+end_time: 1712251091357
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9659529c581c4d0d943547b360c84be3
+run_name: intelligent-sow-408
+run_uuid: 9659529c581c4d0d943547b360c84be3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712251056486
+status: 4
+tags: []
+user_id: pglad

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ce92ba6c0303450bbe79b7731d855ddf/artifacts
+end_time: 1712250873249
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ce92ba6c0303450bbe79b7731d855ddf
+run_name: overjoyed-skink-27
+run_uuid: ce92ba6c0303450bbe79b7731d855ddf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712250869727
+status: 3
+tags: []
+user_id: pglad

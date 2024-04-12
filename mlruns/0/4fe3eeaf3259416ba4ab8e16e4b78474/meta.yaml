@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/4fe3eeaf3259416ba4ab8e16e4b78474/artifacts
+end_time: 1712245836462
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4fe3eeaf3259416ba4ab8e16e4b78474
+run_name: vaunted-shoat-854
+run_uuid: 4fe3eeaf3259416ba4ab8e16e4b78474
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712245624609
+status: 3
+tags: []
+user_id: pglad
