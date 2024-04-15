@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/86e2d9ecc9bb4711b2a2f643001c34d5/artifacts
+end_time: 1712889475639
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 86e2d9ecc9bb4711b2a2f643001c34d5
+run_name: nosy-lark-195
+run_uuid: 86e2d9ecc9bb4711b2a2f643001c34d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712889473217
+status: 4
+tags: []
+user_id: pglad

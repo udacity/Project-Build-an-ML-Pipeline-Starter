@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/cc00e78047944920b6ecd028dc49342e/artifacts
+end_time: 1712256398532
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cc00e78047944920b6ecd028dc49342e
+run_name: peaceful-smelt-602
+run_uuid: cc00e78047944920b6ecd028dc49342e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712256396160
+status: 3
+tags: []
+user_id: pglad

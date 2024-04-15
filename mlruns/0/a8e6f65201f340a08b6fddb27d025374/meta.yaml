@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a8e6f65201f340a08b6fddb27d025374/artifacts
+end_time: 1712262079415
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a8e6f65201f340a08b6fddb27d025374
+run_name: dashing-sheep-846
+run_uuid: a8e6f65201f340a08b6fddb27d025374
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712262060709
+status: 3
+tags: []
+user_id: pglad

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/226cfd1803eb46c68bfc5d5ffb343053/artifacts
+end_time: 1712260320984
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 226cfd1803eb46c68bfc5d5ffb343053
+run_name: zealous-gnat-60
+run_uuid: 226cfd1803eb46c68bfc5d5ffb343053
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712260308214
+status: 4
+tags: []
+user_id: pglad

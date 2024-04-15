@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d25fef5efe0d42b49f13fb3fa06385b3/artifacts
+end_time: 1712262794084
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d25fef5efe0d42b49f13fb3fa06385b3
+run_name: luxuriant-ant-578
+run_uuid: d25fef5efe0d42b49f13fb3fa06385b3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712262791521
+status: 3
+tags: []
+user_id: pglad

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/361c5cb3d92d49da98690be6838a4a4a/artifacts
+end_time: 1712891249468
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 361c5cb3d92d49da98690be6838a4a4a
+run_name: illustrious-wren-407
+run_uuid: 361c5cb3d92d49da98690be6838a4a4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712891212314
+status: 3
+tags: []
+user_id: pglad

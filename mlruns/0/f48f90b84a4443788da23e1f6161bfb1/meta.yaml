@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f48f90b84a4443788da23e1f6161bfb1/artifacts
+end_time: 1712262079238
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f48f90b84a4443788da23e1f6161bfb1
+run_name: invincible-pug-89
+run_uuid: f48f90b84a4443788da23e1f6161bfb1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712262066902
+status: 3
+tags: []
+user_id: pglad

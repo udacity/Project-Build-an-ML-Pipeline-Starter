@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/da800ad7a7a143559ccfbd04a1a7544d/artifacts
+end_time: 1712260321284
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: da800ad7a7a143559ccfbd04a1a7544d
+run_name: mysterious-tern-272
+run_uuid: da800ad7a7a143559ccfbd04a1a7544d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712260305567
+status: 4
+tags: []
+user_id: pglad

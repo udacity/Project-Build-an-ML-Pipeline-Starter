@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a827b538e50f42558acdc80bf71633e8/artifacts
+end_time: 1712296952817
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a827b538e50f42558acdc80bf71633e8
+run_name: zealous-cod-349
+run_uuid: a827b538e50f42558acdc80bf71633e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712296950340
+status: 4
+tags: []
+user_id: pglad

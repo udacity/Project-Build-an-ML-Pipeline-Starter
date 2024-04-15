@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2c31b559951441538db4835e186ec39b/artifacts
+end_time: 1712339147461
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2c31b559951441538db4835e186ec39b
+run_name: likeable-crow-443
+run_uuid: 2c31b559951441538db4835e186ec39b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712339144603
+status: 4
+tags: []
+user_id: pglad

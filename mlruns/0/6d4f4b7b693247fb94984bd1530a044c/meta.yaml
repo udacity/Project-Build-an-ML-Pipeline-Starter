@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6d4f4b7b693247fb94984bd1530a044c/artifacts
+end_time: 1712886454156
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6d4f4b7b693247fb94984bd1530a044c
+run_name: indecisive-ant-57
+run_uuid: 6d4f4b7b693247fb94984bd1530a044c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712886451315
+status: 3
+tags: []
+user_id: pglad

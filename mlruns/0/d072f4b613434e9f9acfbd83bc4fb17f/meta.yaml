@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d072f4b613434e9f9acfbd83bc4fb17f/artifacts
+end_time: 1712357591221
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d072f4b613434e9f9acfbd83bc4fb17f
+run_name: marvelous-sponge-52
+run_uuid: d072f4b613434e9f9acfbd83bc4fb17f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712357589639
+status: 4
+tags: []
+user_id: pglad

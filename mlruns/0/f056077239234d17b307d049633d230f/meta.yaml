@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f056077239234d17b307d049633d230f/artifacts
+end_time: 1712296158564
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f056077239234d17b307d049633d230f
+run_name: shivering-squid-711
+run_uuid: f056077239234d17b307d049633d230f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712296156248
+status: 3
+tags: []
+user_id: pglad

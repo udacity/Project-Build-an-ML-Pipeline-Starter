@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/141596292d4a404e83213dbc13ee1d91/artifacts
+end_time: 1712258484077
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 141596292d4a404e83213dbc13ee1d91
+run_name: sneaky-pug-881
+run_uuid: 141596292d4a404e83213dbc13ee1d91
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712258472461
+status: 4
+tags: []
+user_id: pglad

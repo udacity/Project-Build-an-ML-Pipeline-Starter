@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/98db0ce392ee4ba1bf17cd237850fd65/artifacts
+end_time: 1712260237235
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 98db0ce392ee4ba1bf17cd237850fd65
+run_name: kindly-sheep-916
+run_uuid: 98db0ce392ee4ba1bf17cd237850fd65
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712260216750
+status: 4
+tags: []
+user_id: pglad

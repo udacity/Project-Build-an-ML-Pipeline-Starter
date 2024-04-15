@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/27f32953b37049bc9748655ad718c8c3/artifacts
+end_time: 1712889476001
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 27f32953b37049bc9748655ad718c8c3
+run_name: overjoyed-vole-845
+run_uuid: 27f32953b37049bc9748655ad718c8c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712889469823
+status: 4
+tags: []
+user_id: pglad

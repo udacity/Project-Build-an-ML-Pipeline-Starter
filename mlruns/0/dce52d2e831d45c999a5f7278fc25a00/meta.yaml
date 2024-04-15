@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/dce52d2e831d45c999a5f7278fc25a00/artifacts
+end_time: 1712256596041
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dce52d2e831d45c999a5f7278fc25a00
+run_name: zealous-croc-438
+run_uuid: dce52d2e831d45c999a5f7278fc25a00
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712256510021
+status: 4
+tags: []
+user_id: pglad

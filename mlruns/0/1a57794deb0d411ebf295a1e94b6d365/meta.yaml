@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1a57794deb0d411ebf295a1e94b6d365/artifacts
+end_time: 1712294269114
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1a57794deb0d411ebf295a1e94b6d365
+run_name: dapper-yak-258
+run_uuid: 1a57794deb0d411ebf295a1e94b6d365
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712294266760
+status: 3
+tags: []
+user_id: pglad

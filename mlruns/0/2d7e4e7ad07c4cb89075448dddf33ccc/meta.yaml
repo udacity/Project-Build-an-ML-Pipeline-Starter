@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2d7e4e7ad07c4cb89075448dddf33ccc/artifacts
+end_time: 1712258996067
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2d7e4e7ad07c4cb89075448dddf33ccc
+run_name: melodic-cub-446
+run_uuid: 2d7e4e7ad07c4cb89075448dddf33ccc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712258980483
+status: 4
+tags: []
+user_id: pglad

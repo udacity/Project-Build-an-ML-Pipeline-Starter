@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d758f2f5811d4eb782c04fe4125542ad/artifacts
+end_time: 1712350125810
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d758f2f5811d4eb782c04fe4125542ad
+run_name: delicate-trout-517
+run_uuid: d758f2f5811d4eb782c04fe4125542ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712350124725
+status: 4
+tags: []
+user_id: pglad

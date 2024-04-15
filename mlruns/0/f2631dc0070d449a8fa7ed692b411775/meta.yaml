@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f2631dc0070d449a8fa7ed692b411775/artifacts
+end_time: 1712886977535
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f2631dc0070d449a8fa7ed692b411775
+run_name: adaptable-sheep-156
+run_uuid: f2631dc0070d449a8fa7ed692b411775
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712886974353
+status: 4
+tags: []
+user_id: pglad

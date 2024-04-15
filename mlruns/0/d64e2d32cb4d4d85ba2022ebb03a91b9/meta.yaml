@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d64e2d32cb4d4d85ba2022ebb03a91b9/artifacts
+end_time: 1712296382619
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d64e2d32cb4d4d85ba2022ebb03a91b9
+run_name: upset-jay-53
+run_uuid: d64e2d32cb4d4d85ba2022ebb03a91b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712296380325
+status: 3
+tags: []
+user_id: pglad

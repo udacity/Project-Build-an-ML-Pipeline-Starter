@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/4b8f874fb6314d60b90320c84de198bf/artifacts
+end_time: 1712261774249
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4b8f874fb6314d60b90320c84de198bf
+run_name: melodic-horse-104
+run_uuid: 4b8f874fb6314d60b90320c84de198bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712261771962
+status: 3
+tags: []
+user_id: pglad

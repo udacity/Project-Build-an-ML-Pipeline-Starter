@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f07e3c99a9884b22ab568102d9d5f222/artifacts
+end_time: 1712258941245
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f07e3c99a9884b22ab568102d9d5f222
+run_name: flawless-moose-164
+run_uuid: f07e3c99a9884b22ab568102d9d5f222
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712258930395
+status: 4
+tags: []
+user_id: pglad

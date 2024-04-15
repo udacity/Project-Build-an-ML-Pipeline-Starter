@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e21654483c4e40c2a09a7a572c7ca30e/artifacts
+end_time: 1712357951964
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e21654483c4e40c2a09a7a572c7ca30e
+run_name: efficient-bat-20
+run_uuid: e21654483c4e40c2a09a7a572c7ca30e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712357925853
+status: 3
+tags: []
+user_id: pglad

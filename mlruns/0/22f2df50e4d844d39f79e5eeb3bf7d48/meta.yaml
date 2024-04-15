@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/22f2df50e4d844d39f79e5eeb3bf7d48/artifacts
+end_time: 1712356930879
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 22f2df50e4d844d39f79e5eeb3bf7d48
+run_name: debonair-skink-934
+run_uuid: 22f2df50e4d844d39f79e5eeb3bf7d48
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712356926331
+status: 4
+tags: []
+user_id: pglad

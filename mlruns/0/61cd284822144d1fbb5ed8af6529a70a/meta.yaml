@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/61cd284822144d1fbb5ed8af6529a70a/artifacts
+end_time: 1712295922298
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 61cd284822144d1fbb5ed8af6529a70a
+run_name: ambitious-shrew-450
+run_uuid: 61cd284822144d1fbb5ed8af6529a70a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712295921207
+status: 4
+tags: []
+user_id: pglad

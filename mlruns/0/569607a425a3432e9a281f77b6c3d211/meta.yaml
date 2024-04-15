@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/569607a425a3432e9a281f77b6c3d211/artifacts
+end_time: 1712259490490
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 569607a425a3432e9a281f77b6c3d211
+run_name: thoughtful-asp-490
+run_uuid: 569607a425a3432e9a281f77b6c3d211
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712259475487
+status: 4
+tags: []
+user_id: pglad

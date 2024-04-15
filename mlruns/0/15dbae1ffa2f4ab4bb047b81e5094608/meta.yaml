@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/15dbae1ffa2f4ab4bb047b81e5094608/artifacts
+end_time: 1712890285340
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 15dbae1ffa2f4ab4bb047b81e5094608
+run_name: awesome-chimp-875
+run_uuid: 15dbae1ffa2f4ab4bb047b81e5094608
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712890280451
+status: 4
+tags: []
+user_id: pglad

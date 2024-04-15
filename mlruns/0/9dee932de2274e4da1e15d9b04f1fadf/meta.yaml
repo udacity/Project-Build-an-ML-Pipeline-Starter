@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9dee932de2274e4da1e15d9b04f1fadf/artifacts
+end_time: 1712259273898
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9dee932de2274e4da1e15d9b04f1fadf
+run_name: flawless-hound-534
+run_uuid: 9dee932de2274e4da1e15d9b04f1fadf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712259258730
+status: 4
+tags: []
+user_id: pglad

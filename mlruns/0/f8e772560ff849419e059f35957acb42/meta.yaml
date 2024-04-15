@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f8e772560ff849419e059f35957acb42/artifacts
+end_time: 1712296441198
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f8e772560ff849419e059f35957acb42
+run_name: trusting-squid-463
+run_uuid: f8e772560ff849419e059f35957acb42
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712296438761
+status: 4
+tags: []
+user_id: pglad

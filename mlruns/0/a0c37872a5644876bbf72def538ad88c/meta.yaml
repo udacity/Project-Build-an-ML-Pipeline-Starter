@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a0c37872a5644876bbf72def538ad88c/artifacts
+end_time: 1712886277796
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a0c37872a5644876bbf72def538ad88c
+run_name: skillful-snail-806
+run_uuid: a0c37872a5644876bbf72def538ad88c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712886250864
+status: 3
+tags: []
+user_id: pglad

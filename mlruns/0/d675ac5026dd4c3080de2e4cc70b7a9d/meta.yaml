@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d675ac5026dd4c3080de2e4cc70b7a9d/artifacts
+end_time: 1712296662723
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d675ac5026dd4c3080de2e4cc70b7a9d
+run_name: tasteful-whale-153
+run_uuid: d675ac5026dd4c3080de2e4cc70b7a9d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712296660209
+status: 4
+tags: []
+user_id: pglad

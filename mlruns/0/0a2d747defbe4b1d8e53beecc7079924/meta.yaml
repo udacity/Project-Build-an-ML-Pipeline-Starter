@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0a2d747defbe4b1d8e53beecc7079924/artifacts
+end_time: 1712890208687
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0a2d747defbe4b1d8e53beecc7079924
+run_name: colorful-slug-201
+run_uuid: 0a2d747defbe4b1d8e53beecc7079924
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712890203714
+status: 4
+tags: []
+user_id: pglad

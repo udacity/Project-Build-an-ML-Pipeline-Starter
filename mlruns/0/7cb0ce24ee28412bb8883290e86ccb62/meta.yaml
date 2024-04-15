@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7cb0ce24ee28412bb8883290e86ccb62/artifacts
+end_time: 1712357632908
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7cb0ce24ee28412bb8883290e86ccb62
+run_name: bald-mouse-596
+run_uuid: 7cb0ce24ee28412bb8883290e86ccb62
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712357628333
+status: 4
+tags: []
+user_id: pglad

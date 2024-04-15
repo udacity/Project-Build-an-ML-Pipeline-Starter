@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6c29ea034d194b6bbc7594fc7b3b8add/artifacts
+end_time: 1712257141139
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6c29ea034d194b6bbc7594fc7b3b8add
+run_name: popular-snake-696
+run_uuid: 6c29ea034d194b6bbc7594fc7b3b8add
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712257128483
+status: 4
+tags: []
+user_id: pglad

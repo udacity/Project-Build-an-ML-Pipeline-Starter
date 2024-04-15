@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ef6783a8accd4579845808c4bade497e/artifacts
+end_time: 1712357952176
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ef6783a8accd4579845808c4bade497e
+run_name: peaceful-rook-787
+run_uuid: ef6783a8accd4579845808c4bade497e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712357919093
+status: 3
+tags: []
+user_id: pglad

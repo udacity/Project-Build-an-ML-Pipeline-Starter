@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ef229e8e4b544ce99b9081b20ce4a638/artifacts
+end_time: 1712258454558
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ef229e8e4b544ce99b9081b20ce4a638
+run_name: unleashed-robin-579
+run_uuid: ef229e8e4b544ce99b9081b20ce4a638
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712258439815
+status: 4
+tags: []
+user_id: pglad

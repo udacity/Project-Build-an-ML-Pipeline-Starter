@@ -15,7 +15,6 @@ logger = logging.getLogger()
 
 
 def go(args):
-
     run = wandb.init(job_type="train_val_test_split")
     run.config.update(args)
 

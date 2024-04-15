@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c88b0fe138bf4ba9905c9eeec3b60fae/artifacts
+end_time: 1712259729718
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c88b0fe138bf4ba9905c9eeec3b60fae
+run_name: illustrious-bear-866
+run_uuid: c88b0fe138bf4ba9905c9eeec3b60fae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712259712862
+status: 4
+tags: []
+user_id: pglad

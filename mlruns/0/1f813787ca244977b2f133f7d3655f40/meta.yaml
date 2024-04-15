@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1f813787ca244977b2f133f7d3655f40/artifacts
+end_time: 1712259490126
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1f813787ca244977b2f133f7d3655f40
+run_name: flawless-fly-560
+run_uuid: 1f813787ca244977b2f133f7d3655f40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712259478050
+status: 4
+tags: []
+user_id: pglad

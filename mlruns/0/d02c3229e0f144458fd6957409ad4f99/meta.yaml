@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d02c3229e0f144458fd6957409ad4f99/artifacts
+end_time: 1712890883437
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d02c3229e0f144458fd6957409ad4f99
+run_name: thundering-hen-94
+run_uuid: d02c3229e0f144458fd6957409ad4f99
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712890881432
+status: 4
+tags: []
+user_id: pglad

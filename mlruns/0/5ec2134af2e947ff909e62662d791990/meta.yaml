@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5ec2134af2e947ff909e62662d791990/artifacts
+end_time: 1712357568729
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5ec2134af2e947ff909e62662d791990
+run_name: auspicious-toad-300
+run_uuid: 5ec2134af2e947ff909e62662d791990
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712357563425
+status: 4
+tags: []
+user_id: pglad

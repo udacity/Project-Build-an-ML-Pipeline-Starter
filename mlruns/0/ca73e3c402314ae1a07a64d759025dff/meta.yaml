@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ca73e3c402314ae1a07a64d759025dff/artifacts
+end_time: 1712258664392
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ca73e3c402314ae1a07a64d759025dff
+run_name: stylish-hare-851
+run_uuid: ca73e3c402314ae1a07a64d759025dff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712258653469
+status: 4
+tags: []
+user_id: pglad

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f51888d9399c4eba972e02b8676859be/artifacts
+end_time: 1712891763458
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f51888d9399c4eba972e02b8676859be
+run_name: casual-elk-616
+run_uuid: f51888d9399c4eba972e02b8676859be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712891759354
+status: 4
+tags: []
+user_id: pglad

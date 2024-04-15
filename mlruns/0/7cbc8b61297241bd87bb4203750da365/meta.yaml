@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7cbc8b61297241bd87bb4203750da365/artifacts
+end_time: 1712259303903
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7cbc8b61297241bd87bb4203750da365
+run_name: powerful-mink-79
+run_uuid: 7cbc8b61297241bd87bb4203750da365
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712259290033
+status: 4
+tags: []
+user_id: pglad

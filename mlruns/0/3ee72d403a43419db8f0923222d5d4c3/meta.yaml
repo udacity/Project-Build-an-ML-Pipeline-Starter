@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/3ee72d403a43419db8f0923222d5d4c3/artifacts
+end_time: 1712260552234
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3ee72d403a43419db8f0923222d5d4c3
+run_name: tasteful-crab-276
+run_uuid: 3ee72d403a43419db8f0923222d5d4c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712260539236
+status: 3
+tags: []
+user_id: pglad

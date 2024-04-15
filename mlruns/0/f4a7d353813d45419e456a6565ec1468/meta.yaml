@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f4a7d353813d45419e456a6565ec1468/artifacts
+end_time: 1712256985859
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f4a7d353813d45419e456a6565ec1468
+run_name: abundant-snipe-373
+run_uuid: f4a7d353813d45419e456a6565ec1468
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712256983525
+status: 4
+tags: []
+user_id: pglad

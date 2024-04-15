@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8032fbf572dd4f2fba3a818ded5cae6d/artifacts
+end_time: 1712260552512
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8032fbf572dd4f2fba3a818ded5cae6d
+run_name: beautiful-ram-914
+run_uuid: 8032fbf572dd4f2fba3a818ded5cae6d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712260536737
+status: 3
+tags: []
+user_id: pglad

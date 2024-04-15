@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d942800e48004aa2b17c16a9f5fe5a51/artifacts
+end_time: 1712260506818
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d942800e48004aa2b17c16a9f5fe5a51
+run_name: resilient-ray-634
+run_uuid: d942800e48004aa2b17c16a9f5fe5a51
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712260490181
+status: 3
+tags: []
+user_id: pglad

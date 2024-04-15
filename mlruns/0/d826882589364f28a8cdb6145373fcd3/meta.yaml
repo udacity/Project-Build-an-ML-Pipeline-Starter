@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d826882589364f28a8cdb6145373fcd3/artifacts
+end_time: 1712259729415
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d826882589364f28a8cdb6145373fcd3
+run_name: efficient-conch-114
+run_uuid: d826882589364f28a8cdb6145373fcd3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712259715584
+status: 4
+tags: []
+user_id: pglad

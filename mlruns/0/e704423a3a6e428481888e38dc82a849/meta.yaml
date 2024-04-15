@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e704423a3a6e428481888e38dc82a849/artifacts
+end_time: 1712259439914
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e704423a3a6e428481888e38dc82a849
+run_name: thoughtful-fox-872
+run_uuid: e704423a3a6e428481888e38dc82a849
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712259427755
+status: 4
+tags: []
+user_id: pglad

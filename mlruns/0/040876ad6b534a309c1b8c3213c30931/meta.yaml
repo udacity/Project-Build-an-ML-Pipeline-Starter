@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/040876ad6b534a309c1b8c3213c30931/artifacts
+end_time: 1712259601514
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 040876ad6b534a309c1b8c3213c30931
+run_name: marvelous-goat-252
+run_uuid: 040876ad6b534a309c1b8c3213c30931
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712259585352
+status: 4
+tags: []
+user_id: pglad

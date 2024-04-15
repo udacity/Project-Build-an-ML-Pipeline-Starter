@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/cf41ec4f067c4984b7e504f75a0db7b3/artifacts
+end_time: 1712259961837
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cf41ec4f067c4984b7e504f75a0db7b3
+run_name: burly-eel-540
+run_uuid: cf41ec4f067c4984b7e504f75a0db7b3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712259948007
+status: 4
+tags: []
+user_id: pglad

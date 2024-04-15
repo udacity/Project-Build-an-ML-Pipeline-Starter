@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1c8a619cab854a9191651f856b1d8193/artifacts
+end_time: 1712339484847
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1c8a619cab854a9191651f856b1d8193
+run_name: unleashed-quail-906
+run_uuid: 1c8a619cab854a9191651f856b1d8193
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712339481865
+status: 4
+tags: []
+user_id: pglad

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/20113298cae64e7395a89c63892d0b95/artifacts
+end_time: 1712350126079
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 20113298cae64e7395a89c63892d0b95
+run_name: amazing-hawk-502
+run_uuid: 20113298cae64e7395a89c63892d0b95
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712350122015
+status: 4
+tags: []
+user_id: pglad

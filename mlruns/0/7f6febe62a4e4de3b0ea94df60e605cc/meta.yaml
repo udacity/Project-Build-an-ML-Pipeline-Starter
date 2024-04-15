@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7f6febe62a4e4de3b0ea94df60e605cc/artifacts
+end_time: 1712350150726
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7f6febe62a4e4de3b0ea94df60e605cc
+run_name: mysterious-bass-655
+run_uuid: 7f6febe62a4e4de3b0ea94df60e605cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712350149207
+status: 4
+tags: []
+user_id: pglad

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5b8167879e6e40eb92cd8fae66d4ca81/artifacts
+end_time: 1712342334677
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5b8167879e6e40eb92cd8fae66d4ca81
+run_name: redolent-fawn-389
+run_uuid: 5b8167879e6e40eb92cd8fae66d4ca81
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712342020625
+status: 4
+tags: []
+user_id: pglad

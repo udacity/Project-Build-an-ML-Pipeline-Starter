@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/27d1973f5a154e17ab619d19efd07197/artifacts
+end_time: 1712259440212
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 27d1973f5a154e17ab619d19efd07197
+run_name: valuable-bass-988
+run_uuid: 27d1973f5a154e17ab619d19efd07197
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712259423047
+status: 4
+tags: []
+user_id: pglad

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/85d196e905784930a109f5de4af55a8f/artifacts
+end_time: 1712341640262
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 85d196e905784930a109f5de4af55a8f
+run_name: capable-elk-801
+run_uuid: 85d196e905784930a109f5de4af55a8f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712341637351
+status: 4
+tags: []
+user_id: pglad

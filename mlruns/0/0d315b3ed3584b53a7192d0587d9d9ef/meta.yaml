@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0d315b3ed3584b53a7192d0587d9d9ef/artifacts
+end_time: 1712886124941
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0d315b3ed3584b53a7192d0587d9d9ef
+run_name: adorable-fowl-318
+run_uuid: 0d315b3ed3584b53a7192d0587d9d9ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712886100596
+status: 3
+tags: []
+user_id: pglad

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/690bd96d857e46a7aab2ce84d269f29e/artifacts
+end_time: 1712259303459
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 690bd96d857e46a7aab2ce84d269f29e
+run_name: nebulous-shark-362
+run_uuid: 690bd96d857e46a7aab2ce84d269f29e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712259292517
+status: 4
+tags: []
+user_id: pglad

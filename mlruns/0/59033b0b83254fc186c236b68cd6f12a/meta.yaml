@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/59033b0b83254fc186c236b68cd6f12a/artifacts
+end_time: 1712256986163
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 59033b0b83254fc186c236b68cd6f12a
+run_name: gifted-calf-919
+run_uuid: 59033b0b83254fc186c236b68cd6f12a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712256981073
+status: 4
+tags: []
+user_id: pglad

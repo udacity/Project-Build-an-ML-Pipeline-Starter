@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e238b9d8c8854aedbcda24530e8924ad/artifacts
+end_time: 1712295941065
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e238b9d8c8854aedbcda24530e8924ad
+run_name: gentle-crab-148
+run_uuid: e238b9d8c8854aedbcda24530e8924ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712295938706
+status: 3
+tags: []
+user_id: pglad

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b4285f51ecac481f9571cd3e9466f206/artifacts
+end_time: 1712890208354
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b4285f51ecac481f9571cd3e9466f206
+run_name: merciful-mule-527
+run_uuid: b4285f51ecac481f9571cd3e9466f206
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712890206383
+status: 4
+tags: []
+user_id: pglad

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/3f981f95ddad44aca9ee3d07949df88d/artifacts
+end_time: 1712889492617
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3f981f95ddad44aca9ee3d07949df88d
+run_name: gifted-worm-72
+run_uuid: 3f981f95ddad44aca9ee3d07949df88d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712889486834
+status: 4
+tags: []
+user_id: pglad
