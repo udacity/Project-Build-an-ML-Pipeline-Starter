@@ -1,0 +1,72 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.19
+    cli_version: 0.16.0
+    framework: sklearn
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1713316576.012225
+    t:
+      1:
+      - 5
+      - 53
+      - 55
+      2:
+      - 5
+      - 53
+      - 55
+      3:
+      - 23
+      4: 3.8.19
+      5: 0.16.0
+      8:
+      - 5
+      13: linux-x86_64
+trainval_artifact:
+  desc: null
+  value: trainval_data.csv:latest
+val_size:
+  desc: null
+  value: 0.2
+random_seed:
+  desc: null
+  value: 42
+stratify_by:
+  desc: null
+  value: neighbourhood_group
+rf_config:
+  desc: null
+  value: /home/pglad/Project-Build-an-ML-Pipeline-Starter/multirun/2024-04-16/19-16-11/0/rf_config.json
+max_tfidf_features:
+  desc: null
+  value: 5
+output_artifact:
+  desc: null
+  value: random_forest_export
+n_estimators:
+  desc: null
+  value: 100
+max_depth:
+  desc: null
+  value: 10
+min_samples_split:
+  desc: null
+  value: 4
+min_samples_leaf:
+  desc: null
+  value: 3
+n_jobs:
+  desc: null
+  value: -1
+criterion:
+  desc: null
+  value: mae
+max_features:
+  desc: null
+  value: 0.5
+oob_score:
+  desc: null
+  value: true

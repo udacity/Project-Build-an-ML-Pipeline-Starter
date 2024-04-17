@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a22e7f725ebf4c268184cad366e90763/artifacts
+end_time: 1713287603449
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a22e7f725ebf4c268184cad366e90763
+run_name: funny-shad-116
+run_uuid: a22e7f725ebf4c268184cad366e90763
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713287599515
+status: 4
+tags: []
+user_id: pglad

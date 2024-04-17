@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/db8cb022896d4ab0b42bb0a3bb672c42/artifacts
+end_time: 1713327031691
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: db8cb022896d4ab0b42bb0a3bb672c42
+run_name: gregarious-bee-36
+run_uuid: db8cb022896d4ab0b42bb0a3bb672c42
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713327029481
+status: 3
+tags: []
+user_id: pglad

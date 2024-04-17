@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/21a53a8f5b734399bc3e6407e2327bb5/artifacts
+end_time: 1713316734668
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 21a53a8f5b734399bc3e6407e2327bb5
+run_name: upset-trout-479
+run_uuid: 21a53a8f5b734399bc3e6407e2327bb5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713316698607
+status: 4
+tags: []
+user_id: pglad

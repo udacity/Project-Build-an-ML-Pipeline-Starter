@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/69adaf736ab5405ca224beea6f9f0d5d/artifacts
+end_time: 1713285582641
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 69adaf736ab5405ca224beea6f9f0d5d
+run_name: resilient-gnat-546
+run_uuid: 69adaf736ab5405ca224beea6f9f0d5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713285562542
+status: 4
+tags: []
+user_id: pglad

@@ -1,0 +1,14 @@
+
+This works
+/home/pglad/miniconda3/envs/mlflow-082d2271a020e7e8afffb0bfa732071794b20827/lib/python3.8/site-packages/mlflow/models/signature.py:130: UserWarning: Hint: Inferred schema contains integer column(s). Integer columns in Python cannot represent missing values. If your input data contains missing values at inference time, it will be encoded as floats and will cause a schema enforcement error. The best way to avoid this problem is to infer the model schema based on a realistic data sample (training dataset) that includes missing values. Alternatively, you can declare integer columns as doubles (float64) whenever these columns may have missing values. See `Handling Integers With Missing Values <https://www.mlflow.org/docs/latest/models.html#handling-integers-with-missing-values>`_ for more details.
+  inputs = _infer_schema(model_input)
+Traceback (most recent call last):
+  File "run.py", line 301, in <module>
+    go(args)
+  File "run.py", line 101, in go
+    mlflow.sklearn.save_model(
+  File "/home/pglad/miniconda3/envs/mlflow-082d2271a020e7e8afffb0bfa732071794b20827/lib/python3.8/site-packages/mlflow/sklearn/__init__.py", line 244, in save_model
+    _validate_and_prepare_target_save_path(path)
+  File "/home/pglad/miniconda3/envs/mlflow-082d2271a020e7e8afffb0bfa732071794b20827/lib/python3.8/site-packages/mlflow/utils/model_utils.py", line 118, in _validate_and_prepare_target_save_path
+    raise MlflowException(
+mlflow.exceptions.MlflowException: Path 'test_this' already exists and is not empty

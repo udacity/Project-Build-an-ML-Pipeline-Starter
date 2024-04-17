@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/25e9f44d85a54e23800bb942f2edf884/artifacts
+end_time: 1713316218187
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 25e9f44d85a54e23800bb942f2edf884
+run_name: redolent-doe-610
+run_uuid: 25e9f44d85a54e23800bb942f2edf884
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713316180526
+status: 4
+tags: []
+user_id: pglad

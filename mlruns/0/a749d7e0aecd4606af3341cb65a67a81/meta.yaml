@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a749d7e0aecd4606af3341cb65a67a81/artifacts
+end_time: 1713289549148
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a749d7e0aecd4606af3341cb65a67a81
+run_name: bittersweet-grub-992
+run_uuid: a749d7e0aecd4606af3341cb65a67a81
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713289513616
+status: 4
+tags: []
+user_id: pglad

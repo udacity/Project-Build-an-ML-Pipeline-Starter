@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d238232193584121a4ce08c91feb33a4/artifacts
+end_time: 1713281329508
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d238232193584121a4ce08c91feb33a4
+run_name: calm-goose-625
+run_uuid: d238232193584121a4ce08c91feb33a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713281325942
+status: 4
+tags: []
+user_id: pglad

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/479aa19b4ef749bb800eafb6759814d0/artifacts
+end_time: 1713316889896
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 479aa19b4ef749bb800eafb6759814d0
+run_name: unleashed-foal-653
+run_uuid: 479aa19b4ef749bb800eafb6759814d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713316854456
+status: 4
+tags: []
+user_id: pglad

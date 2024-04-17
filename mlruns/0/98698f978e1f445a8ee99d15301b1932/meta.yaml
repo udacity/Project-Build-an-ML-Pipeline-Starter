@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/98698f978e1f445a8ee99d15301b1932/artifacts
+end_time: 1713151068058
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 98698f978e1f445a8ee99d15301b1932
+run_name: kindly-croc-793
+run_uuid: 98698f978e1f445a8ee99d15301b1932
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713151063401
+status: 4
+tags: []
+user_id: pglad

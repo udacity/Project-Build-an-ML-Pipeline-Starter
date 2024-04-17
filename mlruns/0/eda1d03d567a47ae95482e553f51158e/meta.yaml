@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/eda1d03d567a47ae95482e553f51158e/artifacts
+end_time: 1713151610347
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eda1d03d567a47ae95482e553f51158e
+run_name: peaceful-gnat-952
+run_uuid: eda1d03d567a47ae95482e553f51158e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713151552802
+status: 3
+tags: []
+user_id: pglad

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/73c2d4b81de041649e772c847f797612/artifacts
+end_time: 1713286733517
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 73c2d4b81de041649e772c847f797612
+run_name: welcoming-gnat-700
+run_uuid: 73c2d4b81de041649e772c847f797612
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713286614703
+status: 4
+tags: []
+user_id: pglad

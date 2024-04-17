@@ -6,7 +6,8 @@ dependencies:
   - python=3.9.15
   - jupyterlab=3.0.12
   - mlflow=2.1.1
-  - numpy=1.24.1
+  #- numpy=1.24.1
+  - numpy=1.23.5
   - cookiecutter=1.7.2
   - hydra-core=1.0.6
   - matplotlib=3.6.2
@@ -14,4 +15,5 @@ dependencies:
   - git=2.30.2
   - pip=20.3.3
   - pip:
-      - wandb==0.13.9
+   #   - wandb==0.13.9
+      - wandb==0.16.0

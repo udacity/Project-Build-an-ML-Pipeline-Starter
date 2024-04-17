@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/13b94aca71ce4ee388e187be9dd5624c/artifacts
+end_time: 1713315649841
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 13b94aca71ce4ee388e187be9dd5624c
+run_name: silent-gull-803
+run_uuid: 13b94aca71ce4ee388e187be9dd5624c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713315610717
+status: 4
+tags: []
+user_id: pglad

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/625c69d29fe94a24bf1dadc66c8af5ae/artifacts
+end_time: 1713285614913
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 625c69d29fe94a24bf1dadc66c8af5ae
+run_name: bright-frog-222
+run_uuid: 625c69d29fe94a24bf1dadc66c8af5ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713285586492
+status: 4
+tags: []
+user_id: pglad

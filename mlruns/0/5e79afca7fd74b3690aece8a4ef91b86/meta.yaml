@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5e79afca7fd74b3690aece8a4ef91b86/artifacts
+end_time: 1713316605733
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5e79afca7fd74b3690aece8a4ef91b86
+run_name: carefree-panda-824
+run_uuid: 5e79afca7fd74b3690aece8a4ef91b86
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713316570090
+status: 4
+tags: []
+user_id: pglad

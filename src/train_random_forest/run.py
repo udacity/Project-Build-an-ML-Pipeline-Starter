@@ -74,7 +74,7 @@ def go(args):
     ######################################
     # Fit the pipeline sk_pipe by calling the .fit method on X_train and y_train
     # YOUR CODE HERE
-    processed_features.fit(X_train, y_train)
+    sk_pipe.fit(X_train, y_train)
   
     ######################################
 
@@ -101,7 +101,7 @@ def go(args):
     mlflow.sklearn.save_model(
         # YOUR CODE HERE
         sk_pipe,
-        path = 'random_forest',
+        path = 'random_forest_dir',
         signature = signature,
         input_example = X_train.iloc[:5]
     )

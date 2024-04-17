@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/50da843eb1c5413496e0f8b0c91bff9e/artifacts
+end_time: 1713281944568
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 50da843eb1c5413496e0f8b0c91bff9e
+run_name: glamorous-quail-583
+run_uuid: 50da843eb1c5413496e0f8b0c91bff9e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713281920117
+status: 4
+tags: []
+user_id: pglad

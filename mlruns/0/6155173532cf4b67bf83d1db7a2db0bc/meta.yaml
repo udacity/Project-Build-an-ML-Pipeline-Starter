@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6155173532cf4b67bf83d1db7a2db0bc/artifacts
+end_time: 1713288685531
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6155173532cf4b67bf83d1db7a2db0bc
+run_name: luminous-seal-849
+run_uuid: 6155173532cf4b67bf83d1db7a2db0bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713288681482
+status: 4
+tags: []
+user_id: pglad

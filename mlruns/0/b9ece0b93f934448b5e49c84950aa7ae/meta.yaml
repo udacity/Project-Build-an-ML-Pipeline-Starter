@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b9ece0b93f934448b5e49c84950aa7ae/artifacts
+end_time: 1713322050374
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: b9ece0b93f934448b5e49c84950aa7ae
+run_uuid: b9ece0b93f934448b5e49c84950aa7ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713321952963
+status: 3
+tags: []
+user_id: pglad

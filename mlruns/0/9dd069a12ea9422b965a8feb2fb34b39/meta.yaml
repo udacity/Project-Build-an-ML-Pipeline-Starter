@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9dd069a12ea9422b965a8feb2fb34b39/artifacts
+end_time: 1713288802047
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9dd069a12ea9422b965a8feb2fb34b39
+run_name: capricious-sloth-428
+run_uuid: 9dd069a12ea9422b965a8feb2fb34b39
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713288765629
+status: 4
+tags: []
+user_id: pglad

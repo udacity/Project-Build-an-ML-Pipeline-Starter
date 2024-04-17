@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5b0aaa9947c3449da8e2c940d698b6d3/artifacts
+end_time: 1713297175459
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5b0aaa9947c3449da8e2c940d698b6d3
+run_name: gentle-worm-379
+run_uuid: 5b0aaa9947c3449da8e2c940d698b6d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713297133102
+status: 4
+tags: []
+user_id: pglad

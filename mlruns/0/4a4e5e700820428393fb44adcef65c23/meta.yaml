@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/4a4e5e700820428393fb44adcef65c23/artifacts
+end_time: 1713287234395
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4a4e5e700820428393fb44adcef65c23
+run_name: bright-lark-883
+run_uuid: 4a4e5e700820428393fb44adcef65c23
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713287230447
+status: 4
+tags: []
+user_id: pglad

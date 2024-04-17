@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/06587ba70b1142c2aaa35b03ec6ff7a7/artifacts
+end_time: 1713288018991
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 06587ba70b1142c2aaa35b03ec6ff7a7
+run_name: sassy-penguin-758
+run_uuid: 06587ba70b1142c2aaa35b03ec6ff7a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713288015066
+status: 4
+tags: []
+user_id: pglad

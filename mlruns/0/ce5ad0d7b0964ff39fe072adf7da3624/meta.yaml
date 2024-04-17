@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ce5ad0d7b0964ff39fe072adf7da3624/artifacts
+end_time: 1713321780861
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ce5ad0d7b0964ff39fe072adf7da3624
+run_name: whimsical-hen-730
+run_uuid: ce5ad0d7b0964ff39fe072adf7da3624
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713321744455
+status: 4
+tags: []
+user_id: pglad

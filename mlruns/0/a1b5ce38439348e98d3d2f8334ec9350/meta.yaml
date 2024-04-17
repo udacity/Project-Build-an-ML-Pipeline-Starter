@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a1b5ce38439348e98d3d2f8334ec9350/artifacts
+end_time: 1713151530502
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a1b5ce38439348e98d3d2f8334ec9350
+run_name: dazzling-hog-326
+run_uuid: a1b5ce38439348e98d3d2f8334ec9350
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713151525566
+status: 4
+tags: []
+user_id: pglad

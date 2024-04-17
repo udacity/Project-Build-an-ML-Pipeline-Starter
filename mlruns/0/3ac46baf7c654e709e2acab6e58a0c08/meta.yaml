@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/3ac46baf7c654e709e2acab6e58a0c08/artifacts
+end_time: 1713287542038
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3ac46baf7c654e709e2acab6e58a0c08
+run_name: carefree-quail-428
+run_uuid: 3ac46baf7c654e709e2acab6e58a0c08
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713287538067
+status: 4
+tags: []
+user_id: pglad

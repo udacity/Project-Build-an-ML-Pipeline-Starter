@@ -1,0 +1,30 @@
+2024-04-16 20:43:54,345 INFO    MainThread:417094 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2024-04-16 20:43:54,345 INFO    MainThread:417094 [wandb_setup.py:_flush():76] Configure stats pid to 417094
+2024-04-16 20:43:54,345 INFO    MainThread:417094 [wandb_setup.py:_flush():76] Loading settings from /home/pglad/.config/wandb/settings
+2024-04-16 20:43:54,346 INFO    MainThread:417094 [wandb_setup.py:_flush():76] Loading settings from /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/settings
+2024-04-16 20:43:54,346 INFO    MainThread:417094 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'run_group': 'development', 'project': 'nyc_airbnb'}
+2024-04-16 20:43:54,346 INFO    MainThread:417094 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-16 20:43:54,346 INFO    MainThread:417094 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/train_random_forest/run.py', 'program_abspath': '/home/pglad/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py', 'program': 'run.py'}
+2024-04-16 20:43:54,346 INFO    MainThread:417094 [wandb_init.py:_log_setup():524] Logging user logs to /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240416_204354-21bt89of/logs/debug.log
+2024-04-16 20:43:54,346 INFO    MainThread:417094 [wandb_init.py:_log_setup():525] Logging internal logs to /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240416_204354-21bt89of/logs/debug-internal.log
+2024-04-16 20:43:54,346 INFO    MainThread:417094 [wandb_init.py:init():564] calling init triggers
+2024-04-16 20:43:54,346 INFO    MainThread:417094 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2024-04-16 20:43:54,346 INFO    MainThread:417094 [wandb_init.py:init():614] starting backend
+2024-04-16 20:43:54,346 INFO    MainThread:417094 [wandb_init.py:init():618] setting up manager
+2024-04-16 20:43:54,347 INFO    MainThread:417094 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-04-16 20:43:54,348 INFO    MainThread:417094 [wandb_init.py:init():624] backend started and connected
+2024-04-16 20:43:54,351 INFO    MainThread:417094 [wandb_init.py:init():716] updated telemetry
+2024-04-16 20:43:54,364 INFO    MainThread:417094 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2024-04-16 20:43:54,682 INFO    MainThread:417094 [wandb_run.py:_on_init():2254] communicating current version
+2024-04-16 20:43:54,794 INFO    MainThread:417094 [wandb_run.py:_on_init():2263] got version response upgrade_message: "wandb version 0.16.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-04-16 20:43:54,794 INFO    MainThread:417094 [wandb_init.py:init():800] starting run threads in backend
+2024-04-16 20:43:57,098 INFO    MainThread:417094 [wandb_run.py:_console_start():2233] atexit reg
+2024-04-16 20:43:57,098 INFO    MainThread:417094 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2024-04-16 20:43:57,099 INFO    MainThread:417094 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2024-04-16 20:43:57,099 INFO    MainThread:417094 [wandb_run.py:_redirect():2178] Redirects installed.
+2024-04-16 20:43:57,100 INFO    MainThread:417094 [wandb_init.py:init():841] run started, returning control to user process
+2024-04-16 20:43:57,101 INFO    MainThread:417094 [wandb_run.py:_config_callback():1342] config_cb None None {'trainval_artifact': 'trainval_data.csv:latest', 'val_size': 0.2, 'random_seed': 42, 'stratify_by': 'neighbourhood_group', 'rf_config': '/home/pglad/Project-Build-an-ML-Pipeline-Starter/multirun/2024-04-16/20-43-06/1/rf_config.json', 'max_tfidf_features': 5, 'output_artifact': 'random_forest_export'}
+2024-04-16 20:43:57,103 INFO    MainThread:417094 [wandb_run.py:_config_callback():1342] config_cb None None {'n_estimators': 200, 'max_depth': 10, 'min_samples_split': 4, 'min_samples_leaf': 3, 'n_jobs': -1, 'criterion': 'mae', 'max_features': 0.5, 'oob_score': True}
+2024-04-16 20:44:51,694 WARNING MsgRouterThr:417094 [router.py:message_loop():77] message_loop has been closed
