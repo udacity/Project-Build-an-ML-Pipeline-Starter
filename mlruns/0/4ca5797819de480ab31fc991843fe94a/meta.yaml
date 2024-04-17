@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/4ca5797819de480ab31fc991843fe94a/artifacts
+end_time: 1713329570203
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4ca5797819de480ab31fc991843fe94a
+run_name: auspicious-calf-323
+run_uuid: 4ca5797819de480ab31fc991843fe94a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713329565699
+status: 4
+tags: []
+user_id: pglad

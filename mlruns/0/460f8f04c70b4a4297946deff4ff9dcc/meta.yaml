@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/460f8f04c70b4a4297946deff4ff9dcc/artifacts
+end_time: 1713330659278
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 460f8f04c70b4a4297946deff4ff9dcc
+run_name: honorable-goose-383
+run_uuid: 460f8f04c70b4a4297946deff4ff9dcc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713330655455
+status: 4
+tags: []
+user_id: pglad

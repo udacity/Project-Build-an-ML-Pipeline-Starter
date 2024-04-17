@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0d94468285354a7cb4a6533c0d777b0a/artifacts
+end_time: 1713377648217
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0d94468285354a7cb4a6533c0d777b0a
+run_name: unequaled-fox-228
+run_uuid: 0d94468285354a7cb4a6533c0d777b0a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713377643624
+status: 4
+tags: []
+user_id: pglad

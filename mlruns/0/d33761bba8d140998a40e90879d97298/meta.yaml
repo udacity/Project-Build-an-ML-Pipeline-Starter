@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d33761bba8d140998a40e90879d97298/artifacts
+end_time: 1713378413002
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d33761bba8d140998a40e90879d97298
+run_name: inquisitive-lark-740
+run_uuid: d33761bba8d140998a40e90879d97298
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713378405933
+status: 4
+tags: []
+user_id: pglad

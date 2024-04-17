@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a8cd544a44b14532b9c17c4452d94b9d/artifacts
+end_time: 1713329474877
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a8cd544a44b14532b9c17c4452d94b9d
+run_name: adorable-fly-429
+run_uuid: a8cd544a44b14532b9c17c4452d94b9d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713329470525
+status: 4
+tags: []
+user_id: pglad
