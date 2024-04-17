@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/96d218f84fb64a57a8b0fb2e7e8fac2d/artifacts
+end_time: 1713146560345
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 96d218f84fb64a57a8b0fb2e7e8fac2d
+run_name: rebellious-shark-92
+run_uuid: 96d218f84fb64a57a8b0fb2e7e8fac2d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713146559091
+status: 4
+tags: []
+user_id: pglad

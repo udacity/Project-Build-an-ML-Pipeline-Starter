@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2b42b80f38d34ff3a8f5404ad0d14d9c/artifacts
+end_time: 1713078150671
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2b42b80f38d34ff3a8f5404ad0d14d9c
+run_name: traveling-moose-339
+run_uuid: 2b42b80f38d34ff3a8f5404ad0d14d9c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713078114551
+status: 3
+tags: []
+user_id: pglad

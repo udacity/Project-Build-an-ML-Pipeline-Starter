@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/795f10dd0a5348deb3a7c70078c3ea37/artifacts
+end_time: 1713078613369
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 795f10dd0a5348deb3a7c70078c3ea37
+run_name: adventurous-roo-36
+run_uuid: 795f10dd0a5348deb3a7c70078c3ea37
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713078582521
+status: 3
+tags: []
+user_id: pglad

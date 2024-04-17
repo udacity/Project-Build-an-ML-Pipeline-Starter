@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/51854671ba094d678cdbca128c202c64/artifacts
+end_time: 1713144180740
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 51854671ba094d678cdbca128c202c64
+run_name: angry-lamb-807
+run_uuid: 51854671ba094d678cdbca128c202c64
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713144177894
+status: 4
+tags: []
+user_id: pglad

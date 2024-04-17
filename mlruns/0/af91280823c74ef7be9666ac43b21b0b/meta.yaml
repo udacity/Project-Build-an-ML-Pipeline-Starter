@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/af91280823c74ef7be9666ac43b21b0b/artifacts
+end_time: 1712900006465
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: af91280823c74ef7be9666ac43b21b0b
+run_name: sedate-skunk-523
+run_uuid: af91280823c74ef7be9666ac43b21b0b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712900005363
+status: 3
+tags: []
+user_id: pglad

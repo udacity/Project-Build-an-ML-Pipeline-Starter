@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c2785ac5d9c349f5aef674e423cfd70f/artifacts
+end_time: 1712896089100
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c2785ac5d9c349f5aef674e423cfd70f
+run_name: rebellious-boar-499
+run_uuid: c2785ac5d9c349f5aef674e423cfd70f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712896087488
+status: 4
+tags: []
+user_id: pglad

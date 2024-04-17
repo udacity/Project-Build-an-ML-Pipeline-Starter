@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/21931e6966d34b0d9e2435ea94a51111/artifacts
+end_time: 1712900006638
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 21931e6966d34b0d9e2435ea94a51111
+run_name: loud-toad-370
+run_uuid: 21931e6966d34b0d9e2435ea94a51111
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712900003156
+status: 3
+tags: []
+user_id: pglad

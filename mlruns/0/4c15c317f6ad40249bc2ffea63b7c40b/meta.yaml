@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/4c15c317f6ad40249bc2ffea63b7c40b/artifacts
+end_time: 1712898655681
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4c15c317f6ad40249bc2ffea63b7c40b
+run_name: secretive-bat-275
+run_uuid: 4c15c317f6ad40249bc2ffea63b7c40b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712898653343
+status: 4
+tags: []
+user_id: pglad

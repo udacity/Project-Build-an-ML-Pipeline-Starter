@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7e4c408665804329adda7e06cf8ac83b/artifacts
+end_time: 1713079525768
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7e4c408665804329adda7e06cf8ac83b
+run_name: loud-bat-615
+run_uuid: 7e4c408665804329adda7e06cf8ac83b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713079524304
+status: 4
+tags: []
+user_id: pglad

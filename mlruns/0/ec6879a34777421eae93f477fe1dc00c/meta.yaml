@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ec6879a34777421eae93f477fe1dc00c/artifacts
+end_time: 1713079178654
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ec6879a34777421eae93f477fe1dc00c
+run_name: orderly-wasp-581
+run_uuid: ec6879a34777421eae93f477fe1dc00c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713079139136
+status: 3
+tags: []
+user_id: pglad

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6d25d1afd2bd43bea3a8f52229732d9a/artifacts
+end_time: 1713146084863
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6d25d1afd2bd43bea3a8f52229732d9a
+run_name: marvelous-snake-195
+run_uuid: 6d25d1afd2bd43bea3a8f52229732d9a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713146083586
+status: 4
+tags: []
+user_id: pglad

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/386ac20e8778478e9782f4cc304d4038/artifacts
+end_time: 1712896139370
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 386ac20e8778478e9782f4cc304d4038
+run_name: magnificent-ray-148
+run_uuid: 386ac20e8778478e9782f4cc304d4038
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712896138304
+status: 4
+tags: []
+user_id: pglad

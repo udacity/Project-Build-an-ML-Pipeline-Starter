@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/774027e5854e41cfbfbb65d6c89f3d23/artifacts
+end_time: 1712895201573
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 774027e5854e41cfbfbb65d6c89f3d23
+run_name: brawny-jay-761
+run_uuid: 774027e5854e41cfbfbb65d6c89f3d23
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712895197621
+status: 4
+tags: []
+user_id: pglad

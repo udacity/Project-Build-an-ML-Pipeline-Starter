@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a78ce2fd7e174e2face50ee117bd87a9/artifacts
+end_time: 1712898769250
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a78ce2fd7e174e2face50ee117bd87a9
+run_name: lyrical-boar-353
+run_uuid: a78ce2fd7e174e2face50ee117bd87a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712898767670
+status: 4
+tags: []
+user_id: pglad

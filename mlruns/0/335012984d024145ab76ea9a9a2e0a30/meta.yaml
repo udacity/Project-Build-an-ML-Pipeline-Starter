@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/335012984d024145ab76ea9a9a2e0a30/artifacts
+end_time: 1712895314907
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 335012984d024145ab76ea9a9a2e0a30
+run_name: rebellious-moose-324
+run_uuid: 335012984d024145ab76ea9a9a2e0a30
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712895310881
+status: 4
+tags: []
+user_id: pglad

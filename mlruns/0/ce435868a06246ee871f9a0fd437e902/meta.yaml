@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ce435868a06246ee871f9a0fd437e902/artifacts
+end_time: 1713143905135
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ce435868a06246ee871f9a0fd437e902
+run_name: valuable-snake-474
+run_uuid: ce435868a06246ee871f9a0fd437e902
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713143904034
+status: 4
+tags: []
+user_id: pglad

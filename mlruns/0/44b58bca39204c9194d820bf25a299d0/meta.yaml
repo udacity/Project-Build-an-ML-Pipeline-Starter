@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/44b58bca39204c9194d820bf25a299d0/artifacts
+end_time: 1713078150200
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 44b58bca39204c9194d820bf25a299d0
+run_name: enthused-koi-504
+run_uuid: 44b58bca39204c9194d820bf25a299d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713078125904
+status: 3
+tags: []
+user_id: pglad

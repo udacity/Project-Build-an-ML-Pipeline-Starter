@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/09cd92d527fd4293875ea92f0883949c/artifacts
+end_time: 1713079669701
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 09cd92d527fd4293875ea92f0883949c
+run_name: victorious-newt-664
+run_uuid: 09cd92d527fd4293875ea92f0883949c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713079668633
+status: 4
+tags: []
+user_id: pglad

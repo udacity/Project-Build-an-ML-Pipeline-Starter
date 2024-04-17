@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/cf9b211030364e50b622de76987a0809/artifacts
+end_time: 1712896511713
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cf9b211030364e50b622de76987a0809
+run_name: rumbling-kit-437
+run_uuid: cf9b211030364e50b622de76987a0809
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712896510115
+status: 4
+tags: []
+user_id: pglad

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2c6b2bf4be3d478dbb82bf18a43f000c/artifacts
+end_time: 1713146739713
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2c6b2bf4be3d478dbb82bf18a43f000c
+run_name: amazing-ant-340
+run_uuid: 2c6b2bf4be3d478dbb82bf18a43f000c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713146635643
+status: 4
+tags: []
+user_id: pglad

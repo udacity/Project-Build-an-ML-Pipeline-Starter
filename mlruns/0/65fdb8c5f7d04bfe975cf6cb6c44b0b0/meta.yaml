@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/65fdb8c5f7d04bfe975cf6cb6c44b0b0/artifacts
+end_time: 1713144710599
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 65fdb8c5f7d04bfe975cf6cb6c44b0b0
+run_name: grandiose-lamb-817
+run_uuid: 65fdb8c5f7d04bfe975cf6cb6c44b0b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713144708835
+status: 4
+tags: []
+user_id: pglad

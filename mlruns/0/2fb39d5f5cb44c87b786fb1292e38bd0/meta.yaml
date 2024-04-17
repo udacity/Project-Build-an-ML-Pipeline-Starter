@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2fb39d5f5cb44c87b786fb1292e38bd0/artifacts
+end_time: 1712893787720
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2fb39d5f5cb44c87b786fb1292e38bd0
+run_name: angry-cat-963
+run_uuid: 2fb39d5f5cb44c87b786fb1292e38bd0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712893783609
+status: 4
+tags: []
+user_id: pglad

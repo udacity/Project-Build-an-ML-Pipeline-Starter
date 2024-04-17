@@ -1,0 +1,199 @@
+2024-04-14 01:09:57,077 INFO    StreamThr :338405 [internal.py:wandb_internal():87] W&B internal server running at pid: 338405, started at: 2024-04-14 01:09:57.074209
+2024-04-14 01:09:57,086 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: status
+2024-04-14 01:09:57,093 INFO    WriterThread:338405 [datastore.py:open_for_write():85] open: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/run-udtxh7jv.wandb
+2024-04-14 01:09:57,096 DEBUG   SenderThread:338405 [sender.py:send():334] send: header
+2024-04-14 01:09:57,114 DEBUG   SenderThread:338405 [sender.py:send():334] send: run
+2024-04-14 01:09:57,598 INFO    SenderThread:338405 [dir_watcher.py:__init__():216] watching files in: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files
+2024-04-14 01:09:57,598 INFO    SenderThread:338405 [sender.py:_start_run_threads():1065] run started: udtxh7jv with start time 1713078597.077228
+2024-04-14 01:09:57,598 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: summary_record
+2024-04-14 01:09:57,600 INFO    SenderThread:338405 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-04-14 01:09:57,603 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: check_version
+2024-04-14 01:09:57,605 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: check_version
+2024-04-14 01:09:57,780 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: run_start
+2024-04-14 01:09:58,599 INFO    Thread-13 :338405 [dir_watcher.py:_on_file_created():275] file/dir created: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files/wandb-summary.json
+2024-04-14 01:09:58,756 DEBUG   HandlerThread:338405 [system_info.py:__init__():31] System info init
+2024-04-14 01:09:58,756 DEBUG   HandlerThread:338405 [system_info.py:__init__():46] System info init done
+2024-04-14 01:09:58,756 INFO    HandlerThread:338405 [system_monitor.py:start():151] Starting system monitor
+2024-04-14 01:09:58,756 INFO    SystemMonitor:338405 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-04-14 01:09:58,757 INFO    HandlerThread:338405 [system_monitor.py:probe():172] Collecting system info
+2024-04-14 01:09:58,759 INFO    SystemMonitor:338405 [interfaces.py:start():168] Started cpu
+2024-04-14 01:09:58,763 INFO    SystemMonitor:338405 [interfaces.py:start():168] Started disk
+2024-04-14 01:09:58,763 INFO    SystemMonitor:338405 [interfaces.py:start():168] Started gpu
+2024-04-14 01:09:58,764 INFO    SystemMonitor:338405 [interfaces.py:start():168] Started memory
+2024-04-14 01:09:58,765 INFO    SystemMonitor:338405 [interfaces.py:start():168] Started network
+2024-04-14 01:09:58,775 DEBUG   HandlerThread:338405 [system_info.py:probe():195] Probing system
+2024-04-14 01:09:58,776 ERROR   gpu       :338405 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-14 01:09:58,777 ERROR   gpu       :338405 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-14 01:09:58,869 DEBUG   HandlerThread:338405 [system_info.py:_probe_git():180] Probing git
+2024-04-14 01:09:58,906 DEBUG   HandlerThread:338405 [system_info.py:_probe_git():188] Probing git done
+2024-04-14 01:09:58,907 DEBUG   HandlerThread:338405 [system_info.py:probe():241] Probing system done
+2024-04-14 01:09:58,908 DEBUG   HandlerThread:338405 [system_monitor.py:probe():181] {'os': 'Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.9.19', 'heartbeatAt': '2024-04-14T07:09:58.775660', 'startedAt': '2024-04-14T07:09:57.045170', 'docker': None, 'cuda': None, 'args': ('--input_artifact', 'sample.csv:latest', '--output_artifact', 'clean_sample.csv', '--output_type', 'clean_sample', '--output_description', 'Data with outliers and null values removed', '--min_price', '10', '--max_price', '350'), 'state': 'running', 'program': '/home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/run.py', 'codePath': 'src/basic_cleaning/run.py', 'git': {'remote': 'https://github.com/pglad5/Project-Build-an-ML-Pipeline-Starter.git', 'commit': '549cd64cea55ca313a3083519d16d55dbbc31203'}, 'email': 'pglad5@wgu.edu', 'root': '/home/pglad/Project-Build-an-ML-Pipeline-Starter', 'host': 'DESKTOP-C2TKMV0', 'username': 'pglad', 'executable': '/home/pglad/miniconda3/envs/mlflow-19707c3818ce7e70ccc2f8b703046ae5d9c85174/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2592.0080000000003, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2592.008, 'min': 0.0, 'max': 0.0}, {'current': 2592.008, 'min': 0.0, 'max': 0.0}, {'current': 2592.008, 'min': 0.0, 'max': 0.0}, {'current': 2592.008, 'min': 0.0, 'max': 0.0}, {'current': 2592.008, 'min': 0.0, 'max': 0.0}, {'current': 2592.008, 'min': 0.0, 'max': 0.0}, {'current': 2592.008, 'min': 0.0, 'max': 0.0}, {'current': 2592.008, 'min': 0.0, 'max': 0.0}, {'current': 2592.008, 'min': 0.0, 'max': 0.0}, {'current': 2592.008, 'min': 0.0, 'max': 0.0}, {'current': 2592.008, 'min': 0.0, 'max': 0.0}, {'current': 2592.008, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1006.853931427002, 'used': 18.860340118408203}, 'gpu': 'Quadro P2000', 'gpu_count': 1, 'gpu_devices': [{'name': 'Quadro P2000', 'memory_total': 4294967296}], 'memory': {'total': 7.630119323730469}}
+2024-04-14 01:09:58,908 INFO    HandlerThread:338405 [system_monitor.py:probe():182] Finished collecting system info
+2024-04-14 01:09:58,908 INFO    HandlerThread:338405 [system_monitor.py:probe():185] Publishing system info
+2024-04-14 01:09:58,909 DEBUG   HandlerThread:338405 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-04-14 01:09:58,910 DEBUG   HandlerThread:338405 [system_info.py:_save_pip():67] Saving pip packages done
+2024-04-14 01:09:58,910 DEBUG   HandlerThread:338405 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-04-14 01:09:59,600 INFO    Thread-13 :338405 [dir_watcher.py:_on_file_created():275] file/dir created: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files/conda-environment.yaml
+2024-04-14 01:09:59,608 INFO    Thread-13 :338405 [dir_watcher.py:_on_file_created():275] file/dir created: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files/requirements.txt
+2024-04-14 01:10:00,600 INFO    Thread-13 :338405 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files/conda-environment.yaml
+2024-04-14 01:10:00,730 DEBUG   HandlerThread:338405 [system_info.py:_save_conda():86] Saving conda packages done
+2024-04-14 01:10:00,731 INFO    HandlerThread:338405 [system_monitor.py:probe():187] Finished publishing system info
+2024-04-14 01:10:00,739 DEBUG   SenderThread:338405 [sender.py:send():334] send: files
+2024-04-14 01:10:00,740 INFO    SenderThread:338405 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2024-04-14 01:10:00,750 DEBUG   SenderThread:338405 [sender.py:send():334] send: telemetry
+2024-04-14 01:10:00,753 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-14 01:10:00,754 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: stop_status
+2024-04-14 01:10:00,778 ERROR   gpu       :338405 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-14 01:10:00,779 ERROR   gpu       :338405 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-14 01:10:00,996 DEBUG   SenderThread:338405 [sender.py:send():334] send: config
+2024-04-14 01:10:01,092 ERROR   gpu       :338405 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-14 01:10:01,098 ERROR   gpu       :338405 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-14 01:10:01,262 INFO    Thread-16 :338405 [upload_job.py:push():143] Uploaded file /tmp/tmpu5762me_wandb/13d15v26-wandb-metadata.json
+2024-04-14 01:10:01,601 INFO    Thread-13 :338405 [dir_watcher.py:_on_file_created():275] file/dir created: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files/wandb-metadata.json
+2024-04-14 01:10:01,602 INFO    Thread-13 :338405 [dir_watcher.py:_on_file_created():275] file/dir created: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files/output.log
+2024-04-14 01:10:01,786 DEBUG   SenderThread:338405 [sender.py:send():334] send: use_artifact
+2024-04-14 01:10:02,387 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: status_report
+2024-04-14 01:10:03,102 ERROR   gpu       :338405 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-14 01:10:03,103 ERROR   gpu       :338405 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-14 01:10:03,145 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: log_artifact
+2024-04-14 01:10:03,146 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: log_artifact
+2024-04-14 01:10:03,398 ERROR   gpu       :338405 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-14 01:10:03,403 ERROR   gpu       :338405 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2024-04-14 01:10:03,602 INFO    Thread-13 :338405 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files/output.log
+2024-04-14 01:10:03,675 INFO    SenderThread:338405 [sender.py:send_request_log_artifact():1379] logged artifact clean_sample.csv - {'id': 'QXJ0aWZhY3Q6NzgyNjMzNjY0', 'digest': 'd1caf0f1b6fe9e1d49d7c0b252c8b39a', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'clean_sample.csv', 'alias': 'latest'}, {'artifactCollectionName': 'clean_sample.csv', 'alias': 'reference'}, {'artifactCollectionName': 'clean_sample.csv', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NjM2MDI2NQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzgyNjMzNjY0', 'versionIndex': 0}}, 'version': 'v0'}
+2024-04-14 01:10:03,676 DEBUG   SenderThread:338405 [sender.py:send():334] send: exit
+2024-04-14 01:10:03,676 INFO    SenderThread:338405 [sender.py:send_exit():557] handling exit code: 0
+2024-04-14 01:10:03,676 INFO    SenderThread:338405 [sender.py:send_exit():559] handling runtime: 5
+2024-04-14 01:10:03,679 INFO    SenderThread:338405 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-04-14 01:10:03,680 INFO    SenderThread:338405 [sender.py:send_exit():565] send defer
+2024-04-14 01:10:03,680 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: defer
+2024-04-14 01:10:03,681 INFO    HandlerThread:338405 [handler.py:handle_request_defer():170] handle defer: 0
+2024-04-14 01:10:03,682 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: defer
+2024-04-14 01:10:03,682 INFO    SenderThread:338405 [sender.py:send_request_defer():581] handle sender defer: 0
+2024-04-14 01:10:03,683 INFO    SenderThread:338405 [sender.py:transition_state():585] send defer: 1
+2024-04-14 01:10:03,683 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: defer
+2024-04-14 01:10:03,684 INFO    HandlerThread:338405 [handler.py:handle_request_defer():170] handle defer: 1
+2024-04-14 01:10:03,685 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: defer
+2024-04-14 01:10:03,685 INFO    SenderThread:338405 [sender.py:send_request_defer():581] handle sender defer: 1
+2024-04-14 01:10:03,685 INFO    SenderThread:338405 [sender.py:transition_state():585] send defer: 2
+2024-04-14 01:10:03,686 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: defer
+2024-04-14 01:10:03,686 INFO    HandlerThread:338405 [handler.py:handle_request_defer():170] handle defer: 2
+2024-04-14 01:10:03,687 INFO    HandlerThread:338405 [system_monitor.py:finish():161] Stopping system monitor
+2024-04-14 01:10:03,689 DEBUG   SystemMonitor:338405 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-04-14 01:10:03,694 INFO    HandlerThread:338405 [interfaces.py:finish():175] Joined cpu
+2024-04-14 01:10:03,697 DEBUG   SystemMonitor:338405 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-04-14 01:10:03,698 DEBUG   SystemMonitor:338405 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-04-14 01:10:03,700 INFO    HandlerThread:338405 [interfaces.py:finish():175] Joined disk
+2024-04-14 01:10:03,745 ERROR   gpu       :338405 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2024-04-14 01:10:03,746 INFO    HandlerThread:338405 [interfaces.py:finish():175] Joined gpu
+2024-04-14 01:10:03,747 INFO    HandlerThread:338405 [interfaces.py:finish():175] Joined memory
+2024-04-14 01:10:03,747 INFO    HandlerThread:338405 [interfaces.py:finish():175] Joined network
+2024-04-14 01:10:03,750 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: defer
+2024-04-14 01:10:03,751 INFO    SenderThread:338405 [sender.py:send_request_defer():581] handle sender defer: 2
+2024-04-14 01:10:03,751 INFO    SenderThread:338405 [sender.py:transition_state():585] send defer: 3
+2024-04-14 01:10:03,752 DEBUG   SenderThread:338405 [sender.py:send():334] send: stats
+2024-04-14 01:10:03,754 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: defer
+2024-04-14 01:10:03,758 INFO    HandlerThread:338405 [handler.py:handle_request_defer():170] handle defer: 3
+2024-04-14 01:10:03,761 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: defer
+2024-04-14 01:10:03,761 INFO    SenderThread:338405 [sender.py:send_request_defer():581] handle sender defer: 3
+2024-04-14 01:10:03,762 INFO    SenderThread:338405 [sender.py:transition_state():585] send defer: 4
+2024-04-14 01:10:03,763 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: defer
+2024-04-14 01:10:03,763 INFO    HandlerThread:338405 [handler.py:handle_request_defer():170] handle defer: 4
+2024-04-14 01:10:03,766 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: defer
+2024-04-14 01:10:03,767 INFO    SenderThread:338405 [sender.py:send_request_defer():581] handle sender defer: 4
+2024-04-14 01:10:03,767 INFO    SenderThread:338405 [sender.py:transition_state():585] send defer: 5
+2024-04-14 01:10:03,768 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: defer
+2024-04-14 01:10:03,769 INFO    HandlerThread:338405 [handler.py:handle_request_defer():170] handle defer: 5
+2024-04-14 01:10:03,771 DEBUG   SenderThread:338405 [sender.py:send():334] send: summary
+2024-04-14 01:10:03,773 INFO    SenderThread:338405 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-04-14 01:10:03,774 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: defer
+2024-04-14 01:10:03,774 INFO    SenderThread:338405 [sender.py:send_request_defer():581] handle sender defer: 5
+2024-04-14 01:10:03,775 INFO    SenderThread:338405 [sender.py:transition_state():585] send defer: 6
+2024-04-14 01:10:03,775 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: defer
+2024-04-14 01:10:03,776 INFO    HandlerThread:338405 [handler.py:handle_request_defer():170] handle defer: 6
+2024-04-14 01:10:03,777 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: defer
+2024-04-14 01:10:03,778 INFO    SenderThread:338405 [sender.py:send_request_defer():581] handle sender defer: 6
+2024-04-14 01:10:03,784 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: status_report
+2024-04-14 01:10:04,019 INFO    SenderThread:338405 [sender.py:transition_state():585] send defer: 7
+2024-04-14 01:10:04,020 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: defer
+2024-04-14 01:10:04,020 INFO    HandlerThread:338405 [handler.py:handle_request_defer():170] handle defer: 7
+2024-04-14 01:10:04,022 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: defer
+2024-04-14 01:10:04,022 INFO    SenderThread:338405 [sender.py:send_request_defer():581] handle sender defer: 7
+2024-04-14 01:10:04,153 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: poll_exit
+2024-04-14 01:10:04,604 INFO    Thread-13 :338405 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files/wandb-summary.json
+2024-04-14 01:10:04,604 INFO    Thread-13 :338405 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files/config.yaml
+2024-04-14 01:10:05,009 INFO    SenderThread:338405 [sender.py:transition_state():585] send defer: 8
+2024-04-14 01:10:05,010 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: poll_exit
+2024-04-14 01:10:05,010 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: defer
+2024-04-14 01:10:05,012 INFO    HandlerThread:338405 [handler.py:handle_request_defer():170] handle defer: 8
+2024-04-14 01:10:05,013 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: defer
+2024-04-14 01:10:05,014 INFO    SenderThread:338405 [sender.py:send_request_defer():581] handle sender defer: 8
+2024-04-14 01:10:05,044 INFO    SenderThread:338405 [sender.py:transition_state():585] send defer: 9
+2024-04-14 01:10:05,045 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: defer
+2024-04-14 01:10:05,046 INFO    HandlerThread:338405 [handler.py:handle_request_defer():170] handle defer: 9
+2024-04-14 01:10:05,047 DEBUG   SenderThread:338405 [sender.py:send():334] send: artifact
+2024-04-14 01:10:05,155 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: poll_exit
+2024-04-14 01:10:05,605 INFO    Thread-13 :338405 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files/output.log
+2024-04-14 01:10:06,092 INFO    Thread-18 :338405 [upload_job.py:push():98] Skipped uploading /home/pglad/.local/share/wandb/artifacts/staging/tmpulvqkmlc
+2024-04-14 01:10:06,543 INFO    Thread-19 :338405 [upload_job.py:push():101] Uploaded file /home/pglad/.local/share/wandb/artifacts/staging/tmp17yxglci
+2024-04-14 01:10:08,043 INFO    SenderThread:338405 [sender.py:send_artifact():1415] sent artifact job-https___github.com_pglad5_Project-Build-an-ML-Pipeline-Starter.git_src_basic_cleaning_run.py - {'id': 'QXJ0aWZhY3Q6Nzk1NzY4MDE4', 'digest': '40b267443983b89ca24f4c7d5cf40ff0', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NjM2MDMyNw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzgyNjMzNzkw', 'versionIndex': 0}}, 'version': 'latest'}
+2024-04-14 01:10:08,044 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: defer
+2024-04-14 01:10:08,044 INFO    SenderThread:338405 [sender.py:send_request_defer():581] handle sender defer: 9
+2024-04-14 01:10:08,044 INFO    SenderThread:338405 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-04-14 01:10:08,610 INFO    SenderThread:338405 [dir_watcher.py:finish():392] scan: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files
+2024-04-14 01:10:08,610 INFO    SenderThread:338405 [dir_watcher.py:finish():406] scan save: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files/wandb-summary.json wandb-summary.json
+2024-04-14 01:10:08,611 INFO    SenderThread:338405 [dir_watcher.py:finish():406] scan save: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files/requirements.txt requirements.txt
+2024-04-14 01:10:08,618 INFO    SenderThread:338405 [dir_watcher.py:finish():406] scan save: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files/wandb-metadata.json wandb-metadata.json
+2024-04-14 01:10:08,619 INFO    SenderThread:338405 [dir_watcher.py:finish():406] scan save: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files/conda-environment.yaml conda-environment.yaml
+2024-04-14 01:10:08,621 INFO    SenderThread:338405 [dir_watcher.py:finish():406] scan save: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files/output.log output.log
+2024-04-14 01:10:08,627 INFO    SenderThread:338405 [dir_watcher.py:finish():406] scan save: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files/config.yaml config.yaml
+2024-04-14 01:10:08,628 INFO    SenderThread:338405 [sender.py:transition_state():585] send defer: 10
+2024-04-14 01:10:08,629 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: poll_exit
+2024-04-14 01:10:08,636 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: defer
+2024-04-14 01:10:08,637 INFO    HandlerThread:338405 [handler.py:handle_request_defer():170] handle defer: 10
+2024-04-14 01:10:08,644 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: defer
+2024-04-14 01:10:08,650 INFO    SenderThread:338405 [sender.py:send_request_defer():581] handle sender defer: 10
+2024-04-14 01:10:08,650 INFO    SenderThread:338405 [file_pusher.py:finish():160] shutting down file pusher
+2024-04-14 01:10:09,138 INFO    Thread-21 :338405 [upload_job.py:push():143] Uploaded file /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files/requirements.txt
+2024-04-14 01:10:09,163 INFO    Thread-20 :338405 [upload_job.py:push():143] Uploaded file /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files/wandb-summary.json
+2024-04-14 01:10:09,183 INFO    Thread-22 :338405 [upload_job.py:push():143] Uploaded file /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files/conda-environment.yaml
+2024-04-14 01:10:09,199 INFO    Thread-24 :338405 [upload_job.py:push():143] Uploaded file /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files/config.yaml
+2024-04-14 01:10:09,227 INFO    Thread-23 :338405 [upload_job.py:push():143] Uploaded file /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/files/output.log
+2024-04-14 01:10:09,429 INFO    Thread-12 :338405 [sender.py:transition_state():585] send defer: 11
+2024-04-14 01:10:09,430 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: defer
+2024-04-14 01:10:09,431 INFO    HandlerThread:338405 [handler.py:handle_request_defer():170] handle defer: 11
+2024-04-14 01:10:09,432 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: defer
+2024-04-14 01:10:09,432 INFO    SenderThread:338405 [sender.py:send_request_defer():581] handle sender defer: 11
+2024-04-14 01:10:09,432 INFO    SenderThread:338405 [file_pusher.py:join():165] waiting for file pusher
+2024-04-14 01:10:09,433 INFO    SenderThread:338405 [sender.py:transition_state():585] send defer: 12
+2024-04-14 01:10:09,433 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: defer
+2024-04-14 01:10:09,434 INFO    HandlerThread:338405 [handler.py:handle_request_defer():170] handle defer: 12
+2024-04-14 01:10:09,435 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: defer
+2024-04-14 01:10:09,435 INFO    SenderThread:338405 [sender.py:send_request_defer():581] handle sender defer: 12
+2024-04-14 01:10:09,503 INFO    SenderThread:338405 [sender.py:transition_state():585] send defer: 13
+2024-04-14 01:10:09,504 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: defer
+2024-04-14 01:10:09,504 INFO    HandlerThread:338405 [handler.py:handle_request_defer():170] handle defer: 13
+2024-04-14 01:10:09,506 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: defer
+2024-04-14 01:10:09,506 INFO    SenderThread:338405 [sender.py:send_request_defer():581] handle sender defer: 13
+2024-04-14 01:10:09,506 INFO    SenderThread:338405 [sender.py:transition_state():585] send defer: 14
+2024-04-14 01:10:09,507 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: defer
+2024-04-14 01:10:09,508 INFO    HandlerThread:338405 [handler.py:handle_request_defer():170] handle defer: 14
+2024-04-14 01:10:09,510 DEBUG   SenderThread:338405 [sender.py:send():334] send: final
+2024-04-14 01:10:09,510 DEBUG   SenderThread:338405 [sender.py:send():334] send: footer
+2024-04-14 01:10:09,510 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: defer
+2024-04-14 01:10:09,511 INFO    SenderThread:338405 [sender.py:send_request_defer():581] handle sender defer: 14
+2024-04-14 01:10:09,513 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: poll_exit
+2024-04-14 01:10:09,515 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: poll_exit
+2024-04-14 01:10:09,517 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: server_info
+2024-04-14 01:10:09,519 DEBUG   SenderThread:338405 [sender.py:send_request():361] send_request: server_info
+2024-04-14 01:10:09,528 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: get_summary
+2024-04-14 01:10:09,531 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: sampled_history
+2024-04-14 01:10:09,710 INFO    MainThread:338405 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2024-04-14 01:10:09,711 INFO    MainThread:338405 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2024-04-14 01:10:09,711 INFO    MainThread:338405 [wandb_run.py:_footer_sync_info():3383] logging synced files
+2024-04-14 01:10:09,713 DEBUG   HandlerThread:338405 [handler.py:handle_request():144] handle_request: shutdown
+2024-04-14 01:10:09,713 INFO    HandlerThread:338405 [handler.py:finish():841] shutting down handler
+2024-04-14 01:10:10,519 INFO    WriterThread:338405 [datastore.py:close():299] close: /home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20240414_010957-udtxh7jv/run-udtxh7jv.wandb
+2024-04-14 01:10:10,710 INFO    SenderThread:338405 [sender.py:finish():1491] shutting down sender
+2024-04-14 01:10:10,711 INFO    SenderThread:338405 [file_pusher.py:finish():160] shutting down file pusher
+2024-04-14 01:10:10,711 INFO    SenderThread:338405 [file_pusher.py:join():165] waiting for file pusher

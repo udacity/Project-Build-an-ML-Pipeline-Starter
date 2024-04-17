@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/3569004a05004ffb80b0e7e1ac512bb2/artifacts
+end_time: 1712896511971
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3569004a05004ffb80b0e7e1ac512bb2
+run_name: stately-ox-730
+run_uuid: 3569004a05004ffb80b0e7e1ac512bb2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712896507924
+status: 4
+tags: []
+user_id: pglad

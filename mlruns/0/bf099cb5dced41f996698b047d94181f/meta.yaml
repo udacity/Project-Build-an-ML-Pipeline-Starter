@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/bf099cb5dced41f996698b047d94181f/artifacts
+end_time: 1712896139626
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bf099cb5dced41f996698b047d94181f
+run_name: nimble-gnu-199
+run_uuid: bf099cb5dced41f996698b047d94181f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712896136166
+status: 4
+tags: []
+user_id: pglad

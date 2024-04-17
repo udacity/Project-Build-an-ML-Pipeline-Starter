@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9fa614b7ef9047698680609ab8ef1fd0/artifacts
+end_time: 1712896562073
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9fa614b7ef9047698680609ab8ef1fd0
+run_name: stylish-kit-188
+run_uuid: 9fa614b7ef9047698680609ab8ef1fd0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712896561027
+status: 4
+tags: []
+user_id: pglad

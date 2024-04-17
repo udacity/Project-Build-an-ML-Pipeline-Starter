@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/14e57ab3e1ff455e98a2bc37a80b0c12/artifacts
+end_time: 1713079342220
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 14e57ab3e1ff455e98a2bc37a80b0c12
+run_name: judicious-snake-318
+run_uuid: 14e57ab3e1ff455e98a2bc37a80b0c12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713079333193
+status: 4
+tags: []
+user_id: pglad

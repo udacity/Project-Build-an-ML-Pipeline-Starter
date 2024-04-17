@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e38f1f9b59c84363a475bdeb86d6561c/artifacts
+end_time: 1713147311070
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e38f1f9b59c84363a475bdeb86d6561c
+run_name: popular-asp-590
+run_uuid: e38f1f9b59c84363a475bdeb86d6561c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713147309751
+status: 4
+tags: []
+user_id: pglad

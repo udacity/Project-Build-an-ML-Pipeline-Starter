@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/fdb6ec6a4d7844d69146d2cd077748c4/artifacts
+end_time: 1712896271238
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fdb6ec6a4d7844d69146d2cd077748c4
+run_name: marvelous-owl-799
+run_uuid: fdb6ec6a4d7844d69146d2cd077748c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712896270197
+status: 3
+tags: []
+user_id: pglad

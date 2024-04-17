@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - python=3.8
   - pip=20.3.3
   - requests=2.24.0
   - mlflow=2.1.1

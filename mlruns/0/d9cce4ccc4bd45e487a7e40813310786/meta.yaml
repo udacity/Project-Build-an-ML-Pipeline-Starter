@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d9cce4ccc4bd45e487a7e40813310786/artifacts
+end_time: 1713079669961
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d9cce4ccc4bd45e487a7e40813310786
+run_name: wise-trout-874
+run_uuid: d9cce4ccc4bd45e487a7e40813310786
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713079666450
+status: 4
+tags: []
+user_id: pglad

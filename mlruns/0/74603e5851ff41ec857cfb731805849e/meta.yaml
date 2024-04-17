@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/74603e5851ff41ec857cfb731805849e/artifacts
+end_time: 1713147243724
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 74603e5851ff41ec857cfb731805849e
+run_name: victorious-lark-999
+run_uuid: 74603e5851ff41ec857cfb731805849e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713147242477
+status: 4
+tags: []
+user_id: pglad

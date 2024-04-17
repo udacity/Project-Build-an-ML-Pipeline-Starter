@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/64784f2eaf174e2c8de71292a2d152c7/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 64784f2eaf174e2c8de71292a2d152c7
+run_name: popular-newt-633
+run_uuid: 64784f2eaf174e2c8de71292a2d152c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713147816996
+status: 1
+tags: []
+user_id: pglad

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/95b3ddd64c834ef8aa25212dc1be8a23/artifacts
+end_time: 1712896584756
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 95b3ddd64c834ef8aa25212dc1be8a23
+run_name: delicate-chimp-162
+run_uuid: 95b3ddd64c834ef8aa25212dc1be8a23
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712896583158
+status: 4
+tags: []
+user_id: pglad

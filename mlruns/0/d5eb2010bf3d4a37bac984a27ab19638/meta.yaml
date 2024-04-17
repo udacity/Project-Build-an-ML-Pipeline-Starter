@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d5eb2010bf3d4a37bac984a27ab19638/artifacts
+end_time: 1712898885017
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d5eb2010bf3d4a37bac984a27ab19638
+run_name: popular-crow-869
+run_uuid: d5eb2010bf3d4a37bac984a27ab19638
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712898881031
+status: 4
+tags: []
+user_id: pglad

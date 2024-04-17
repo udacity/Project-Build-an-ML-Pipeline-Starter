@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c422d89a997a409fb6a543ee97753dec/artifacts
+end_time: 1713147602923
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c422d89a997a409fb6a543ee97753dec
+run_name: upbeat-worm-157
+run_uuid: c422d89a997a409fb6a543ee97753dec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713147555485
+status: 4
+tags: []
+user_id: pglad

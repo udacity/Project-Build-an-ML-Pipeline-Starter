@@ -1,0 +1,28 @@
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f37c0378c70>> (for post_run_cell), with arguments args (<ExecutionResult object at 7f37c0378b20, execution_count=2 error_before_exec=None error_in_exec=None info=<ExecutionInfo object at 7f37c0378d90, raw_cell="import wandb
+import pandas as pd
+# Note that we us.." store_history=True silent=False shell_futures=True cell_id=54c8349a-0e39-4f51-951c-86cf1ee3e1c9> result=None>,),kwargs {}:
+Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f37c0378c70>> (for pre_run_cell), with arguments args (<ExecutionInfo object at 7f37c341f370, raw_cell="df.info()" store_history=True silent=False shell_futures=True cell_id=ffdb6b0c-6a33-41e4-819b-59e26509b4b1>,),kwargs {}:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20000 entries, 0 to 19999
+Data columns (total 16 columns):
+ #   Column                          Non-Null Count  Dtype
+---  ------                          --------------  -----
+ 0   id                              20000 non-null  int64
+ 1   name                            19993 non-null  object
+ 2   host_id                         20000 non-null  int64
+ 3   host_name                       19992 non-null  object
+ 4   neighbourhood_group             20000 non-null  object
+ 5   neighbourhood                   20000 non-null  object
+ 6   latitude                        20000 non-null  float64
+ 7   longitude                       20000 non-null  float64
+ 8   room_type                       20000 non-null  object
+ 9   price                           20000 non-null  int64
+ 10  minimum_nights                  20000 non-null  int64
+ 11  number_of_reviews               20000 non-null  int64
+ 12  last_review                     15877 non-null  object
+ 13  reviews_per_month               15877 non-null  float64
+ 14  calculated_host_listings_count  20000 non-null  int64
+ 15  availability_365                20000 non-null  int64
+dtypes: float64(3), int64(7), object(6)
+memory usage: 2.4+ MB
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f37c0378c70>> (for post_run_cell), with arguments args (<ExecutionResult object at 7f378ae278b0, execution_count=3 error_before_exec=None error_in_exec=None info=<ExecutionInfo object at 7f37c341f370, raw_cell="df.info()" store_history=True silent=False shell_futures=True cell_id=ffdb6b0c-6a33-41e4-819b-59e26509b4b1> result=None>,),kwargs {}:

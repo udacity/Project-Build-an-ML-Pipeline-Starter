@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/dd23410e9b8449b7a41ecff9a024539e/artifacts
+end_time: 1713078997584
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dd23410e9b8449b7a41ecff9a024539e
+run_name: rogue-eel-107
+run_uuid: dd23410e9b8449b7a41ecff9a024539e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713078972926
+status: 3
+tags: []
+user_id: pglad

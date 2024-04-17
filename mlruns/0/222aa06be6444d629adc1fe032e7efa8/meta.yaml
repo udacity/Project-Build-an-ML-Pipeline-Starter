@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/222aa06be6444d629adc1fe032e7efa8/artifacts
+end_time: 1713078997321
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 222aa06be6444d629adc1fe032e7efa8
+run_name: able-snipe-689
+run_uuid: 222aa06be6444d629adc1fe032e7efa8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713078979585
+status: 3
+tags: []
+user_id: pglad

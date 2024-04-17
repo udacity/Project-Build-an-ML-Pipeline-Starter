@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5d9d42db90804310a5b762cb2424d911/artifacts
+end_time: 1712896478218
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5d9d42db90804310a5b762cb2424d911
+run_name: whimsical-fish-894
+run_uuid: 5d9d42db90804310a5b762cb2424d911
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712896476621
+status: 4
+tags: []
+user_id: pglad

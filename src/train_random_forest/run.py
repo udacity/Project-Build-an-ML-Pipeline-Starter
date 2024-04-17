@@ -34,7 +34,7 @@ def delta_date_feature(dates):
     return date_sanitized.apply(lambda d: (d.max() -d).dt.days, axis=0).to_numpy()
 
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
+#logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
 logger = logging.getLogger()
 
 
@@ -100,6 +100,7 @@ def go(args):
     signature = mlflow.models.infer_signature(X_val, y_pred)
     mlflow.sklearn.save_model(
         # YOUR CODE HERE
+        sk_pipe,
         path = 'random_forest',
         signature = signature,
         input_example = X_train.iloc[:5]

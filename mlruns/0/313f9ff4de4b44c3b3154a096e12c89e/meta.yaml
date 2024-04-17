@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/313f9ff4de4b44c3b3154a096e12c89e/artifacts
+end_time: 1713146917464
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 313f9ff4de4b44c3b3154a096e12c89e
+run_name: puzzled-pig-593
+run_uuid: 313f9ff4de4b44c3b3154a096e12c89e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713146916188
+status: 4
+tags: []
+user_id: pglad

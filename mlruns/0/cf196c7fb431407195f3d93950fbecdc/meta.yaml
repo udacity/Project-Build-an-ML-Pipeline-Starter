@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/cf196c7fb431407195f3d93950fbecdc/artifacts
+end_time: 1713078471290
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cf196c7fb431407195f3d93950fbecdc
+run_name: upset-rat-273
+run_uuid: cf196c7fb431407195f3d93950fbecdc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713078451607
+status: 3
+tags: []
+user_id: pglad

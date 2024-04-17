@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0ccb4570dbea416b953bbf854932c0db/artifacts
+end_time: 1713143905460
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0ccb4570dbea416b953bbf854932c0db
+run_name: worried-wolf-313
+run_uuid: 0ccb4570dbea416b953bbf854932c0db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713143901333
+status: 4
+tags: []
+user_id: pglad

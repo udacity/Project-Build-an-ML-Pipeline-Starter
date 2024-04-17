@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/83f1aad4cf2341b3aebbe55e7b2118df/artifacts
+end_time: 1713079986232
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 83f1aad4cf2341b3aebbe55e7b2118df
+run_name: thundering-vole-502
+run_uuid: 83f1aad4cf2341b3aebbe55e7b2118df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713079982213
+status: 4
+tags: []
+user_id: pglad

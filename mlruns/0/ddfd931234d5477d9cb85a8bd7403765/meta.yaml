@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ddfd931234d5477d9cb85a8bd7403765/artifacts
+end_time: 1713145986518
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ddfd931234d5477d9cb85a8bd7403765
+run_name: capricious-cod-378
+run_uuid: ddfd931234d5477d9cb85a8bd7403765
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713145985272
+status: 4
+tags: []
+user_id: pglad

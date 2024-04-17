@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/993f085523c646f381be58450da8a4be/artifacts
+end_time: 1713144181032
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 993f085523c646f381be58450da8a4be
+run_name: classy-dove-868
+run_uuid: 993f085523c646f381be58450da8a4be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713144175688
+status: 4
+tags: []
+user_id: pglad

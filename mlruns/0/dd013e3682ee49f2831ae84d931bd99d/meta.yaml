@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/dd013e3682ee49f2831ae84d931bd99d/artifacts
+end_time: 1713079341639
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dd013e3682ee49f2831ae84d931bd99d
+run_name: debonair-stork-27
+run_uuid: dd013e3682ee49f2831ae84d931bd99d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713079338397
+status: 4
+tags: []
+user_id: pglad

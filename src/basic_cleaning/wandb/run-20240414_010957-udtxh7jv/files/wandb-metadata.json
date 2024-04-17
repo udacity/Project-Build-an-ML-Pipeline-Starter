@@ -1,0 +1,118 @@
+{
+    "os": "Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-04-14T07:09:58.775660",
+    "startedAt": "2024-04-14T07:09:57.045170",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "sample.csv:latest",
+        "--output_artifact",
+        "clean_sample.csv",
+        "--output_type",
+        "clean_sample",
+        "--output_description",
+        "Data with outliers and null values removed",
+        "--min_price",
+        "10",
+        "--max_price",
+        "350"
+    ],
+    "state": "running",
+    "program": "/home/pglad/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/run.py",
+    "codePath": "src/basic_cleaning/run.py",
+    "git": {
+        "remote": "https://github.com/pglad5/Project-Build-an-ML-Pipeline-Starter.git",
+        "commit": "549cd64cea55ca313a3083519d16d55dbbc31203"
+    },
+    "email": "pglad5@wgu.edu",
+    "root": "/home/pglad/Project-Build-an-ML-Pipeline-Starter",
+    "host": "DESKTOP-C2TKMV0",
+    "username": "pglad",
+    "executable": "/home/pglad/miniconda3/envs/mlflow-19707c3818ce7e70ccc2f8b703046ae5d9c85174/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2592.0080000000003,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2592.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.008,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 1006.853931427002,
+        "used": 18.860340118408203
+    },
+    "gpu": "Quadro P2000",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Quadro P2000",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 7.630119323730469
+    }
+}

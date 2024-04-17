@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e9c9b5fc8d9d4d30843cda79d9391207/artifacts
+end_time: 1713145087314
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e9c9b5fc8d9d4d30843cda79d9391207
+run_name: caring-eel-171
+run_uuid: e9c9b5fc8d9d4d30843cda79d9391207
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713145083101
+status: 4
+tags: []
+user_id: pglad

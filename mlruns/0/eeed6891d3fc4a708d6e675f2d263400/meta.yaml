@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/eeed6891d3fc4a708d6e675f2d263400/artifacts
+end_time: 1713079178217
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eeed6891d3fc4a708d6e675f2d263400
+run_name: abundant-fowl-867
+run_uuid: eeed6891d3fc4a708d6e675f2d263400
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713079150109
+status: 3
+tags: []
+user_id: pglad

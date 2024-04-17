@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/08b1e6d7537d43b79909062ad3f503f0/artifacts
+end_time: 1713143656536
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 08b1e6d7537d43b79909062ad3f503f0
+run_name: grandiose-vole-111
+run_uuid: 08b1e6d7537d43b79909062ad3f503f0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713143652894
+status: 4
+tags: []
+user_id: pglad

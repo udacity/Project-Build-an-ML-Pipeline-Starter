@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2a676fa058dc4b0893d090558ddc21cc/artifacts
+end_time: 1712893898770
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2a676fa058dc4b0893d090558ddc21cc
+run_name: welcoming-colt-270
+run_uuid: 2a676fa058dc4b0893d090558ddc21cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712893897682
+status: 4
+tags: []
+user_id: pglad

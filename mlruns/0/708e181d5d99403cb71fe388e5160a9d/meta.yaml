@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/708e181d5d99403cb71fe388e5160a9d/artifacts
+end_time: 1713078613032
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 708e181d5d99403cb71fe388e5160a9d
+run_name: defiant-wren-967
+run_uuid: 708e181d5d99403cb71fe388e5160a9d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713078588663
+status: 3
+tags: []
+user_id: pglad

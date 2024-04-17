@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/3fea47927eb749d69302a5af0ba5fd34/artifacts
+end_time: 1713143656238
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3fea47927eb749d69302a5af0ba5fd34
+run_name: stylish-donkey-670
+run_uuid: 3fea47927eb749d69302a5af0ba5fd34
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713143655151
+status: 4
+tags: []
+user_id: pglad

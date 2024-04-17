@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8ffcf36ded8442cb8f20dc7bb9b68966/artifacts
+end_time: 1712895314652
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8ffcf36ded8442cb8f20dc7bb9b68966
+run_name: salty-bird-469
+run_uuid: 8ffcf36ded8442cb8f20dc7bb9b68966
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712895313041
+status: 4
+tags: []
+user_id: pglad

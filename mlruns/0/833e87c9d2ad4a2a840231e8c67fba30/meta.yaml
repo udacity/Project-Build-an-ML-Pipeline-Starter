@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/833e87c9d2ad4a2a840231e8c67fba30/artifacts
+end_time: 1713146595314
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 833e87c9d2ad4a2a840231e8c67fba30
+run_name: defiant-pug-858
+run_uuid: 833e87c9d2ad4a2a840231e8c67fba30
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713146593988
+status: 4
+tags: []
+user_id: pglad

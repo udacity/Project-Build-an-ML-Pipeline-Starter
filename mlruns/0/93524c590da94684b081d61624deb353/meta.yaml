@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/93524c590da94684b081d61624deb353/artifacts
+end_time: 1712900691212
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 93524c590da94684b081d61624deb353
+run_name: sneaky-shrimp-537
+run_uuid: 93524c590da94684b081d61624deb353
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712900687640
+status: 4
+tags: []
+user_id: pglad

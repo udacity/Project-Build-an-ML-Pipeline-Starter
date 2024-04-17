@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/82e924df2afa467e97212087764e4cb5/artifacts
+end_time: 1713148148936
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 82e924df2afa467e97212087764e4cb5
+run_name: grandiose-cow-555
+run_uuid: 82e924df2afa467e97212087764e4cb5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713148111132
+status: 4
+tags: []
+user_id: pglad

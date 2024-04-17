@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pglad/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e39ad3ef99ac4cce919aa61a8660a319/artifacts
+end_time: 1712893968225
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e39ad3ef99ac4cce919aa61a8660a319
+run_name: thundering-bass-371
+run_uuid: e39ad3ef99ac4cce919aa61a8660a319
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712893964126
+status: 4
+tags: []
+user_id: pglad
