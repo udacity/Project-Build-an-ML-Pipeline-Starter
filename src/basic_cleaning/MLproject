@@ -6,7 +6,7 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: Ininital artifact to be cleaned
+        description: Initial artifact to be cleaned
         type: string
 
       output_artifact:
@@ -22,7 +22,7 @@ entry_points:
         type: string
 
       min_price:
-        description: Minumim house price to be considered
+        description: Minimum house price to be considered
         type: float
 
       max_price:
