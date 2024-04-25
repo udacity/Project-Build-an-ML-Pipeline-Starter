@@ -11,3 +11,4 @@ dependencies:
   - pillow=8.1.2
   - pip:
       - wandb==0.13.9
+      - databricks_cli==0.8.7

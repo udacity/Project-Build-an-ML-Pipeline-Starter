@@ -1,0 +1,31 @@
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.19
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.24.1
+mlflow_version: 2.1.1
+model_uuid: 793272f876f849d7bf7293e994af2e1d
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"name": "id", "type": "long"}, {"name": "name", "type": "string"}, {"name":
+    "host_id", "type": "long"}, {"name": "host_name", "type": "string"}, {"name":
+    "neighbourhood_group", "type": "string"}, {"name": "neighbourhood", "type": "string"},
+    {"name": "latitude", "type": "double"}, {"name": "longitude", "type": "double"},
+    {"name": "room_type", "type": "string"}, {"name": "minimum_nights", "type": "long"},
+    {"name": "number_of_reviews", "type": "long"}, {"name": "last_review", "type":
+    "string"}, {"name": "reviews_per_month", "type": "double"}, {"name": "calculated_host_listings_count",
+    "type": "long"}, {"name": "availability_365", "type": "long"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+utc_time_created: '2024-04-25 11:22:01.679004'
