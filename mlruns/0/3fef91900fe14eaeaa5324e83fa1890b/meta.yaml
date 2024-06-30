@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/3fef91900fe14eaeaa5324e83fa1890b/artifacts
+end_time: 1719778856766
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3fef91900fe14eaeaa5324e83fa1890b
+run_name: incongruous-hare-22
+run_uuid: 3fef91900fe14eaeaa5324e83fa1890b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719778817471
+status: 3
+tags: []
+user_id: rawilwgu

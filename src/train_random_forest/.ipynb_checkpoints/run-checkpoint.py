@@ -114,7 +114,7 @@ def go(args):
     artifact = wandb.Artifact(
         args.output_artifact,
         type = 'model_export',
-        description = 'Trained ranfom forest artifact',
+        description = 'Trained random forest artifact',
         metadata = rf_config
     )
     artifact.add_dir('random_forest_dir')
@@ -235,7 +235,7 @@ def get_inference_pipeline(rf_config, max_tfidf_features):
     sk_pipe = Pipeline(
         steps =[
             ("preprocessor", preprocessor),
-            ("random_forest", random_Forest)
+            ("random_forest", random_forest)
         ]
     )
 

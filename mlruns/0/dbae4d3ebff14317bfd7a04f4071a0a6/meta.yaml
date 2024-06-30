@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/dbae4d3ebff14317bfd7a04f4071a0a6/artifacts
+end_time: 1719778471091
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dbae4d3ebff14317bfd7a04f4071a0a6
+run_name: thoughtful-fox-290
+run_uuid: dbae4d3ebff14317bfd7a04f4071a0a6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719778414542
+status: 4
+tags: []
+user_id: rawilwgu

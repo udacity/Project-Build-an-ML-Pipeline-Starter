@@ -1,0 +1,120 @@
+{
+    "os": "Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-06-30T20:20:20.257947",
+    "startedAt": "2024-06-30T20:20:19.900228",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--trainval_artifact",
+        "trainval_data.csv:latest",
+        "--val_size",
+        "0.2",
+        "--random_seed",
+        "42",
+        "--stratify_by",
+        "neighbourhood_group",
+        "--rf_config",
+        "/home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/multirun/2024-06-30/15-19-49/1/rf_config.json",
+        "--max_tfidf_features",
+        "5",
+        "--output_artifact",
+        "random_forest_export"
+    ],
+    "state": "running",
+    "program": "/home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py",
+    "codePath": "src/train_random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/rawilwgu/Project-Build-an-ML-Pipeline-Starter.git",
+        "commit": "56d5cd19f4030f2c4dcff49417530260d2d9538d"
+    },
+    "email": null,
+    "root": "/home/rawilwgu/Project-Build-an-ML-Pipeline-Starter",
+    "host": "Galadriel",
+    "username": "rawilwgu",
+    "executable": "/home/rawilwgu/miniconda3/envs/mlflow-38d125378780b724e555676b401b3ff88134b4f4/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 4200.004999999999,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 1006.853931427002,
+        "used": 15.123676300048828
+    },
+    "gpu": "NVIDIA GeForce GTX 1660 SUPER",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1660 SUPER",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 7.700336456298828
+    }
+}

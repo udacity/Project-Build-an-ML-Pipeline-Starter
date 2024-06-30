@@ -1,0 +1,28 @@
+2024-06-30 15:20:59,296 INFO    MainThread:73787 [wandb_setup.py:_flush():68] Configure stats pid to 73787
+2024-06-30 15:20:59,296 INFO    MainThread:73787 [wandb_setup.py:_flush():68] Loading settings from /home/rawilwgu/.config/wandb/settings
+2024-06-30 15:20:59,296 INFO    MainThread:73787 [wandb_setup.py:_flush():68] Loading settings from /home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/settings
+2024-06-30 15:20:59,296 INFO    MainThread:73787 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'run_group': 'development', 'project': 'nyc_airbnb', '_require_service': 'True'}
+2024-06-30 15:20:59,296 INFO    MainThread:73787 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'src/train_random_forest/run.py', 'program': '/home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py'}
+2024-06-30 15:20:59,296 INFO    MainThread:73787 [wandb_init.py:_log_setup():478] Logging user logs to /home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240630_152059-fpst7ckw/logs/debug.log
+2024-06-30 15:20:59,296 INFO    MainThread:73787 [wandb_init.py:_log_setup():479] Logging internal logs to /home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240630_152059-fpst7ckw/logs/debug-internal.log
+2024-06-30 15:20:59,296 INFO    MainThread:73787 [wandb_init.py:init():518] calling init triggers
+2024-06-30 15:20:59,296 INFO    MainThread:73787 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2024-06-30 15:20:59,297 INFO    MainThread:73787 [wandb_init.py:init():571] starting backend
+2024-06-30 15:20:59,297 INFO    MainThread:73787 [wandb_init.py:init():575] setting up manager
+2024-06-30 15:20:59,298 INFO    MainThread:73787 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-06-30 15:20:59,299 INFO    MainThread:73787 [wandb_init.py:init():582] backend started and connected
+2024-06-30 15:20:59,300 INFO    MainThread:73787 [wandb_init.py:init():670] updated telemetry
+2024-06-30 15:20:59,305 INFO    MainThread:73787 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2024-06-30 15:20:59,592 INFO    MainThread:73787 [wandb_run.py:_on_init():2121] communicating current version
+2024-06-30 15:20:59,674 INFO    MainThread:73787 [wandb_run.py:_on_init():2125] got version response upgrade_message: "wandb version 0.17.3 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-06-30 15:20:59,674 INFO    MainThread:73787 [wandb_init.py:init():758] starting run threads in backend
+2024-06-30 15:21:00,675 INFO    MainThread:73787 [wandb_run.py:_console_start():2101] atexit reg
+2024-06-30 15:21:00,676 INFO    MainThread:73787 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2024-06-30 15:21:00,676 INFO    MainThread:73787 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2024-06-30 15:21:00,676 INFO    MainThread:73787 [wandb_run.py:_redirect():2046] Redirects installed.
+2024-06-30 15:21:00,677 INFO    MainThread:73787 [wandb_init.py:init():798] run started, returning control to user process
+2024-06-30 15:21:00,678 INFO    MainThread:73787 [wandb_run.py:_config_callback():1249] config_cb None None {'trainval_artifact': 'trainval_data.csv:latest', 'val_size': 0.2, 'random_seed': 42, 'stratify_by': 'neighbourhood_group', 'rf_config': '/home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/multirun/2024-06-30/15-19-49/2/rf_config.json', 'max_tfidf_features': 5, 'output_artifact': 'random_forest_export'}
+2024-06-30 15:21:00,679 INFO    MainThread:73787 [wandb_run.py:_config_callback():1249] config_cb None None {'n_estimators': 100, 'max_depth': 50, 'min_samples_split': 4, 'min_samples_leaf': 3, 'n_jobs': -1, 'criterion': 'mae', 'max_features': 0.5, 'oob_score': True}
+2024-06-30 15:21:26,356 WARNING MsgRouterThr:73787 [router.py:message_loop():77] message_loop has been closed
