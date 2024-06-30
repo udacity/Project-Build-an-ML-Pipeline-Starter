@@ -1,0 +1,46 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20000 entries, 0 to 19999
+Data columns (total 16 columns):
+ #   Column                          Non-Null Count  Dtype
+---  ------                          --------------  -----
+ 0   id                              20000 non-null  int64
+ 1   name                            19993 non-null  object
+ 2   host_id                         20000 non-null  int64
+ 3   host_name                       19992 non-null  object
+ 4   neighbourhood_group             20000 non-null  object
+ 5   neighbourhood                   20000 non-null  object
+ 6   latitude                        20000 non-null  float64
+ 7   longitude                       20000 non-null  float64
+ 8   room_type                       20000 non-null  object
+ 9   price                           20000 non-null  int64
+ 10  minimum_nights                  20000 non-null  int64
+ 11  number_of_reviews               20000 non-null  int64
+ 12  last_review                     15877 non-null  object
+ 13  reviews_per_month               15877 non-null  float64
+ 14  calculated_host_listings_count  20000 non-null  int64
+ 15  availability_365                20000 non-null  int64
+dtypes: float64(3), int64(7), object(6)
+memory usage: 2.4+ MB
+<class 'pandas.core.frame.DataFrame'>
+Index: 19001 entries, 0 to 19999
+Data columns (total 16 columns):
+ #   Column                          Non-Null Count  Dtype
+---  ------                          --------------  -----
+ 0   id                              19001 non-null  int64
+ 1   name                            18994 non-null  object
+ 2   host_id                         19001 non-null  int64
+ 3   host_name                       18993 non-null  object
+ 4   neighbourhood_group             19001 non-null  object
+ 5   neighbourhood                   19001 non-null  object
+ 6   latitude                        19001 non-null  float64
+ 7   longitude                       19001 non-null  float64
+ 8   room_type                       19001 non-null  object
+ 9   price                           19001 non-null  int64
+ 10  minimum_nights                  19001 non-null  int64
+ 11  number_of_reviews               19001 non-null  int64
+ 12  last_review                     15243 non-null  datetime64[ns]
+ 13  reviews_per_month               15243 non-null  float64
+ 14  calculated_host_listings_count  19001 non-null  int64
+ 15  availability_365                19001 non-null  int64
+dtypes: datetime64[ns](1), float64(3), int64(7), object(5)
+memory usage: 2.5+ MB

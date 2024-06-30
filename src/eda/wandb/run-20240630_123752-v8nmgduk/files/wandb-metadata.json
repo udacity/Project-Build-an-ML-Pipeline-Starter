@@ -1,0 +1,107 @@
+{
+    "os": "Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.9.15",
+    "heartbeatAt": "2024-06-30T17:37:52.544011",
+    "startedAt": "2024-06-30T17:37:52.180225",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "src/eda/eda.ipynb",
+    "codePathLocal": null,
+    "root": "/home/rawilwgu/Project-Build-an-ML-Pipeline-Starter",
+    "git": {
+        "remote": "https://github.com/rawilwgu/Project-Build-an-ML-Pipeline-Starter.git",
+        "commit": "885ab0a55a092669f859d96ece3f0a2f8efc3987"
+    },
+    "email": null,
+    "host": "Galadriel",
+    "username": "rawilwgu",
+    "executable": "/home/rawilwgu/miniconda3/envs/nyc_airbnb_dev/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 4200.004999999999,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4200.005,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 7.284271240234375
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1660 SUPER",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1660 SUPER",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 7.700336456298828
+    }
+}
