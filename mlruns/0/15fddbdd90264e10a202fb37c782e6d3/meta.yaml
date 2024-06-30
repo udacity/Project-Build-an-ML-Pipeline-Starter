@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/15fddbdd90264e10a202fb37c782e6d3/artifacts
+end_time: 1719773836787
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 15fddbdd90264e10a202fb37c782e6d3
+run_name: orderly-mouse-696
+run_uuid: 15fddbdd90264e10a202fb37c782e6d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719773806300
+status: 3
+tags: []
+user_id: rawilwgu

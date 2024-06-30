@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e5d9651448e14df1a82da390ed0ee39e/artifacts
+end_time: 1719773836653
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e5d9651448e14df1a82da390ed0ee39e
+run_name: fortunate-calf-123
+run_uuid: e5d9651448e14df1a82da390ed0ee39e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719773807863
+status: 3
+tags: []
+user_id: rawilwgu
