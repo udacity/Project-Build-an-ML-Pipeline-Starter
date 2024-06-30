@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/4630bfd293e64ee8aabf66d7d5729c91/artifacts
+end_time: 1719778121616
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4630bfd293e64ee8aabf66d7d5729c91
+run_name: valuable-ram-935
+run_uuid: 4630bfd293e64ee8aabf66d7d5729c91
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719778120482
+status: 4
+tags: []
+user_id: rawilwgu

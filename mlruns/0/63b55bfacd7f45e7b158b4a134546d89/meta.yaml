@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/63b55bfacd7f45e7b158b4a134546d89/artifacts
+end_time: 1719777926080
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 63b55bfacd7f45e7b158b4a134546d89
+run_name: sneaky-vole-490
+run_uuid: 63b55bfacd7f45e7b158b4a134546d89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719777922816
+status: 4
+tags: []
+user_id: rawilwgu

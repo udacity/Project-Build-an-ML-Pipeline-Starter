@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/588af2cf5d244797807329de96fe5668/artifacts
+end_time: 1719777925885
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 588af2cf5d244797807329de96fe5668
+run_name: zealous-lark-926
+run_uuid: 588af2cf5d244797807329de96fe5668
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719777924721
+status: 4
+tags: []
+user_id: rawilwgu

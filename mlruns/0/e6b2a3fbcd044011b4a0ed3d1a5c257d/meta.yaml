@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e6b2a3fbcd044011b4a0ed3d1a5c257d/artifacts
+end_time: 1719777837799
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e6b2a3fbcd044011b4a0ed3d1a5c257d
+run_name: serious-perch-779
+run_uuid: e6b2a3fbcd044011b4a0ed3d1a5c257d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719777836643
+status: 4
+tags: []
+user_id: rawilwgu

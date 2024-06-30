@@ -7,3 +7,4 @@ dependencies:
   - pandas=1.2.3
   - pip:
       - wandb==0.13.9
+      - databricks_cli==0.18.0

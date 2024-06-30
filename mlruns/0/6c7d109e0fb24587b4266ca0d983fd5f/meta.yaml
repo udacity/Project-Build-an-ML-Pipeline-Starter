@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6c7d109e0fb24587b4266ca0d983fd5f/artifacts
+end_time: 1719777140827
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6c7d109e0fb24587b4266ca0d983fd5f
+run_name: skillful-penguin-30
+run_uuid: 6c7d109e0fb24587b4266ca0d983fd5f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719777139673
+status: 4
+tags: []
+user_id: rawilwgu

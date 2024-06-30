@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d1073dac976a496db1707ed4e1afcc14/artifacts
+end_time: 1719777471228
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d1073dac976a496db1707ed4e1afcc14
+run_name: dashing-lamb-875
+run_uuid: d1073dac976a496db1707ed4e1afcc14
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719777467981
+status: 4
+tags: []
+user_id: rawilwgu

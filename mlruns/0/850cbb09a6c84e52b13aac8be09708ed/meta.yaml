@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/850cbb09a6c84e52b13aac8be09708ed/artifacts
+end_time: 1719776472367
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 850cbb09a6c84e52b13aac8be09708ed
+run_name: unique-boar-787
+run_uuid: 850cbb09a6c84e52b13aac8be09708ed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719776373988
+status: 4
+tags: []
+user_id: rawilwgu
