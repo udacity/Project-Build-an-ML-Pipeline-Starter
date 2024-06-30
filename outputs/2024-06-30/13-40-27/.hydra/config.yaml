@@ -1,0 +1,26 @@
+main:
+  components_repository: https://github.com/udacity/build-ml-pipeline-for-short-term-rental-prices#components
+  project_name: nyc_airbnb
+  experiment_name: development
+  steps: basic_cleaning
+etl:
+  sample: sample1.csv
+  min_price: 10
+  max_price: 350
+data_check:
+  kl_threshold: 0.2
+modeling:
+  test_size: 0.2
+  val_size: 0.2
+  random_seed: 42
+  stratify_by: neighbourhood_group
+  max_tfidf_features: 5
+  random_forest:
+    n_estimators: 100
+    max_depth: 15
+    min_samples_split: 4
+    min_samples_leaf: 3
+    n_jobs: -1
+    criterion: mae
+    max_features: 0.5
+    oob_score: true
