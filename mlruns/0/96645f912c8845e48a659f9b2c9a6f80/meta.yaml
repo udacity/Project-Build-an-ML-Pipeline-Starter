@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/96645f912c8845e48a659f9b2c9a6f80/artifacts
+end_time: 1721165129277
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 96645f912c8845e48a659f9b2c9a6f80
+run_name: loud-robin-396
+run_uuid: 96645f912c8845e48a659f9b2c9a6f80
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721165124457
+status: 4
+tags: []
+user_id: sloya7

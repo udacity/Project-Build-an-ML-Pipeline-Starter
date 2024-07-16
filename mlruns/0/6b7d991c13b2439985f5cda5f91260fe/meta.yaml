@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6b7d991c13b2439985f5cda5f91260fe/artifacts
+end_time: 1721168377051
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6b7d991c13b2439985f5cda5f91260fe
+run_name: victorious-cow-496
+run_uuid: 6b7d991c13b2439985f5cda5f91260fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721168365700
+status: 3
+tags: []
+user_id: sloya7

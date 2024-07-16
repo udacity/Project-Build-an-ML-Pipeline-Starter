@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1ec7ebf314a34afc9e8e7d559ad0b2fc/artifacts
+end_time: 1721168009089
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1ec7ebf314a34afc9e8e7d559ad0b2fc
+run_name: gifted-asp-784
+run_uuid: 1ec7ebf314a34afc9e8e7d559ad0b2fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721168006879
+status: 4
+tags: []
+user_id: sloya7

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0bbfca96627d4516bbfa81b90999a420/artifacts
+end_time: 1721168377221
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0bbfca96627d4516bbfa81b90999a420
+run_name: smiling-gnat-70
+run_uuid: 0bbfca96627d4516bbfa81b90999a420
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721168363662
+status: 3
+tags: []
+user_id: sloya7
