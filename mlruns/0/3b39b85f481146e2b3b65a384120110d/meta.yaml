@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/3b39b85f481146e2b3b65a384120110d/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3b39b85f481146e2b3b65a384120110d
+run_name: efficient-wren-52
+run_uuid: 3b39b85f481146e2b3b65a384120110d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721146520243
+status: 1
+tags: []
+user_id: sloya7

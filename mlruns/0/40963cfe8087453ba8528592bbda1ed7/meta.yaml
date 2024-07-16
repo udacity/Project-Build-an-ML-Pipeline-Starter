@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/40963cfe8087453ba8528592bbda1ed7/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 40963cfe8087453ba8528592bbda1ed7
+run_name: unique-worm-390
+run_uuid: 40963cfe8087453ba8528592bbda1ed7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721147563454
+status: 1
+tags: []
+user_id: sloya7

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/923959351ca14037a4e447a4f54d069a/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 923959351ca14037a4e447a4f54d069a
+run_name: gaudy-vole-77
+run_uuid: 923959351ca14037a4e447a4f54d069a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721148131586
+status: 1
+tags: []
+user_id: sloya7
