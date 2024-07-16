@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/264a645e5d0a40be8be55454e6f7a2ad/artifacts
+end_time: 1721163003531
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 264a645e5d0a40be8be55454e6f7a2ad
+run_name: adventurous-wolf-733
+run_uuid: 264a645e5d0a40be8be55454e6f7a2ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721162943457
+status: 3
+tags: []
+user_id: sloya7

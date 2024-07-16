@@ -1,0 +1,113 @@
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f23ac4a6f40>> (for post_run_cell), with arguments args (<ExecutionResult object at 7f23ac508be0, execution_count=2 error_before_exec=None error_in_exec=None info=<ExecutionInfo object at 7f23ac508370, raw_cell="import wandb
+import pandas as pd
+# Note that we us.." store_history=True silent=False shell_futures=True cell_id=9a61c376-cb52-4c20-8876-d3f797a0c3ee> result=None>,),kwargs {}:
+Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f23ac4a6f40>> (for pre_run_cell), with arguments args (<ExecutionInfo object at 7f23744bbd60, raw_cell="df.info()" store_history=True silent=False shell_futures=True cell_id=1df2e3e7-ed56-4b22-8de7-e91212cca786>,),kwargs {}:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20000 entries, 0 to 19999
+Data columns (total 16 columns):
+ #   Column                          Non-Null Count  Dtype
+---  ------                          --------------  -----
+ 0   id                              20000 non-null  int64
+ 1   name                            19993 non-null  object
+ 2   host_id                         20000 non-null  int64
+ 3   host_name                       19992 non-null  object
+ 4   neighbourhood_group             20000 non-null  object
+ 5   neighbourhood                   20000 non-null  object
+ 6   latitude                        20000 non-null  float64
+ 7   longitude                       20000 non-null  float64
+ 8   room_type                       20000 non-null  object
+ 9   price                           20000 non-null  int64
+ 10  minimum_nights                  20000 non-null  int64
+ 11  number_of_reviews               20000 non-null  int64
+ 12  last_review                     15877 non-null  object
+ 13  reviews_per_month               15877 non-null  float64
+ 14  calculated_host_listings_count  20000 non-null  int64
+ 15  availability_365                20000 non-null  int64
+dtypes: float64(3), int64(7), object(6)
+memory usage: 2.4+ MB
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f23ac4a6f40>> (for post_run_cell), with arguments args (<ExecutionResult object at 7f23744bbd30, execution_count=3 error_before_exec=None error_in_exec=None info=<ExecutionInfo object at 7f23744bbd60, raw_cell="df.info()" store_history=True silent=False shell_futures=True cell_id=1df2e3e7-ed56-4b22-8de7-e91212cca786> result=None>,),kwargs {}:
+Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f23ac4a6f40>> (for pre_run_cell), with arguments args (<ExecutionInfo object at 7f23ac510070, raw_cell="df.describe()" store_history=True silent=False shell_futures=True cell_id=610ce68a-fd23-43bd-8154-63761889caf1>,),kwargs {}:
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f23ac4a6f40>> (for post_run_cell), with arguments args (<ExecutionResult object at 7f23ac510430, execution_count=4 error_before_exec=None error_in_exec=None info=<ExecutionInfo object at 7f23ac510070, raw_cell="df.describe()" store_history=True silent=False shell_futures=True cell_id=610ce68a-fd23-43bd-8154-63761889caf1> result=                 id       host_id      latitude     longitude         price  \
+count  2.000000e+04  2.000000e+04  20000.000000  20000.000000  20000.000000
+mean   1.892380e+07  6.746034e+07     40.728455    -73.952125    153.269050
+std    1.101223e+07  7.857936e+07      0.054755      0.046559    243.325609
+min    2.539000e+03  2.571000e+03     40.508730    -74.239140      0.000000
+25%    9.393540e+06  7.853718e+06     40.689420    -73.983030     69.000000
+50%    1.952117e+07  3.111431e+07     40.722730    -73.955640    105.000000
+75%    2.912936e+07  1.068426e+08     40.762990    -73.936380    175.000000
+max    3.648561e+07  2.742733e+08     40.913060    -73.717950  10000.000000
+       minimum_nights  number_of_reviews  reviews_per_month  \
+count    20000.000000       20000.000000       15877.000000
+mean         6.992100          23.274100           1.377446
+std         21.645449          44.927793           1.683006
+min          1.000000           0.000000           0.010000
+25%          1.000000           1.000000           0.190000
+50%          2.000000           5.000000           0.720000
+75%          5.000000          23.000000           2.010000
+max       1250.000000         607.000000          27.950000
+       calculated_host_listings_count  availability_365
+count                    20000.000000      20000.000000
+mean                         6.955450        112.901200
+std                         32.433831        131.762226
+min                          1.000000          0.000000
+25%                          1.000000          0.000000
+50%                          1.000000         44.000000
+75%                          2.000000        229.000000
+max                        327.000000        365.000000  >,),kwargs {}:
+Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f23ac4a6f40>> (for pre_run_cell), with arguments args (<ExecutionInfo object at 7f23744bbee0, raw_cell="df.head()" store_history=True silent=False shell_futures=True cell_id=f574657c-eca1-4ad2-8c45-1ae638dba998>,),kwargs {}:
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f23ac4a6f40>> (for post_run_cell), with arguments args (<ExecutionResult object at 7f23744bb430, execution_count=5 error_before_exec=None error_in_exec=None info=<ExecutionInfo object at 7f23744bbee0, raw_cell="df.head()" store_history=True silent=False shell_futures=True cell_id=f574657c-eca1-4ad2-8c45-1ae638dba998> result=         id                                               name    host_id  \
+0   9138664                Private Lg Room 15 min to Manhattan   47594947
+1  31444015  TIME SQUARE CHARMING ONE BED IN HELL'S KITCHEN...    8523790
+2   8741020  Voted #1 Location Quintessential 1BR W Village...   45854238
+3  34602077  Spacious 1 bedroom apartment 15min from Manhattan  261055465
+4  23203149   Big beautiful bedroom in huge Bushwick apartment     143460
+  host_name neighbourhood_group   neighbourhood  latitude  longitude  \
+0      Iris              Queens       Sunnyside  40.74271  -73.92493
+1    Johlex           Manhattan  Hell's Kitchen  40.76682  -73.98878
+2      John           Manhattan    West Village  40.73631  -74.00611
+3     Regan              Queens         Astoria  40.76424  -73.92351
+4     Megan            Brooklyn        Bushwick  40.69839  -73.92044
+         room_type  price  minimum_nights  number_of_reviews last_review  \
+0     Private room     74               2                  6  2019-05-26
+1  Entire home/apt    170               3                  0         NaN
+2  Entire home/apt    245               3                 51  2018-09-19
+3  Entire home/apt    125               3                  1  2019-05-24
+4     Private room     65               2                  8  2019-06-23
+   reviews_per_month  calculated_host_listings_count  availability_365
+0               0.13                               1                 5
+1                NaN                               1               188
+2               1.12                               1                 0
+3               0.65                               1                13
+4               0.52                               2                 8  >,),kwargs {}:
+Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f23ac4a6f40>> (for pre_run_cell), with arguments args (<ExecutionInfo object at 7f23744bbc10, raw_cell="# Drop outliers
+min_price = 10
+max_price = 350
+idx.." store_history=True silent=False shell_futures=True cell_id=fd143d6c-588c-4cec-b1cb-3e8864d893bf>,),kwargs {}:
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f23ac4a6f40>> (for post_run_cell), with arguments args (<ExecutionResult object at 7f23744bbd60, execution_count=6 error_before_exec=None error_in_exec=None info=<ExecutionInfo object at 7f23744bbc10, raw_cell="# Drop outliers
+min_price = 10
+max_price = 350
+idx.." store_history=True silent=False shell_futures=True cell_id=fd143d6c-588c-4cec-b1cb-3e8864d893bf> result=None>,),kwargs {}:
+Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f23ac4a6f40>> (for pre_run_cell), with arguments args (<ExecutionInfo object at 7f23744bc880, raw_cell="df.info()" store_history=True silent=False shell_futures=True cell_id=3a9a310f-75e5-4d37-84a9-da90d8730ede>,),kwargs {}:
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 19001 entries, 0 to 19999
+Data columns (total 16 columns):
+ #   Column                          Non-Null Count  Dtype
+---  ------                          --------------  -----
+ 0   id                              19001 non-null  int64
+ 1   name                            18994 non-null  object
+ 2   host_id                         19001 non-null  int64
+ 3   host_name                       18993 non-null  object
+ 4   neighbourhood_group             19001 non-null  object
+ 5   neighbourhood                   19001 non-null  object
+ 6   latitude                        19001 non-null  float64
+ 7   longitude                       19001 non-null  float64
+ 8   room_type                       19001 non-null  object
+ 9   price                           19001 non-null  int64
+ 10  minimum_nights                  19001 non-null  int64
+ 11  number_of_reviews               19001 non-null  int64
+ 12  last_review                     15243 non-null  datetime64[ns]
+ 13  reviews_per_month               15243 non-null  float64
+ 14  calculated_host_listings_count  19001 non-null  int64
+ 15  availability_365                19001 non-null  int64
+dtypes: datetime64[ns](1), float64(3), int64(7), object(5)
+memory usage: 2.5+ MB

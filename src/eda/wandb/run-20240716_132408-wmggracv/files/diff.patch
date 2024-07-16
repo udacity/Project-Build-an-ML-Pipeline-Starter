@@ -1,0 +1,530 @@
+diff --git a/src/eda/eda.ipynb b/src/eda/eda.ipynb
+index 06abc38..af2ba04 100644
+--- a/src/eda/eda.ipynb
++++ b/src/eda/eda.ipynb
+@@ -2,8 +2,8 @@
+  "cells": [
+   {
+    "cell_type": "code",
+-   "execution_count": 6,
+-   "id": "1f72a955",
++   "execution_count": 4,
++   "id": "bc6cce4b",
+    "metadata": {
+     "scrolled": true,
+     "tags": []
+@@ -13,84 +13,121 @@
+      "name": "stdout",
+      "output_type": "stream",
+      "text": [
+-      "Requirement already satisfied: wandb==0.13.9 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (0.13.9)\n",
+-      "Requirement already satisfied: setproctitle in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (1.3.2)\n",
+-      "Requirement already satisfied: protobuf!=4.21.0,<5,>=3.19.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (4.21.12)\n",
+-      "Requirement already satisfied: docker-pycreds>=0.4.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (0.4.0)\n",
+-      "Requirement already satisfied: setuptools in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (59.8.0)\n",
+-      "Requirement already satisfied: pathtools in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (0.1.2)\n",
+-      "Requirement already satisfied: Click!=8.0.0,>=7.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (8.1.3)\n",
+-      "Requirement already satisfied: GitPython>=1.0.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (3.1.31)\n",
+-      "Requirement already satisfied: appdirs>=1.4.3 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (1.4.4)\n",
+-      "Requirement already satisfied: requests<3,>=2.0.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (2.28.2)\n",
+-      "Requirement already satisfied: typing-extensions in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (4.5.0)\n",
+-      "Requirement already satisfied: PyYAML in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (6.0)\n",
+-      "Requirement already satisfied: sentry-sdk>=1.0.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (1.19.1)\n",
+-      "Requirement already satisfied: psutil>=5.0.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (5.9.4)\n",
+-      "Requirement already satisfied: six>=1.4.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from docker-pycreds>=0.4.0->wandb==0.13.9) (1.16.0)\n",
+-      "Requirement already satisfied: gitdb<5,>=4.0.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from GitPython>=1.0.0->wandb==0.13.9) (4.0.10)\n",
+-      "Requirement already satisfied: smmap<6,>=3.0.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from gitdb<5,>=4.0.1->GitPython>=1.0.0->wandb==0.13.9) (3.0.5)\n",
+-      "Requirement already satisfied: idna<4,>=2.5 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<3,>=2.0.0->wandb==0.13.9) (3.4)\n",
+-      "Requirement already satisfied: urllib3<1.27,>=1.21.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<3,>=2.0.0->wandb==0.13.9) (1.26.15)\n",
+-      "Requirement already satisfied: charset-normalizer<4,>=2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<3,>=2.0.0->wandb==0.13.9) (3.1.0)\n",
+-      "Requirement already satisfied: certifi>=2017.4.17 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<3,>=2.0.0->wandb==0.13.9) (2022.12.7)\n",
+-      "Requirement already satisfied: pandas-profiling==3.6.2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (3.6.2)\n",
+-      "Requirement already satisfied: multimethod<1.10,>=1.4 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (1.9.1)\n",
+-      "Requirement already satisfied: jinja2<3.2,>=2.11.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (2.11.3)\n",
+-      "Requirement already satisfied: matplotlib<3.7,>=3.2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (3.6.2)\n",
+-      "Requirement already satisfied: scipy<1.10,>=1.4.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (1.9.3)\n",
+-      "Requirement already satisfied: htmlmin==0.1.12 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (0.1.12)\n",
+-      "Requirement already satisfied: requests<2.29,>=2.24.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (2.28.2)\n",
+-      "Requirement already satisfied: numpy<1.24,>=1.16.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (1.23.5)\n",
+-      "Requirement already satisfied: seaborn<0.13,>=0.10.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (0.11.1)\n",
+-      "Requirement already satisfied: statsmodels<0.14,>=0.13.2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (0.13.5)\n",
+-      "Requirement already satisfied: pydantic<1.11,>=1.8.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (1.10.7)\n",
+-      "Requirement already satisfied: pandas!=1.4.0,<1.6,>1.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (1.2.3)\n",
+-      "Requirement already satisfied: phik<0.13,>=0.11.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (0.12.3)\n",
+-      "Requirement already satisfied: typeguard<2.14,>=2.13.2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (2.13.3)\n",
+-      "Requirement already satisfied: PyYAML<6.1,>=5.0.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (6.0)\n",
+-      "Requirement already satisfied: visions[type_image_path]==0.7.5 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (0.7.5)\n",
+-      "Requirement already satisfied: tqdm<4.65,>=4.48.2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (4.64.1)\n",
+-      "Requirement already satisfied: attrs>=19.3.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (22.2.0)\n",
+-      "Requirement already satisfied: networkx>=2.4 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (3.1)\n",
+-      "Requirement already satisfied: tangled-up-in-unicode>=0.0.4 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (0.2.0)\n",
+-      "Requirement already satisfied: Pillow in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (9.5.0)\n",
+-      "Requirement already satisfied: imagehash in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (4.3.1)\n",
+-      "Requirement already satisfied: MarkupSafe>=0.23 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from jinja2<3.2,>=2.11.1->pandas-profiling==3.6.2) (1.1.1)\n",
+-      "Requirement already satisfied: pyparsing>=2.2.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (3.0.9)\n",
+-      "Requirement already satisfied: python-dateutil>=2.7 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (2.8.2)\n",
+-      "Requirement already satisfied: contourpy>=1.0.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (1.0.7)\n",
+-      "Requirement already satisfied: packaging>=20.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (22.0)\n",
+-      "Requirement already satisfied: kiwisolver>=1.0.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (1.4.4)\n",
+-      "Requirement already satisfied: fonttools>=4.22.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (4.39.3)\n",
+-      "Requirement already satisfied: cycler>=0.10 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (0.11.0)\n",
+-      "Requirement already satisfied: pytz>=2017.3 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas!=1.4.0,<1.6,>1.1->pandas-profiling==3.6.2) (2022.7.1)\n",
+-      "Requirement already satisfied: joblib>=0.14.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from phik<0.13,>=0.11.1->pandas-profiling==3.6.2) (1.2.0)\n",
+-      "Requirement already satisfied: typing-extensions>=4.2.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pydantic<1.11,>=1.8.1->pandas-profiling==3.6.2) (4.5.0)\n",
+-      "Requirement already satisfied: six>=1.5 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from python-dateutil>=2.7->matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (1.16.0)\n",
+-      "Requirement already satisfied: certifi>=2017.4.17 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<2.29,>=2.24.0->pandas-profiling==3.6.2) (2022.12.7)\n",
+-      "Requirement already satisfied: urllib3<1.27,>=1.21.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<2.29,>=2.24.0->pandas-profiling==3.6.2) (1.26.15)\n",
+-      "Requirement already satisfied: charset-normalizer<4,>=2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<2.29,>=2.24.0->pandas-profiling==3.6.2) (3.1.0)\n",
+-      "Requirement already satisfied: idna<4,>=2.5 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<2.29,>=2.24.0->pandas-profiling==3.6.2) (3.4)\n",
+-      "Requirement already satisfied: patsy>=0.5.2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from statsmodels<0.14,>=0.13.2->pandas-profiling==3.6.2) (0.5.3)\n",
+-      "Requirement already satisfied: PyWavelets in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from imagehash->visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (1.4.1)\n",
+-      "Requirement already satisfied: pandas==1.2.3 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (1.2.3)\n",
+-      "Requirement already satisfied: python-dateutil>=2.7.3 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas==1.2.3) (2.8.2)\n",
+-      "Requirement already satisfied: pytz>=2017.3 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas==1.2.3) (2022.7.1)\n",
+-      "Requirement already satisfied: numpy>=1.16.5 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas==1.2.3) (1.23.5)\n",
+-      "Requirement already satisfied: six>=1.5 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from python-dateutil>=2.7.3->pandas==1.2.3) (1.16.0)\n"
++      "Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f859c3e4220>> (for pre_run_cell), with arguments args (<ExecutionInfo object at 7f856d29d190, raw_cell=\"!pip install wandb==0.17.4\n",
++      "!pip install pandas-pro..\" store_history=True silent=False shell_futures=True cell_id=2f6f1612-5fcc-4242-a30d-35f43096b5c8>,),kwargs {}:\n"
++     ]
++    },
++    {
++     "ename": "TypeError",
++     "evalue": "_resume_backend() takes 1 positional argument but 2 were given",
++     "output_type": "error",
++     "traceback": [
++      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
++      "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
++      "\u001b[0;31mTypeError\u001b[0m: _resume_backend() takes 1 positional argument but 2 were given"
++     ]
++    },
++    {
++     "name": "stdout",
++     "output_type": "stream",
++     "text": [
++      "Collecting wandb==0.17.4\n",
++      "  Downloading wandb-0.17.4-py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (6.9 MB)\n",
++      "\u001b[K     |████████████████████████████████| 6.9 MB 1.9 MB/s eta 0:00:01\n",
++      "\u001b[?25hRequirement already satisfied: protobuf!=4.21.0,<6,>=3.15.0 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from wandb==0.17.4) (4.21.12)\n",
++      "Requirement already satisfied: setuptools in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from wandb==0.17.4) (59.8.0)\n",
++      "Requirement already satisfied: pyyaml in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from wandb==0.17.4) (6.0.1)\n",
++      "Requirement already satisfied: platformdirs in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from wandb==0.17.4) (4.2.2)\n",
++      "Requirement already satisfied: psutil>=5.0.0 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from wandb==0.17.4) (6.0.0)\n",
++      "Requirement already satisfied: docker-pycreds>=0.4.0 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from wandb==0.17.4) (0.4.0)\n",
++      "Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from wandb==0.17.4) (3.1.43)\n",
++      "Requirement already satisfied: sentry-sdk>=1.0.0 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from wandb==0.17.4) (2.10.0)\n",
++      "Requirement already satisfied: typing-extensions in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from wandb==0.17.4) (4.12.2)\n",
++      "Requirement already satisfied: click!=8.0.0,>=7.1 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from wandb==0.17.4) (8.1.7)\n",
++      "Requirement already satisfied: setproctitle in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from wandb==0.17.4) (1.3.3)\n",
++      "Requirement already satisfied: requests<3,>=2.0.0 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from wandb==0.17.4) (2.28.2)\n",
++      "Requirement already satisfied: six>=1.4.0 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from docker-pycreds>=0.4.0->wandb==0.17.4) (1.16.0)\n",
++      "Requirement already satisfied: gitdb<5,>=4.0.1 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from gitpython!=3.1.29,>=1.0.0->wandb==0.17.4) (4.0.11)\n",
++      "Requirement already satisfied: smmap<6,>=3.0.1 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb==0.17.4) (5.0.0)\n",
++      "Requirement already satisfied: urllib3<1.27,>=1.21.1 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from requests<3,>=2.0.0->wandb==0.17.4) (1.26.19)\n",
++      "Requirement already satisfied: idna<4,>=2.5 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from requests<3,>=2.0.0->wandb==0.17.4) (3.7)\n",
++      "Requirement already satisfied: certifi>=2017.4.17 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from requests<3,>=2.0.0->wandb==0.17.4) (2024.7.4)\n",
++      "Requirement already satisfied: charset-normalizer<4,>=2 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from requests<3,>=2.0.0->wandb==0.17.4) (3.3.2)\n",
++      "Installing collected packages: wandb\n",
++      "  Attempting uninstall: wandb\n",
++      "    Found existing installation: wandb 0.13.9\n",
++      "    Uninstalling wandb-0.13.9:\n",
++      "      Successfully uninstalled wandb-0.13.9\n",
++      "Successfully installed wandb-0.17.4\n",
++      "Requirement already satisfied: pandas-profiling==3.6.2 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (3.6.2)\n",
++      "Requirement already satisfied: visions[type_image_path]==0.7.5 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (0.7.5)\n",
++      "Requirement already satisfied: htmlmin==0.1.12 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (0.1.12)\n",
++      "Requirement already satisfied: scipy<1.10,>=1.4.1 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (1.9.3)\n",
++      "Requirement already satisfied: PyYAML<6.1,>=5.0.0 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (6.0.1)\n",
++      "Requirement already satisfied: requests<2.29,>=2.24.0 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (2.28.2)\n",
++      "Requirement already satisfied: tqdm<4.65,>=4.48.2 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (4.64.1)\n",
++      "Requirement already satisfied: matplotlib<3.7,>=3.2 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (3.6.2)\n",
++      "Requirement already satisfied: seaborn<0.13,>=0.10.1 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (0.12.2)\n",
++      "Requirement already satisfied: typeguard<2.14,>=2.13.2 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (2.13.3)\n",
++      "Requirement already satisfied: phik<0.13,>=0.11.1 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (0.12.4)\n",
++      "Requirement already satisfied: jinja2<3.2,>=2.11.1 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (2.11.3)\n",
++      "Requirement already satisfied: pydantic<1.11,>=1.8.1 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (1.10.17)\n",
++      "Requirement already satisfied: multimethod<1.10,>=1.4 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (1.9.1)\n",
++      "Requirement already satisfied: numpy<1.24,>=1.16.0 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (1.23.5)\n",
++      "Requirement already satisfied: statsmodels<0.14,>=0.13.2 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (0.13.5)\n",
++      "Requirement already satisfied: pandas!=1.4.0,<1.6,>1.1 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (1.2.3)\n",
++      "Requirement already satisfied: attrs>=19.3.0 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (23.2.0)\n",
++      "Requirement already satisfied: networkx>=2.4 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (3.2.1)\n",
++      "Requirement already satisfied: tangled-up-in-unicode>=0.0.4 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (0.2.0)\n",
++      "Requirement already satisfied: Pillow in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (9.4.0)\n",
++      "Requirement already satisfied: imagehash in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (4.3.1)\n",
++      "Requirement already satisfied: MarkupSafe>=0.23 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from jinja2<3.2,>=2.11.1->pandas-profiling==3.6.2) (1.1.1)\n",
++      "Requirement already satisfied: python-dateutil>=2.7 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (2.9.0)\n",
++      "Requirement already satisfied: contourpy>=1.0.1 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (1.2.1)\n",
++      "Requirement already satisfied: pyparsing>=2.2.1 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (3.1.2)\n",
++      "Requirement already satisfied: packaging>=20.0 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (22.0)\n",
++      "Requirement already satisfied: fonttools>=4.22.0 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (4.53.1)\n",
++      "Requirement already satisfied: kiwisolver>=1.0.1 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (1.4.5)\n",
++      "Requirement already satisfied: cycler>=0.10 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (0.12.1)\n",
++      "Requirement already satisfied: pytz>=2017.3 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from pandas!=1.4.0,<1.6,>1.1->pandas-profiling==3.6.2) (2022.7.1)\n",
++      "Requirement already satisfied: joblib>=0.14.1 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from phik<0.13,>=0.11.1->pandas-profiling==3.6.2) (1.4.2)\n",
++      "Requirement already satisfied: typing-extensions>=4.2.0 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from pydantic<1.11,>=1.8.1->pandas-profiling==3.6.2) (4.12.2)\n",
++      "Requirement already satisfied: six>=1.5 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from python-dateutil>=2.7->matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (1.16.0)\n",
++      "Requirement already satisfied: certifi>=2017.4.17 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from requests<2.29,>=2.24.0->pandas-profiling==3.6.2) (2024.7.4)\n",
++      "Requirement already satisfied: charset-normalizer<4,>=2 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from requests<2.29,>=2.24.0->pandas-profiling==3.6.2) (3.3.2)\n",
++      "Requirement already satisfied: idna<4,>=2.5 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from requests<2.29,>=2.24.0->pandas-profiling==3.6.2) (3.7)\n",
++      "Requirement already satisfied: urllib3<1.27,>=1.21.1 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from requests<2.29,>=2.24.0->pandas-profiling==3.6.2) (1.26.19)\n",
++      "Requirement already satisfied: patsy>=0.5.2 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from statsmodels<0.14,>=0.13.2->pandas-profiling==3.6.2) (0.5.6)\n",
++      "Requirement already satisfied: PyWavelets in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from imagehash->visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (1.6.0)\n",
++      "Requirement already satisfied: pandas==1.2.3 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (1.2.3)\n",
++      "Requirement already satisfied: python-dateutil>=2.7.3 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from pandas==1.2.3) (2.9.0)\n",
++      "Requirement already satisfied: pytz>=2017.3 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from pandas==1.2.3) (2022.7.1)\n",
++      "Requirement already satisfied: numpy>=1.16.5 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from pandas==1.2.3) (1.23.5)\n",
++      "Requirement already satisfied: six>=1.5 in /home/sloya7/miniconda3/envs/mlops/lib/python3.9/site-packages (from python-dateutil>=2.7.3->pandas==1.2.3) (1.16.0)\n",
++      "Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f859c3e4220>> (for post_run_cell), with arguments args (<ExecutionResult object at 7f856d29d160, execution_count=4 error_before_exec=None error_in_exec=None info=<ExecutionInfo object at 7f856d29d190, raw_cell=\"!pip install wandb==0.17.4\n",
++      "!pip install pandas-pro..\" store_history=True silent=False shell_futures=True cell_id=2f6f1612-5fcc-4242-a30d-35f43096b5c8> result=None>,),kwargs {}:\n"
++     ]
++    },
++    {
++     "ename": "TypeError",
++     "evalue": "_pause_backend() takes 1 positional argument but 2 were given",
++     "output_type": "error",
++     "traceback": [
++      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
++      "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
++      "\u001b[0;31mTypeError\u001b[0m: _pause_backend() takes 1 positional argument but 2 were given"
+      ]
+     }
+    ],
+    "source": [
+-    "!pip install wandb==0.13.9\n",
++    "!pip install wandb==0.17.4\n",
+     "!pip install pandas-profiling==3.6.2\n",
+     "!pip install pandas==1.2.3"
+    ]
+   },
+   {
+    "cell_type": "markdown",
+-   "id": "54c4f98a",
++   "id": "30698b68",
+    "metadata": {},
+    "source": [
+     "1. Fetch the artifact we just created (sample.csv) from W&B and read it with pandas:"
+@@ -98,14 +135,33 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 7,
+-   "id": "eed98c34",
++   "execution_count": 5,
++   "id": "37fc17fd",
+    "metadata": {},
+    "outputs": [
++    {
++     "name": "stdout",
++     "output_type": "stream",
++     "text": [
++      "Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f859c3e4220>> (for pre_run_cell), with arguments args (<ExecutionInfo object at 7f859cc3c460, raw_cell=\"import wandb\n",
++      "import pandas as pd\n",
++      "# Note that we us..\" store_history=True silent=False shell_futures=True cell_id=9a61c376-cb52-4c20-8876-d3f797a0c3ee>,),kwargs {}:\n"
++     ]
++    },
++    {
++     "ename": "TypeError",
++     "evalue": "_resume_backend() takes 1 positional argument but 2 were given",
++     "output_type": "error",
++     "traceback": [
++      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
++      "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
++      "\u001b[0;31mTypeError\u001b[0m: _resume_backend() takes 1 positional argument but 2 were given"
++     ]
++    },
+     {
+      "data": {
+       "text/html": [
+-       "Finishing last run (ID:v3d3q3rf) before initializing another..."
++       "Finishing last run (ID:nr4g9jhx) before initializing another..."
+       ],
+       "text/plain": [
+        "<IPython.core.display.HTML object>"
+@@ -126,24 +182,10 @@
+      "metadata": {},
+      "output_type": "display_data"
+     },
+-    {
+-     "data": {
+-      "application/vnd.jupyter.widget-view+json": {
+-       "model_id": "a37b04273ead4a168e477c0394de3fcf",
+-       "version_major": 2,
+-       "version_minor": 0
+-      },
+-      "text/plain": [
+-       "VBox(children=(Label(value='0.043 MB of 0.043 MB uploaded (0.000 MB deduped)\\r'), FloatProgress(value=1.0, max…"
+-      ]
+-     },
+-     "metadata": {},
+-     "output_type": "display_data"
+-    },
+     {
+      "data": {
+       "text/html": [
+-       " View run <strong style=\"color:#cdcd00\">visionary-lake-13</strong> at: <a href=\"https://wandb.ai/annyang1963/nyc_airbnb/runs/v3d3q3rf\" target=\"_blank\">https://wandb.ai/annyang1963/nyc_airbnb/runs/v3d3q3rf</a><br/>Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 1 other file(s)"
++       " View run <strong style=\"color:#cdcd00\">treasured-cosmos-5</strong> at: <a href=\"https://wandb.ai/sloya7-Student/nyc_airbnb/runs/nr4g9jhx\" target=\"_blank\">https://wandb.ai/sloya7-Student/nyc_airbnb/runs/nr4g9jhx</a><br/>Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 1 other file(s)"
+       ],
+       "text/plain": [
+        "<IPython.core.display.HTML object>"
+@@ -155,7 +197,7 @@
+     {
+      "data": {
+       "text/html": [
+-       "Find logs at: <code>./wandb/run-20230412_183324-v3d3q3rf/logs</code>"
++       "Find logs at: <code>./wandb/run-20240716_131405-nr4g9jhx/logs</code>"
+       ],
+       "text/plain": [
+        "<IPython.core.display.HTML object>"
+@@ -167,7 +209,7 @@
+     {
+      "data": {
+       "text/html": [
+-       "Successfully finished last run (ID:v3d3q3rf). Initializing new run:<br/>"
++       "Successfully finished last run (ID:nr4g9jhx). Initializing new run:<br/>"
+       ],
+       "text/plain": [
+        "<IPython.core.display.HTML object>"
+@@ -176,24 +218,10 @@
+      "metadata": {},
+      "output_type": "display_data"
+     },
+-    {
+-     "data": {
+-      "application/vnd.jupyter.widget-view+json": {
+-       "model_id": "110e5eb88c9f4f9bada3b547c8cd62eb",
+-       "version_major": 2,
+-       "version_minor": 0
+-      },
+-      "text/plain": [
+-       "VBox(children=(Label(value='Waiting for wandb.init()...\\r'), FloatProgress(value=0.016671707533333326, max=1.0…"
+-      ]
+-     },
+-     "metadata": {},
+-     "output_type": "display_data"
+-    },
+     {
+      "data": {
+       "text/html": [
+-       "wandb version 0.14.2 is available!  To upgrade, please run:\n",
++       "wandb version 0.17.4 is available!  To upgrade, please run:\n",
+        " $ pip install wandb --upgrade"
+       ],
+       "text/plain": [
+@@ -218,7 +246,7 @@
+     {
+      "data": {
+       "text/html": [
+-       "Run data is saved locally in <code>/Users/hyang/Huimin project/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20230412_183404-cl95qrqk</code>"
++       "Run data is saved locally in <code>/home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240716_131450-6jq1x2zi</code>"
+       ],
+       "text/plain": [
+        "<IPython.core.display.HTML object>"
+@@ -230,7 +258,7 @@
+     {
+      "data": {
+       "text/html": [
+-       "Syncing run <strong><a href=\"https://wandb.ai/annyang1963/nyc_airbnb/runs/cl95qrqk\" target=\"_blank\">summer-galaxy-14</a></strong> to <a href=\"https://wandb.ai/annyang1963/nyc_airbnb\" target=\"_blank\">Weights & Biases</a> (<a href=\"https://wandb.me/run\" target=\"_blank\">docs</a>)<br/>"
++       "Syncing run <strong><a href=\"https://wandb.ai/sloya7-Student/nyc_airbnb/runs/6jq1x2zi\" target=\"_blank\">apricot-thunder-6</a></strong> to <a href=\"https://wandb.ai/sloya7-Student/nyc_airbnb\" target=\"_blank\">Weights & Biases</a> (<a href=\"https://wandb.me/run\" target=\"_blank\">docs</a>)<br/>"
+       ],
+       "text/plain": [
+        "<IPython.core.display.HTML object>"
+@@ -242,7 +270,7 @@
+     {
+      "data": {
+       "text/html": [
+-       " View project at <a href=\"https://wandb.ai/annyang1963/nyc_airbnb\" target=\"_blank\">https://wandb.ai/annyang1963/nyc_airbnb</a>"
++       " View project at <a href=\"https://wandb.ai/sloya7-Student/nyc_airbnb\" target=\"_blank\">https://wandb.ai/sloya7-Student/nyc_airbnb</a>"
+       ],
+       "text/plain": [
+        "<IPython.core.display.HTML object>"
+@@ -254,7 +282,7 @@
+     {
+      "data": {
+       "text/html": [
+-       " View run at <a href=\"https://wandb.ai/annyang1963/nyc_airbnb/runs/cl95qrqk\" target=\"_blank\">https://wandb.ai/annyang1963/nyc_airbnb/runs/cl95qrqk</a>"
++       " View run at <a href=\"https://wandb.ai/sloya7-Student/nyc_airbnb/runs/6jq1x2zi\" target=\"_blank\">https://wandb.ai/sloya7-Student/nyc_airbnb/runs/6jq1x2zi</a>"
+       ],
+       "text/plain": [
+        "<IPython.core.display.HTML object>"
+@@ -275,7 +303,7 @@
+   },
+   {
+    "cell_type": "markdown",
+-   "id": "472b8c0d",
++   "id": "18c77b45",
+    "metadata": {},
+    "source": [
+     "2. Explore the data in df"
+@@ -283,8 +311,8 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 8,
+-   "id": "e7902159",
++   "execution_count": 6,
++   "id": "24530ce7",
+    "metadata": {},
+    "outputs": [
+     {
+@@ -323,8 +351,8 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 9,
+-   "id": "ef6f1457",
++   "execution_count": 7,
++   "id": "85c4840c",
+    "metadata": {},
+    "outputs": [
+     {
+@@ -501,7 +529,7 @@
+        "max                        327.000000        365.000000  "
+       ]
+      },
+-     "execution_count": 9,
++     "execution_count": 7,
+      "metadata": {},
+      "output_type": "execute_result"
+     }
+@@ -512,8 +540,8 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 10,
+-   "id": "13548f59",
++   "execution_count": 8,
++   "id": "0e339826",
+    "metadata": {},
+    "outputs": [
+     {
+@@ -685,7 +713,7 @@
+        "4               0.52                               2                 8  "
+       ]
+      },
+-     "execution_count": 10,
++     "execution_count": 8,
+      "metadata": {},
+      "output_type": "execute_result"
+     }
+@@ -696,7 +724,7 @@
+   },
+   {
+    "cell_type": "markdown",
+-   "id": "ecfee692",
++   "id": "b810b32c",
+    "metadata": {},
+    "source": [
+     "3. What do you notice in the data? Look around and see what you can find.\n",
+@@ -706,7 +734,7 @@
+   },
+   {
+    "cell_type": "markdown",
+-   "id": "b4bb415f",
++   "id": "5599db8a",
+    "metadata": {},
+    "source": [
+     "4. Fix some of the little problems we have found in the data with the following code:"
+@@ -714,8 +742,8 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 11,
+-   "id": "4d685317",
++   "execution_count": 9,
++   "id": "06b90a2b",
+    "metadata": {},
+    "outputs": [],
+    "source": [
+@@ -730,7 +758,7 @@
+   },
+   {
+    "cell_type": "markdown",
+-   "id": "17990df4",
++   "id": "e021c68c",
+    "metadata": {},
+    "source": [
+     "Note how we did not impute missing values. We will do that in the inference pipeline, so we will be able to handle missing values also in production."
+@@ -738,7 +766,7 @@
+   },
+   {
+    "cell_type": "markdown",
+-   "id": "09287f29",
++   "id": "b972c00a",
+    "metadata": {},
+    "source": [
+     "5. Check with df.info() that all obvious problems have been solved"
+@@ -746,8 +774,8 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 12,
+-   "id": "b83b4970",
++   "execution_count": 10,
++   "id": "cc3c6bd2",
+    "metadata": {},
+    "outputs": [
+     {
+@@ -786,7 +814,7 @@
+   },
+   {
+    "cell_type": "markdown",
+-   "id": "d727e697",
++   "id": "b2974c73",
+    "metadata": {},
+    "source": [
+     "6. Terminate the run by running `run.finish()`"
+@@ -794,8 +822,8 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 13,
+-   "id": "48b38586",
++   "execution_count": 11,
++   "id": "02842e50",
+    "metadata": {},
+    "outputs": [
+     {
+@@ -810,24 +838,10 @@
+      "metadata": {},
+      "output_type": "display_data"
+     },
+-    {
+-     "data": {
+-      "application/vnd.jupyter.widget-view+json": {
+-       "model_id": "0a45b778e49c4dfeb3cc16a0684831b0",
+-       "version_major": 2,
+-       "version_minor": 0
+-      },
+-      "text/plain": [
+-       "VBox(children=(Label(value='0.043 MB of 0.057 MB uploaded (0.000 MB deduped)\\r'), FloatProgress(value=0.748456…"
+-      ]
+-     },
+-     "metadata": {},
+-     "output_type": "display_data"
+-    },
+     {
+      "data": {
+       "text/html": [
+-       " View run <strong style=\"color:#cdcd00\">summer-galaxy-14</strong> at: <a href=\"https://wandb.ai/annyang1963/nyc_airbnb/runs/cl95qrqk\" target=\"_blank\">https://wandb.ai/annyang1963/nyc_airbnb/runs/cl95qrqk</a><br/>Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)"
++       " View run <strong style=\"color:#cdcd00\">apricot-thunder-6</strong> at: <a href=\"https://wandb.ai/sloya7-Student/nyc_airbnb/runs/6jq1x2zi\" target=\"_blank\">https://wandb.ai/sloya7-Student/nyc_airbnb/runs/6jq1x2zi</a><br/>Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)"
+       ],
+       "text/plain": [
+        "<IPython.core.display.HTML object>"
+@@ -839,7 +853,7 @@
+     {
+      "data": {
+       "text/html": [
+-       "Find logs at: <code>./wandb/run-20230412_183404-cl95qrqk/logs</code>"
++       "Find logs at: <code>./wandb/run-20240716_131450-6jq1x2zi/logs</code>"
+       ],
+       "text/plain": [
+        "<IPython.core.display.HTML object>"
+@@ -855,7 +869,7 @@
+   },
+   {
+    "cell_type": "markdown",
+-   "id": "13f82b21",
++   "id": "5f4c677d",
+    "metadata": {},
+    "source": [
+     "7. Save the notebook."

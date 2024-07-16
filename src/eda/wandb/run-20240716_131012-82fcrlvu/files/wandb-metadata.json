@@ -1,0 +1,76 @@
+{
+    "os": "Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.9.15",
+    "heartbeatAt": "2024-07-16T19:10:20.841836",
+    "startedAt": "2024-07-16T19:10:12.488544",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "src/eda/eda.ipynb",
+    "root": "/home/sloya7/Project-Build-an-ML-Pipeline-Starter",
+    "git": {
+        "remote": "https://github.com/Sloya7/Project-Build-an-ML-Pipeline-Starter.git",
+        "commit": "72ca18cf7bebff3ab7ba41d3906c2be18c298c9c"
+    },
+    "email": "sloya@wgu.edu",
+    "host": "S-Labtop",
+    "username": "sloya7",
+    "executable": "/home/sloya7/miniconda3/envs/mlops/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2419.207,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2419.207,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2419.207,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2419.207,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2419.207,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2419.207,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2419.207,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2419.207,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2419.207,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 1006.853931427002,
+        "used": 10.550758361816406
+    },
+    "memory": {
+        "total": 3.7207374572753906
+    }
+}

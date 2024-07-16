@@ -1,0 +1,50 @@
+2024-07-16 13:06:13,748 INFO    MainThread:26646 [wandb_setup.py:_flush():68] Configure stats pid to 26646
+2024-07-16 13:06:13,749 INFO    MainThread:26646 [wandb_setup.py:_flush():68] Loading settings from /home/sloya7/.config/wandb/settings
+2024-07-16 13:06:13,749 INFO    MainThread:26646 [wandb_setup.py:_flush():68] Loading settings from /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/settings
+2024-07-16 13:06:13,749 INFO    MainThread:26646 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-07-16 13:06:13,749 INFO    MainThread:26646 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-16 13:06:13,749 INFO    MainThread:26646 [wandb_init.py:_log_setup():478] Logging user logs to /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240716_130613-ngbx592h/logs/debug.log
+2024-07-16 13:06:13,749 INFO    MainThread:26646 [wandb_init.py:_log_setup():479] Logging internal logs to /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240716_130613-ngbx592h/logs/debug-internal.log
+2024-07-16 13:06:13,749 INFO    MainThread:26646 [wandb_init.py:_jupyter_setup():428] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f23ac4a6f40>
+2024-07-16 13:06:13,750 INFO    MainThread:26646 [wandb_init.py:init():518] calling init triggers
+2024-07-16 13:06:13,750 INFO    MainThread:26646 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2024-07-16 13:06:13,750 INFO    MainThread:26646 [wandb_init.py:init():571] starting backend
+2024-07-16 13:06:13,750 INFO    MainThread:26646 [wandb_init.py:init():575] setting up manager
+2024-07-16 13:06:13,764 INFO    MainThread:26646 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-07-16 13:06:13,767 INFO    MainThread:26646 [wandb_init.py:init():582] backend started and connected
+2024-07-16 13:06:13,769 INFO    MainThread:26646 [wandb_run.py:_label_probe_notebook():1202] probe notebook
+2024-07-16 13:06:13,769 INFO    MainThread:26646 [wandb_run.py:_label_probe_notebook():1212] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-07-16 13:06:13,769 INFO    MainThread:26646 [wandb_init.py:init():670] updated telemetry
+2024-07-16 13:06:13,821 INFO    MainThread:26646 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2024-07-16 13:06:14,896 INFO    MainThread:26646 [wandb_run.py:_on_init():2121] communicating current version
+2024-07-16 13:06:15,174 INFO    MainThread:26646 [wandb_run.py:_on_init():2125] got version response upgrade_message: "wandb version 0.17.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-07-16 13:06:15,174 INFO    MainThread:26646 [wandb_init.py:init():758] starting run threads in backend
+2024-07-16 13:06:17,979 INFO    MainThread:26646 [wandb_run.py:_console_start():2101] atexit reg
+2024-07-16 13:06:17,980 INFO    MainThread:26646 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2024-07-16 13:06:17,980 INFO    MainThread:26646 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2024-07-16 13:06:17,980 INFO    MainThread:26646 [wandb_run.py:_redirect():2046] Redirects installed.
+2024-07-16 13:06:17,982 INFO    MainThread:26646 [wandb_init.py:init():798] run started, returning control to user process
+2024-07-16 13:10:12,491 INFO    MainThread:26646 [wandb_setup.py:_flush():68] Configure stats pid to 26646
+2024-07-16 13:10:12,491 INFO    MainThread:26646 [wandb_setup.py:_flush():68] Loading settings from /home/sloya7/.config/wandb/settings
+2024-07-16 13:10:12,491 INFO    MainThread:26646 [wandb_setup.py:_flush():68] Loading settings from /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/settings
+2024-07-16 13:10:12,492 INFO    MainThread:26646 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-07-16 13:10:12,492 INFO    MainThread:26646 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-16 13:10:12,492 INFO    MainThread:26646 [wandb_init.py:_log_setup():478] Logging user logs to /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240716_131012-82fcrlvu/logs/debug.log
+2024-07-16 13:10:12,492 INFO    MainThread:26646 [wandb_init.py:_log_setup():479] Logging internal logs to /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240716_131012-82fcrlvu/logs/debug-internal.log
+2024-07-16 13:10:12,492 INFO    MainThread:26646 [wandb_init.py:init():518] calling init triggers
+2024-07-16 13:10:12,492 INFO    MainThread:26646 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2024-07-16 13:10:12,492 INFO    MainThread:26646 [wandb_init.py:init():537] re-initializing run, found existing run on stack: ngbx592h
+2024-07-16 13:10:12,495 INFO    MainThread:26646 [wandb_run.py:_finish():1844] finishing run sloya7-Student/nyc_airbnb/ngbx592h
+2024-07-16 13:10:12,539 INFO    MainThread:26646 [jupyter.py:save_history():478] saving 8 cells to _session_history.ipynb
+2024-07-16 13:10:12,540 INFO    MainThread:26646 [wandb_run.py:_config_callback():1249] config_cb ('_wandb', 'session_history') code/_session_history.ipynb None
+2024-07-16 13:10:12,545 INFO    MainThread:26646 [jupyter.py:_save_ipynb():390] looking for notebook: src/eda/eda.ipynb
+2024-07-16 13:10:12,545 INFO    MainThread:26646 [wandb_init.py:_jupyter_teardown():410] cleaning up jupyter logic
+2024-07-16 13:10:12,545 INFO    MainThread:26646 [wandb_run.py:_atexit_cleanup():2070] got exitcode: 0
+2024-07-16 13:10:12,545 INFO    MainThread:26646 [wandb_run.py:_restore():2053] restore
+2024-07-16 13:10:12,546 INFO    MainThread:26646 [wandb_run.py:_restore():2059] restore done
+2024-07-16 13:10:18,544 INFO    MainThread:26646 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2024-07-16 13:10:18,544 INFO    MainThread:26646 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2024-07-16 13:10:18,546 INFO    MainThread:26646 [wandb_run.py:_footer_sync_info():3383] logging synced files
