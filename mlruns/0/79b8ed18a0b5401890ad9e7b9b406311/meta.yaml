@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/79b8ed18a0b5401890ad9e7b9b406311/artifacts
+end_time: 1721154714837
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 79b8ed18a0b5401890ad9e7b9b406311
+run_name: sneaky-conch-216
+run_uuid: 79b8ed18a0b5401890ad9e7b9b406311
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721154713466
+status: 4
+tags: []
+user_id: sloya7

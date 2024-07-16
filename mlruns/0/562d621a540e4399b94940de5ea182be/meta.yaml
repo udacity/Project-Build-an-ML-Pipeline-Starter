@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/562d621a540e4399b94940de5ea182be/artifacts
+end_time: 1721155168259
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 562d621a540e4399b94940de5ea182be
+run_name: casual-kite-311
+run_uuid: 562d621a540e4399b94940de5ea182be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721155053295
+status: 3
+tags: []
+user_id: sloya7
