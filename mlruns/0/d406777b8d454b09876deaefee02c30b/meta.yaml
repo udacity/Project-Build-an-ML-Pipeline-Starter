@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d406777b8d454b09876deaefee02c30b/artifacts
+end_time: 1721315996991
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d406777b8d454b09876deaefee02c30b
+run_name: zealous-worm-527
+run_uuid: d406777b8d454b09876deaefee02c30b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721315993620
+status: 4
+tags: []
+user_id: sloya7

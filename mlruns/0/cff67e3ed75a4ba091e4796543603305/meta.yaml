@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/cff67e3ed75a4ba091e4796543603305/artifacts
+end_time: 1721316428108
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cff67e3ed75a4ba091e4796543603305
+run_name: fortunate-jay-993
+run_uuid: cff67e3ed75a4ba091e4796543603305
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721316312903
+status: 3
+tags: []
+user_id: sloya7

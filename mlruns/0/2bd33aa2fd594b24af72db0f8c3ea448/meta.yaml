@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2bd33aa2fd594b24af72db0f8c3ea448/artifacts
+end_time: 1721316300659
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2bd33aa2fd594b24af72db0f8c3ea448
+run_name: popular-bee-105
+run_uuid: 2bd33aa2fd594b24af72db0f8c3ea448
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721316298141
+status: 4
+tags: []
+user_id: sloya7
