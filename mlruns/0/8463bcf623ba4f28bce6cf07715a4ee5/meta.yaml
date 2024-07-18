@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8463bcf623ba4f28bce6cf07715a4ee5/artifacts
+end_time: 1721232115368
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8463bcf623ba4f28bce6cf07715a4ee5
+run_name: unequaled-cat-717
+run_uuid: 8463bcf623ba4f28bce6cf07715a4ee5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721232106038
+status: 4
+tags: []
+user_id: sloya7

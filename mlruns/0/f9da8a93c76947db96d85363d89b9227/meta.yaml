@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f9da8a93c76947db96d85363d89b9227/artifacts
+end_time: 1721310661259
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f9da8a93c76947db96d85363d89b9227
+run_name: righteous-sloth-813
+run_uuid: f9da8a93c76947db96d85363d89b9227
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721310525109
+status: 4
+tags: []
+user_id: sloya7

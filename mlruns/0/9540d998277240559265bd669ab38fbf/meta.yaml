@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9540d998277240559265bd669ab38fbf/artifacts
+end_time: 1721311393163
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9540d998277240559265bd669ab38fbf
+run_name: blushing-goose-745
+run_uuid: 9540d998277240559265bd669ab38fbf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721311388842
+status: 4
+tags: []
+user_id: sloya7

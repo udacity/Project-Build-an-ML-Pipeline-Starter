@@ -1,0 +1,92 @@
+{
+    "os": "Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-07-18T14:36:09.331122",
+    "startedAt": "2024-07-18T14:36:08.275242",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--trainval_artifact",
+        "trainval_data.csv:latest",
+        "--val_size",
+        "0.2",
+        "--random_seed",
+        "42",
+        "--stratify_by",
+        "neighbourhood_group",
+        "--rf_config",
+        "/home/sloya7/Project-Build-an-ML-Pipeline-Starter/multirun/2024-07-18/08-36-04/0/rf_config.json",
+        "--max_tfidf_features",
+        "5",
+        "--output_artifact",
+        "random_forest_export"
+    ],
+    "state": "running",
+    "program": "/home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py",
+    "codePath": "src/train_random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/Sloya7/Project-Build-an-ML-Pipeline-Starter.git",
+        "commit": "e3c3215a36a8a38785aa570464eef1f3e9f38aad"
+    },
+    "email": "sloya@wgu.edu",
+    "root": "/home/sloya7/Project-Build-an-ML-Pipeline-Starter",
+    "host": "S-Labtop",
+    "username": "sloya7",
+    "executable": "/home/sloya7/miniconda3/envs/mlflow-cd2223184c39f5e9adfdfee0bf49bde3d68897c3/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2419.207,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2419.207,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2419.207,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2419.207,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2419.207,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2419.207,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2419.207,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2419.207,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2419.207,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 1006.853931427002,
+        "used": 14.205516815185547
+    },
+    "memory": {
+        "total": 3.7207374572753906
+    }
+}

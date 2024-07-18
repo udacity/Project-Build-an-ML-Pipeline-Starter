@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b17b8fdcb9324a8ca3321756b1b2b70c/artifacts
+end_time: 1721232115094
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b17b8fdcb9324a8ca3321756b1b2b70c
+run_name: debonair-toad-63
+run_uuid: b17b8fdcb9324a8ca3321756b1b2b70c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721232112479
+status: 4
+tags: []
+user_id: sloya7

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2417e24b62984d4b979cc1d3eb68953d/artifacts
+end_time: 1721310905370
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2417e24b62984d4b979cc1d3eb68953d
+run_name: nebulous-dove-834
+run_uuid: 2417e24b62984d4b979cc1d3eb68953d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721310854602
+status: 4
+tags: []
+user_id: sloya7

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/08f755007b934f319cd4be287112190c/artifacts
+end_time: 1721310204488
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 08f755007b934f319cd4be287112190c
+run_name: unleashed-newt-151
+run_uuid: 08f755007b934f319cd4be287112190c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721310202724
+status: 4
+tags: []
+user_id: sloya7

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/316569ae63bd447e88374154cc609119/artifacts
+end_time: 1721231874597
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 316569ae63bd447e88374154cc609119
+run_name: debonair-vole-531
+run_uuid: 316569ae63bd447e88374154cc609119
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721231872025
+status: 4
+tags: []
+user_id: sloya7

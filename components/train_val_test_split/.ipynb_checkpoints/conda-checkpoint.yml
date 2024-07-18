@@ -1,0 +1,12 @@
+name: download_file
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip=20.3.3
+  - requests=2.24.0
+  - mlflow=2.1.1
+  - scikit-learn=0.24.1
+  - pip:
+      - wandb==0.13.9
+      - git+https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter.git#egg=wandb-utils&subdirectory=components

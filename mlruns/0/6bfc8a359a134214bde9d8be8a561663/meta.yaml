@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6bfc8a359a134214bde9d8be8a561663/artifacts
+end_time: 1721312353591
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6bfc8a359a134214bde9d8be8a561663
+run_name: efficient-ant-332
+run_uuid: 6bfc8a359a134214bde9d8be8a561663
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721312317555
+status: 4
+tags: []
+user_id: sloya7

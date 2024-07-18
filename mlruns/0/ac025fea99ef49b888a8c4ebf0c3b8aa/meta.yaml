@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ac025fea99ef49b888a8c4ebf0c3b8aa/artifacts
+end_time: 1721311392885
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ac025fea99ef49b888a8c4ebf0c3b8aa
+run_name: rebellious-auk-818
+run_uuid: ac025fea99ef49b888a8c4ebf0c3b8aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721311391825
+status: 4
+tags: []
+user_id: sloya7

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f4a88f134d7345d287c34b0a20308e0f/artifacts
+end_time: 1721310074554
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f4a88f134d7345d287c34b0a20308e0f
+run_name: respected-fish-492
+run_uuid: f4a88f134d7345d287c34b0a20308e0f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721310063148
+status: 4
+tags: []
+user_id: sloya7

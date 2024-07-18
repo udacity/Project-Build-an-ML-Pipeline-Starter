@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/389dc0cc60b344e2a610df6820faf762/artifacts
+end_time: 1721313215474
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 389dc0cc60b344e2a610df6820faf762
+run_name: funny-yak-485
+run_uuid: 389dc0cc60b344e2a610df6820faf762
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721313177025
+status: 4
+tags: []
+user_id: sloya7

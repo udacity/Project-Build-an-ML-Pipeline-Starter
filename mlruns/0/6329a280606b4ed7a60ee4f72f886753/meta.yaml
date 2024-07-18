@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6329a280606b4ed7a60ee4f72f886753/artifacts
+end_time: 1721231874871
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6329a280606b4ed7a60ee4f72f886753
+run_name: suave-wolf-632
+run_uuid: 6329a280606b4ed7a60ee4f72f886753
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721231864474
+status: 4
+tags: []
+user_id: sloya7

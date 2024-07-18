@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/cfbc52c895c54ed68ba2d8b5e5c46df5/artifacts
+end_time: 1721311459142
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cfbc52c895c54ed68ba2d8b5e5c46df5
+run_name: burly-donkey-700
+run_uuid: cfbc52c895c54ed68ba2d8b5e5c46df5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721311417078
+status: 4
+tags: []
+user_id: sloya7

@@ -77,10 +77,17 @@ def go(config: DictConfig):
         
         
         if "data_split" in active_steps:
-            ##################
-            # Implement here #
-            ##################
-            pass
+            _ = mlflow.run(
+                f"{config['main']['components_repository']}/train_val_test_split",
+                'main',
+                parameters = {
+                    "input":"clean_sample.csv:latest",
+                    "test_size": config['modeling']['test_size'],
+                    "random_seed":config['modeling']['random_seed'],
+                    "stratify_by":config['modeling']['stratify_by']
+                  
+                },
+            )
 
         if "train_random_forest" in active_steps:
 
@@ -88,15 +95,22 @@ def go(config: DictConfig):
             rf_config = os.path.abspath("rf_config.json")
             with open(rf_config, "w+") as fp:
                 json.dump(dict(config["modeling"]["random_forest"].items()), fp)  # DO NOT TOUCH
-
+            
+            _ = mlflow.run(
+                f"{config['main']['src']}/train_random_forest",
+                'main',                
+                parameters = {
+                    "trainval_artifact": "trainval_data.csv:latest",
+                    "val_size": config['modeling']['val_size'],
+                    "random_seed": config['modeling']['random_seed'],
+                    "stratify_by":config['modeling']['stratify_by'],
+                    "rf_config": rf_config,
+                    "max_tfidf_features": config['model']['max_tfidf_features'],
+                    "output_artifact":"random_forest_export"
+                    },
+                 )
             # NOTE: use the rf_config we just created as the rf_config parameter for the train_random_forest
             # step
-
-            ##################
-            # Implement here #
-            ##################
-
-            pass
 
         if "test_regression_model" in active_steps:
 

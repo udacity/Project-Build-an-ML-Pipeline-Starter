@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8b8d7dab358d489e9728b6134daaeb1e/artifacts
+end_time: 1721232319233
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8b8d7dab358d489e9728b6134daaeb1e
+run_name: overjoyed-cub-322
+run_uuid: 8b8d7dab358d489e9728b6134daaeb1e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721232291204
+status: 3
+tags: []
+user_id: sloya7

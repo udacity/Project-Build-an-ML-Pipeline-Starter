@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/23db578aba0d4bf186041737ee967f62/artifacts
+end_time: 1721231825142
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 23db578aba0d4bf186041737ee967f62
+run_name: brawny-perch-285
+run_uuid: 23db578aba0d4bf186041737ee967f62
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721231719525
+status: 4
+tags: []
+user_id: sloya7

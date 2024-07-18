@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/01ca49b5de6f4ea681ce62c03838fc45/artifacts
+end_time: 1721254965346
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 01ca49b5de6f4ea681ce62c03838fc45
+run_name: handsome-pig-664
+run_uuid: 01ca49b5de6f4ea681ce62c03838fc45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721254960427
+status: 4
+tags: []
+user_id: sloya7

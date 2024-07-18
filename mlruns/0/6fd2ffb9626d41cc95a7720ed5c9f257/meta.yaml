@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6fd2ffb9626d41cc95a7720ed5c9f257/artifacts
+end_time: 1721313672985
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6fd2ffb9626d41cc95a7720ed5c9f257
+run_name: agreeable-cod-430
+run_uuid: 6fd2ffb9626d41cc95a7720ed5c9f257
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721313569909
+status: 3
+tags: []
+user_id: sloya7

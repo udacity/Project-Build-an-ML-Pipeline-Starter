@@ -1,0 +1,185 @@
+2024-07-18 08:18:42,286 INFO    StreamThr :171412 [internal.py:wandb_internal():87] W&B internal server running at pid: 171412, started at: 2024-07-18 08:18:42.282689
+2024-07-18 08:18:42,289 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: status
+2024-07-18 08:18:42,292 INFO    WriterThread:171412 [datastore.py:open_for_write():85] open: /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/run-psv8t4mx.wandb
+2024-07-18 08:18:42,308 DEBUG   SenderThread:171412 [sender.py:send():334] send: header
+2024-07-18 08:18:42,331 DEBUG   SenderThread:171412 [sender.py:send():334] send: run
+2024-07-18 08:18:43,763 INFO    SenderThread:171412 [dir_watcher.py:__init__():216] watching files in: /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files
+2024-07-18 08:18:43,763 INFO    SenderThread:171412 [sender.py:_start_run_threads():1065] run started: psv8t4mx with start time 1721312322.280083
+2024-07-18 08:18:43,763 DEBUG   SenderThread:171412 [sender.py:send_request():361] send_request: summary_record
+2024-07-18 08:18:43,764 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: check_version
+2024-07-18 08:18:43,764 INFO    SenderThread:171412 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-07-18 08:18:43,765 DEBUG   SenderThread:171412 [sender.py:send_request():361] send_request: check_version
+2024-07-18 08:18:44,229 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: run_start
+2024-07-18 08:18:44,232 DEBUG   HandlerThread:171412 [system_info.py:__init__():31] System info init
+2024-07-18 08:18:44,232 DEBUG   HandlerThread:171412 [system_info.py:__init__():46] System info init done
+2024-07-18 08:18:44,232 INFO    HandlerThread:171412 [system_monitor.py:start():151] Starting system monitor
+2024-07-18 08:18:44,232 INFO    SystemMonitor:171412 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-07-18 08:18:44,232 INFO    SystemMonitor:171412 [interfaces.py:start():168] Started cpu
+2024-07-18 08:18:44,233 INFO    HandlerThread:171412 [system_monitor.py:probe():172] Collecting system info
+2024-07-18 08:18:44,233 INFO    SystemMonitor:171412 [interfaces.py:start():168] Started disk
+2024-07-18 08:18:44,233 INFO    SystemMonitor:171412 [interfaces.py:start():168] Started memory
+2024-07-18 08:18:44,235 INFO    SystemMonitor:171412 [interfaces.py:start():168] Started network
+2024-07-18 08:18:44,238 DEBUG   HandlerThread:171412 [system_info.py:probe():195] Probing system
+2024-07-18 08:18:44,272 DEBUG   HandlerThread:171412 [system_info.py:_probe_git():180] Probing git
+2024-07-18 08:18:44,280 DEBUG   HandlerThread:171412 [system_info.py:_probe_git():188] Probing git done
+2024-07-18 08:18:44,280 DEBUG   HandlerThread:171412 [system_info.py:probe():241] Probing system done
+2024-07-18 08:18:44,280 DEBUG   HandlerThread:171412 [system_monitor.py:probe():181] {'os': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.9.19', 'heartbeatAt': '2024-07-18T14:18:44.238984', 'startedAt': '2024-07-18T14:18:42.263415', 'docker': None, 'cuda': None, 'args': ('--trainval_artifact', 'trainval_data.csv:latest', '--val_size', '0.2', '--random_seed', '42', '--stratify_by', 'neighbourhood_group', '--rf_config', '/home/sloya7/Project-Build-an-ML-Pipeline-Starter/multirun/2024-07-18/08-18-37/0/rf_config.json', '--max_tfidf_features', '5', '--output_artifact', 'random_forest_export'), 'state': 'running', 'program': '/home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py', 'codePath': 'src/train_random_forest/run.py', 'git': {'remote': 'https://github.com/Sloya7/Project-Build-an-ML-Pipeline-Starter.git', 'commit': 'e3c3215a36a8a38785aa570464eef1f3e9f38aad'}, 'email': 'sloya@wgu.edu', 'root': '/home/sloya7/Project-Build-an-ML-Pipeline-Starter', 'host': 'S-Labtop', 'username': 'sloya7', 'executable': '/home/sloya7/miniconda3/envs/mlflow-cd2223184c39f5e9adfdfee0bf49bde3d68897c3/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2419.207, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2419.207, 'min': 0.0, 'max': 0.0}, {'current': 2419.207, 'min': 0.0, 'max': 0.0}, {'current': 2419.207, 'min': 0.0, 'max': 0.0}, {'current': 2419.207, 'min': 0.0, 'max': 0.0}, {'current': 2419.207, 'min': 0.0, 'max': 0.0}, {'current': 2419.207, 'min': 0.0, 'max': 0.0}, {'current': 2419.207, 'min': 0.0, 'max': 0.0}, {'current': 2419.207, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1006.853931427002, 'used': 14.204597473144531}, 'memory': {'total': 3.7207374572753906}}
+2024-07-18 08:18:44,280 INFO    HandlerThread:171412 [system_monitor.py:probe():182] Finished collecting system info
+2024-07-18 08:18:44,280 INFO    HandlerThread:171412 [system_monitor.py:probe():185] Publishing system info
+2024-07-18 08:18:44,280 DEBUG   HandlerThread:171412 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-07-18 08:18:44,281 DEBUG   HandlerThread:171412 [system_info.py:_save_pip():67] Saving pip packages done
+2024-07-18 08:18:44,281 DEBUG   HandlerThread:171412 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-07-18 08:18:44,763 INFO    Thread-12 :171412 [dir_watcher.py:_on_file_created():275] file/dir created: /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files/wandb-summary.json
+2024-07-18 08:18:44,763 INFO    Thread-12 :171412 [dir_watcher.py:_on_file_created():275] file/dir created: /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files/requirements.txt
+2024-07-18 08:18:44,763 INFO    Thread-12 :171412 [dir_watcher.py:_on_file_created():275] file/dir created: /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files/conda-environment.yaml
+2024-07-18 08:18:45,692 DEBUG   HandlerThread:171412 [system_info.py:_save_conda():86] Saving conda packages done
+2024-07-18 08:18:45,693 INFO    HandlerThread:171412 [system_monitor.py:probe():187] Finished publishing system info
+2024-07-18 08:18:45,695 DEBUG   SenderThread:171412 [sender.py:send():334] send: files
+2024-07-18 08:18:45,695 INFO    SenderThread:171412 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2024-07-18 08:18:45,699 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: stop_status
+2024-07-18 08:18:45,700 DEBUG   SenderThread:171412 [sender.py:send_request():361] send_request: stop_status
+2024-07-18 08:18:45,762 INFO    Thread-12 :171412 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files/conda-environment.yaml
+2024-07-18 08:18:45,763 INFO    Thread-12 :171412 [dir_watcher.py:_on_file_created():275] file/dir created: /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files/wandb-metadata.json
+2024-07-18 08:18:46,148 DEBUG   SenderThread:171412 [sender.py:send():334] send: telemetry
+2024-07-18 08:18:46,148 DEBUG   SenderThread:171412 [sender.py:send():334] send: config
+2024-07-18 08:18:46,149 DEBUG   SenderThread:171412 [sender.py:send():334] send: config
+2024-07-18 08:18:46,820 INFO    Thread-15 :171412 [upload_job.py:push():143] Uploaded file /tmp/tmpty0i4pv_wandb/xp0oep66-wandb-metadata.json
+2024-07-18 08:18:47,535 DEBUG   SenderThread:171412 [sender.py:send():334] send: use_artifact
+2024-07-18 08:18:47,536 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: status_report
+2024-07-18 08:18:48,764 INFO    Thread-12 :171412 [dir_watcher.py:_on_file_created():275] file/dir created: /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files/output.log
+2024-07-18 08:18:50,765 INFO    Thread-12 :171412 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files/output.log
+2024-07-18 08:18:53,083 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: status_report
+2024-07-18 08:18:58,084 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: status_report
+2024-07-18 08:19:00,699 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-18 08:19:03,085 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: status_report
+2024-07-18 08:19:05,700 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-18 08:19:07,496 DEBUG   SenderThread:171412 [sender.py:send():334] send: exit
+2024-07-18 08:19:07,496 INFO    SenderThread:171412 [sender.py:send_exit():557] handling exit code: 1
+2024-07-18 08:19:07,496 INFO    SenderThread:171412 [sender.py:send_exit():559] handling runtime: 23
+2024-07-18 08:19:07,498 INFO    SenderThread:171412 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-07-18 08:19:07,498 INFO    SenderThread:171412 [sender.py:send_exit():565] send defer
+2024-07-18 08:19:07,499 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: defer
+2024-07-18 08:19:07,499 INFO    HandlerThread:171412 [handler.py:handle_request_defer():170] handle defer: 0
+2024-07-18 08:19:07,499 DEBUG   SenderThread:171412 [sender.py:send_request():361] send_request: defer
+2024-07-18 08:19:07,499 INFO    SenderThread:171412 [sender.py:send_request_defer():581] handle sender defer: 0
+2024-07-18 08:19:07,499 INFO    SenderThread:171412 [sender.py:transition_state():585] send defer: 1
+2024-07-18 08:19:07,499 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: defer
+2024-07-18 08:19:07,499 INFO    HandlerThread:171412 [handler.py:handle_request_defer():170] handle defer: 1
+2024-07-18 08:19:07,500 DEBUG   SenderThread:171412 [sender.py:send_request():361] send_request: defer
+2024-07-18 08:19:07,500 INFO    SenderThread:171412 [sender.py:send_request_defer():581] handle sender defer: 1
+2024-07-18 08:19:07,500 INFO    SenderThread:171412 [sender.py:transition_state():585] send defer: 2
+2024-07-18 08:19:07,500 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: defer
+2024-07-18 08:19:07,500 INFO    HandlerThread:171412 [handler.py:handle_request_defer():170] handle defer: 2
+2024-07-18 08:19:07,500 INFO    HandlerThread:171412 [system_monitor.py:finish():161] Stopping system monitor
+2024-07-18 08:19:07,500 DEBUG   SystemMonitor:171412 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-07-18 08:19:07,501 DEBUG   SystemMonitor:171412 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-07-18 08:19:07,501 INFO    HandlerThread:171412 [interfaces.py:finish():175] Joined cpu
+2024-07-18 08:19:07,501 DEBUG   SystemMonitor:171412 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-07-18 08:19:07,501 INFO    HandlerThread:171412 [interfaces.py:finish():175] Joined disk
+2024-07-18 08:19:07,502 INFO    HandlerThread:171412 [interfaces.py:finish():175] Joined memory
+2024-07-18 08:19:07,502 INFO    HandlerThread:171412 [interfaces.py:finish():175] Joined network
+2024-07-18 08:19:07,502 DEBUG   SenderThread:171412 [sender.py:send_request():361] send_request: defer
+2024-07-18 08:19:07,503 INFO    SenderThread:171412 [sender.py:send_request_defer():581] handle sender defer: 2
+2024-07-18 08:19:07,503 INFO    SenderThread:171412 [sender.py:transition_state():585] send defer: 3
+2024-07-18 08:19:07,503 DEBUG   SenderThread:171412 [sender.py:send():334] send: stats
+2024-07-18 08:19:07,503 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: defer
+2024-07-18 08:19:07,503 INFO    HandlerThread:171412 [handler.py:handle_request_defer():170] handle defer: 3
+2024-07-18 08:19:07,503 DEBUG   SenderThread:171412 [sender.py:send_request():361] send_request: defer
+2024-07-18 08:19:07,503 INFO    SenderThread:171412 [sender.py:send_request_defer():581] handle sender defer: 3
+2024-07-18 08:19:07,503 INFO    SenderThread:171412 [sender.py:transition_state():585] send defer: 4
+2024-07-18 08:19:07,504 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: defer
+2024-07-18 08:19:07,504 INFO    HandlerThread:171412 [handler.py:handle_request_defer():170] handle defer: 4
+2024-07-18 08:19:07,504 DEBUG   SenderThread:171412 [sender.py:send_request():361] send_request: defer
+2024-07-18 08:19:07,504 INFO    SenderThread:171412 [sender.py:send_request_defer():581] handle sender defer: 4
+2024-07-18 08:19:07,504 INFO    SenderThread:171412 [sender.py:transition_state():585] send defer: 5
+2024-07-18 08:19:07,504 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: defer
+2024-07-18 08:19:07,504 INFO    HandlerThread:171412 [handler.py:handle_request_defer():170] handle defer: 5
+2024-07-18 08:19:07,504 DEBUG   SenderThread:171412 [sender.py:send():334] send: summary
+2024-07-18 08:19:07,509 INFO    SenderThread:171412 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-07-18 08:19:07,509 DEBUG   SenderThread:171412 [sender.py:send_request():361] send_request: defer
+2024-07-18 08:19:07,509 INFO    SenderThread:171412 [sender.py:send_request_defer():581] handle sender defer: 5
+2024-07-18 08:19:07,509 INFO    SenderThread:171412 [sender.py:transition_state():585] send defer: 6
+2024-07-18 08:19:07,509 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: defer
+2024-07-18 08:19:07,509 INFO    HandlerThread:171412 [handler.py:handle_request_defer():170] handle defer: 6
+2024-07-18 08:19:07,510 DEBUG   SenderThread:171412 [sender.py:send_request():361] send_request: defer
+2024-07-18 08:19:07,510 INFO    SenderThread:171412 [sender.py:send_request_defer():581] handle sender defer: 6
+2024-07-18 08:19:07,512 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: status_report
+2024-07-18 08:19:07,771 INFO    Thread-12 :171412 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files/wandb-summary.json
+2024-07-18 08:19:08,049 INFO    SenderThread:171412 [sender.py:transition_state():585] send defer: 7
+2024-07-18 08:19:08,050 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: defer
+2024-07-18 08:19:08,050 INFO    HandlerThread:171412 [handler.py:handle_request_defer():170] handle defer: 7
+2024-07-18 08:19:08,050 DEBUG   SenderThread:171412 [sender.py:send_request():361] send_request: defer
+2024-07-18 08:19:08,050 INFO    SenderThread:171412 [sender.py:send_request_defer():581] handle sender defer: 7
+2024-07-18 08:19:08,104 INFO    SenderThread:171412 [sender.py:transition_state():585] send defer: 8
+2024-07-18 08:19:08,104 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: defer
+2024-07-18 08:19:08,104 INFO    HandlerThread:171412 [handler.py:handle_request_defer():170] handle defer: 8
+2024-07-18 08:19:08,104 DEBUG   SenderThread:171412 [sender.py:send_request():361] send_request: defer
+2024-07-18 08:19:08,104 INFO    SenderThread:171412 [sender.py:send_request_defer():581] handle sender defer: 8
+2024-07-18 08:19:08,112 INFO    SenderThread:171412 [sender.py:transition_state():585] send defer: 9
+2024-07-18 08:19:08,112 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: defer
+2024-07-18 08:19:08,112 INFO    HandlerThread:171412 [handler.py:handle_request_defer():170] handle defer: 9
+2024-07-18 08:19:08,112 DEBUG   SenderThread:171412 [sender.py:send():334] send: artifact
+2024-07-18 08:19:08,497 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: poll_exit
+2024-07-18 08:19:08,772 INFO    Thread-12 :171412 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files/config.yaml
+2024-07-18 08:19:08,772 INFO    Thread-12 :171412 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files/output.log
+2024-07-18 08:19:09,758 INFO    SenderThread:171412 [sender.py:send_artifact():1415] sent artifact job-https___github.com_Sloya7_Project-Build-an-ML-Pipeline-Starter.git_src_train_random_forest_run.py - {'id': 'QXJ0aWZhY3Q6OTk2NDIxMTIz', 'digest': '3c30d75a57a6008c8ca0feac2c24e01a', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_Sloya7_Project-Build-an-ML-Pipeline-Starter.git_src_train_random_forest_run.py', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI4NjQ2NDc5Ng==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6OTk2NDIxMTIz', 'versionIndex': 0}}, 'version': 'v0'}
+2024-07-18 08:19:09,759 DEBUG   SenderThread:171412 [sender.py:send_request():361] send_request: defer
+2024-07-18 08:19:09,759 INFO    SenderThread:171412 [sender.py:send_request_defer():581] handle sender defer: 9
+2024-07-18 08:19:09,759 INFO    SenderThread:171412 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-07-18 08:19:09,774 INFO    SenderThread:171412 [dir_watcher.py:finish():392] scan: /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files
+2024-07-18 08:19:09,774 INFO    SenderThread:171412 [dir_watcher.py:finish():406] scan save: /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files/conda-environment.yaml conda-environment.yaml
+2024-07-18 08:19:09,774 INFO    SenderThread:171412 [dir_watcher.py:finish():406] scan save: /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files/wandb-metadata.json wandb-metadata.json
+2024-07-18 08:19:09,775 INFO    SenderThread:171412 [dir_watcher.py:finish():406] scan save: /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files/output.log output.log
+2024-07-18 08:19:09,775 INFO    SenderThread:171412 [dir_watcher.py:finish():406] scan save: /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files/requirements.txt requirements.txt
+2024-07-18 08:19:09,775 INFO    SenderThread:171412 [dir_watcher.py:finish():406] scan save: /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files/config.yaml config.yaml
+2024-07-18 08:19:09,775 INFO    SenderThread:171412 [dir_watcher.py:finish():406] scan save: /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files/wandb-summary.json wandb-summary.json
+2024-07-18 08:19:09,775 INFO    SenderThread:171412 [sender.py:transition_state():585] send defer: 10
+2024-07-18 08:19:09,776 DEBUG   SenderThread:171412 [sender.py:send_request():361] send_request: poll_exit
+2024-07-18 08:19:09,777 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: defer
+2024-07-18 08:19:09,777 INFO    HandlerThread:171412 [handler.py:handle_request_defer():170] handle defer: 10
+2024-07-18 08:19:09,790 DEBUG   SenderThread:171412 [sender.py:send_request():361] send_request: defer
+2024-07-18 08:19:09,793 INFO    SenderThread:171412 [sender.py:send_request_defer():581] handle sender defer: 10
+2024-07-18 08:19:09,793 INFO    SenderThread:171412 [file_pusher.py:finish():160] shutting down file pusher
+2024-07-18 08:19:10,429 INFO    Thread-19 :171412 [upload_job.py:push():143] Uploaded file /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files/config.yaml
+2024-07-18 08:19:10,481 INFO    Thread-17 :171412 [upload_job.py:push():143] Uploaded file /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files/output.log
+2024-07-18 08:19:10,491 INFO    Thread-20 :171412 [upload_job.py:push():143] Uploaded file /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files/wandb-summary.json
+2024-07-18 08:19:10,647 INFO    Thread-18 :171412 [upload_job.py:push():143] Uploaded file /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files/requirements.txt
+2024-07-18 08:19:10,698 INFO    Thread-16 :171412 [upload_job.py:push():143] Uploaded file /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/files/conda-environment.yaml
+2024-07-18 08:19:10,899 INFO    Thread-11 :171412 [sender.py:transition_state():585] send defer: 11
+2024-07-18 08:19:10,899 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: defer
+2024-07-18 08:19:10,900 INFO    HandlerThread:171412 [handler.py:handle_request_defer():170] handle defer: 11
+2024-07-18 08:19:10,901 DEBUG   SenderThread:171412 [sender.py:send_request():361] send_request: defer
+2024-07-18 08:19:10,901 INFO    SenderThread:171412 [sender.py:send_request_defer():581] handle sender defer: 11
+2024-07-18 08:19:10,901 INFO    SenderThread:171412 [file_pusher.py:join():165] waiting for file pusher
+2024-07-18 08:19:10,901 INFO    SenderThread:171412 [sender.py:transition_state():585] send defer: 12
+2024-07-18 08:19:10,902 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: defer
+2024-07-18 08:19:10,902 INFO    HandlerThread:171412 [handler.py:handle_request_defer():170] handle defer: 12
+2024-07-18 08:19:10,903 DEBUG   SenderThread:171412 [sender.py:send_request():361] send_request: defer
+2024-07-18 08:19:10,903 INFO    SenderThread:171412 [sender.py:send_request_defer():581] handle sender defer: 12
+2024-07-18 08:19:11,025 INFO    SenderThread:171412 [sender.py:transition_state():585] send defer: 13
+2024-07-18 08:19:11,026 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: defer
+2024-07-18 08:19:11,026 INFO    HandlerThread:171412 [handler.py:handle_request_defer():170] handle defer: 13
+2024-07-18 08:19:11,026 DEBUG   SenderThread:171412 [sender.py:send_request():361] send_request: defer
+2024-07-18 08:19:11,026 INFO    SenderThread:171412 [sender.py:send_request_defer():581] handle sender defer: 13
+2024-07-18 08:19:11,027 INFO    SenderThread:171412 [sender.py:transition_state():585] send defer: 14
+2024-07-18 08:19:11,027 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: defer
+2024-07-18 08:19:11,027 INFO    HandlerThread:171412 [handler.py:handle_request_defer():170] handle defer: 14
+2024-07-18 08:19:11,027 DEBUG   SenderThread:171412 [sender.py:send():334] send: final
+2024-07-18 08:19:11,027 DEBUG   SenderThread:171412 [sender.py:send():334] send: footer
+2024-07-18 08:19:11,027 DEBUG   SenderThread:171412 [sender.py:send_request():361] send_request: defer
+2024-07-18 08:19:11,027 INFO    SenderThread:171412 [sender.py:send_request_defer():581] handle sender defer: 14
+2024-07-18 08:19:11,028 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: poll_exit
+2024-07-18 08:19:11,028 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: server_info
+2024-07-18 08:19:11,028 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: get_summary
+2024-07-18 08:19:11,029 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: sampled_history
+2024-07-18 08:19:11,029 DEBUG   SenderThread:171412 [sender.py:send_request():361] send_request: poll_exit
+2024-07-18 08:19:11,030 DEBUG   SenderThread:171412 [sender.py:send_request():361] send_request: server_info
+2024-07-18 08:19:11,284 INFO    MainThread:171412 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2024-07-18 08:19:11,285 INFO    MainThread:171412 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2024-07-18 08:19:11,285 INFO    MainThread:171412 [wandb_run.py:_footer_sync_info():3383] logging synced files
+2024-07-18 08:19:11,286 DEBUG   HandlerThread:171412 [handler.py:handle_request():144] handle_request: shutdown
+2024-07-18 08:19:11,286 INFO    HandlerThread:171412 [handler.py:finish():841] shutting down handler
+2024-07-18 08:19:12,029 INFO    WriterThread:171412 [datastore.py:close():299] close: /home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240718_081842-psv8t4mx/run-psv8t4mx.wandb
+2024-07-18 08:19:12,284 INFO    SenderThread:171412 [sender.py:finish():1491] shutting down sender
+2024-07-18 08:19:12,285 INFO    SenderThread:171412 [file_pusher.py:finish():160] shutting down file pusher
+2024-07-18 08:19:12,285 INFO    SenderThread:171412 [file_pusher.py:join():165] waiting for file pusher

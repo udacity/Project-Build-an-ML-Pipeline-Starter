@@ -1,0 +1,12 @@
+2024-07-18 07:50:48,597 Minimum price: 10, Maximum price: 350
+2024-07-18 07:50:48,617 Preparing sklearn pipeline
+Traceback (most recent call last):
+  File "/home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 296, in <module>
+    go(args)
+  File "/home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 69, in go
+    sk_pipe, processed_features = get_inference_pipeline(rf_config, args.max_tfidf_features)
+  File "/home/sloya7/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 232, in get_inference_pipeline
+    ("preprocessor", ColumnTransformer()),
+  File "/home/sloya7/miniconda3/envs/mlflow-cd2223184c39f5e9adfdfee0bf49bde3d68897c3/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+TypeError: __init__() missing 1 required positional argument: 'transformers'

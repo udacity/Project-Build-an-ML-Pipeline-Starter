@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9c904cd2a6a247f2aa621d5676753813/artifacts
+end_time: 1721232319419
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9c904cd2a6a247f2aa621d5676753813
+run_name: trusting-rat-345
+run_uuid: 9c904cd2a6a247f2aa621d5676753813
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721232282892
+status: 3
+tags: []
+user_id: sloya7

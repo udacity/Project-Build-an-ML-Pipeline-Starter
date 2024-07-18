@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0867b81232614fd2a4ed33cd80229780/artifacts
+end_time: 1721231826338
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0867b81232614fd2a4ed33cd80229780
+run_name: efficient-rat-171
+run_uuid: 0867b81232614fd2a4ed33cd80229780
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721231713173
+status: 4
+tags: []
+user_id: sloya7

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/3a2574dae7ba47e1a768f8da409bdb1e/artifacts
+end_time: 1721313413662
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3a2574dae7ba47e1a768f8da409bdb1e
+run_name: tasteful-shad-711
+run_uuid: 3a2574dae7ba47e1a768f8da409bdb1e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721313364546
+status: 3
+tags: []
+user_id: sloya7

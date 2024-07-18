@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/bb5f06c5842f421dbb3982c3a1e17203/artifacts
+end_time: 1721313014006
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bb5f06c5842f421dbb3982c3a1e17203
+run_name: handsome-mare-300
+run_uuid: bb5f06c5842f421dbb3982c3a1e17203
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721312973545
+status: 4
+tags: []
+user_id: sloya7

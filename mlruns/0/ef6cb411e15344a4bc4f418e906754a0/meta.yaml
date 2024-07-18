@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ef6cb411e15344a4bc4f418e906754a0/artifacts
+end_time: 1721231688688
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ef6cb411e15344a4bc4f418e906754a0
+run_name: clumsy-crow-119
+run_uuid: ef6cb411e15344a4bc4f418e906754a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721231686281
+status: 4
+tags: []
+user_id: sloya7

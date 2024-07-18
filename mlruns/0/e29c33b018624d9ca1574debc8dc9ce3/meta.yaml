@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e29c33b018624d9ca1574debc8dc9ce3/artifacts
+end_time: 1721313215785
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e29c33b018624d9ca1574debc8dc9ce3
+run_name: vaunted-swan-872
+run_uuid: e29c33b018624d9ca1574debc8dc9ce3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721313174202
+status: 4
+tags: []
+user_id: sloya7

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sloya7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/706d87e90d7d4fc1b18a68b43de94d89/artifacts
+end_time: 1721310905073
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 706d87e90d7d4fc1b18a68b43de94d89
+run_name: enchanting-smelt-153
+run_uuid: 706d87e90d7d4fc1b18a68b43de94d89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721310858247
+status: 4
+tags: []
+user_id: sloya7
