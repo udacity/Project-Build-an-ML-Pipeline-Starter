@@ -22,7 +22,7 @@ entry_points:
         type: string
 
       min_price:
-        description: Minumim house price to be considered
+        description: Minimum house price to be considered
         type: float
 
       max_price:
