@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/kjersten/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1f3eb17f4ab842a58d2638c9310105c7/artifacts
+end_time: 1730418123292
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1f3eb17f4ab842a58d2638c9310105c7
+run_name: judicious-skink-643
+run_uuid: 1f3eb17f4ab842a58d2638c9310105c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730418080312
+status: 4
+tags: []
+user_id: kjersten

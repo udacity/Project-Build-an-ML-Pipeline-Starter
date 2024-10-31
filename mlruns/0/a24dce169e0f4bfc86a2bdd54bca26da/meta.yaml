@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/kjersten/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a24dce169e0f4bfc86a2bdd54bca26da/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a24dce169e0f4bfc86a2bdd54bca26da
+run_name: grandiose-lamb-35
+run_uuid: a24dce169e0f4bfc86a2bdd54bca26da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730418205709
+status: 1
+tags: []
+user_id: kjersten

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/kjersten/Project-Build-an-ML-Pipeline-Starter/mlruns/0/513a5b3c1c9c4d2fb8cf6ffc5fbafaa2/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 513a5b3c1c9c4d2fb8cf6ffc5fbafaa2
+run_name: sedate-dolphin-535
+run_uuid: 513a5b3c1c9c4d2fb8cf6ffc5fbafaa2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730418466476
+status: 1
+tags: []
+user_id: kjersten

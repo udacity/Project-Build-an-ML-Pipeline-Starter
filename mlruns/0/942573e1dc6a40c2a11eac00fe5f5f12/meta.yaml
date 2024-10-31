@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/kjersten/Project-Build-an-ML-Pipeline-Starter/mlruns/0/942573e1dc6a40c2a11eac00fe5f5f12/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 942573e1dc6a40c2a11eac00fe5f5f12
+run_name: bouncy-rat-79
+run_uuid: 942573e1dc6a40c2a11eac00fe5f5f12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730418363341
+status: 1
+tags: []
+user_id: kjersten
