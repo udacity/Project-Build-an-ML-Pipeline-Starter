@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/kjersten/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c184be19bee04df2930efa392f650d86/artifacts
+end_time: 1728081333371
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c184be19bee04df2930efa392f650d86
+run_name: orderly-moose-271
+run_uuid: c184be19bee04df2930efa392f650d86
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728081205833
+status: 3
+tags: []
+user_id: kjersten
