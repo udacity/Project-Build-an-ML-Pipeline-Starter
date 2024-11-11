@@ -4,7 +4,7 @@ main:
   # Set this to null if you are running in prod
   project_name: nyc_airbnb
   experiment_name: development
-  steps: download
+  steps: "download"
 etl:
   sample: "sample1.csv"
   min_price: 10  # dollars
