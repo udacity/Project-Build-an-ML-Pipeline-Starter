@@ -1,11 +1,14 @@
-import json
-
-import mlflow
-import tempfile
 import os
+import json
+import tempfile
+import mlflow
+from omegaconf import DictConfig
 import wandb
 import hydra
-from omegaconf import DictConfig
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_squared_error
+import pandas as pd
 
 _steps = [
     "download",
@@ -13,18 +16,14 @@ _steps = [
     "data_check",
     "data_split",
     "train_random_forest",
-    # NOTE: We do not include this in the steps so it is not run by mistake.
-    # You first need to promote a model export to "prod" before you can run this,
-    # then you need to run this step explicitly
-#    "test_regression_model"
+    # Uncomment to run this step if needed
+    # "test_regression_model"
 ]
 
-
-# This automatically reads in the configuration
 @hydra.main(config_path=".", config_name="config", version_base=None)
 def go(config: DictConfig):
 
-    # Setup the wandb experiment. All runs will be grouped under this name
+    # Setup the wandb experiment
     os.environ["WANDB_PROJECT"] = config["main"]["project_name"]
     os.environ["WANDB_RUN_GROUP"] = config["main"]["experiment_name"]
 
@@ -36,7 +35,6 @@ def go(config: DictConfig):
     with tempfile.TemporaryDirectory() as tmp_dir:
 
         if "download" in active_steps:
-            # Download file and load in W&B
             _ = mlflow.run(
                 f"{config['main']['components_repository']}/get_data",
                 "main",
@@ -51,47 +49,81 @@ def go(config: DictConfig):
             )
 
         if "basic_cleaning" in active_steps:
-            ##################
-            # Implement here #
-            ##################
-            pass
+            _ = mlflow.run(
+                f"{config['main']['components_repository']}/basic_cleaning",
+                "main",
+                version='main',
+                env_manager="conda",
+                parameters={
+                    "input_artifact": "sample.csv:latest",
+                    "artifact_name": "cleaned_data.csv",
+                    "artifact_type": "cleaned_data",
+                    "artifact_description": "Data after basic cleaning"
+                },
+            )
 
         if "data_check" in active_steps:
-            ##################
-            # Implement here #
-            ##################
-            pass
+            _ = mlflow.run(
+                f"{config['main']['components_repository']}/data_check",
+                "main",
+                version='main',
+                env_manager="conda",
+                parameters={
+                    "csv": "cleaned_data.csv:latest",
+                    "ref": "sample.csv:latest",
+                    "kl_threshold": config["data_check"]["kl_threshold"],
+                    "min_price": config["etl"]["min_price"],
+                    "max_price": config["etl"]["max_price"]
+                },
+            )
 
         if "data_split" in active_steps:
-            ##################
-            # Implement here #
-            ##################
-            pass
+            _ = mlflow.run(
+                f"{config['main']['components_repository']}/data_split",
+                "main",
+                version='main',
+                env_manager="conda",
+                parameters={
+                    "input": "cleaned_data.csv:latest",
+                    "artifact_root": "data",
+                    "artifact_type": "split_data",
+                    "test_size": config["modeling"]["test_size"],
+                    "val_size": config["modeling"]["val_size"]
+                },
+            )
 
         if "train_random_forest" in active_steps:
-
-            # NOTE: we need to serialize the random forest configuration into JSON
             rf_config = os.path.abspath("rf_config.json")
-            with open(rf_config, "w+") as fp:
-                json.dump(dict(config["modeling"]["random_forest"].items()), fp)  # DO NOT TOUCH
+            with open(rf_config, "w") as fp:
+                json.dump(dict(config["modeling"]["random_forest"].items()), fp)
 
-            # NOTE: use the rf_config we just created as the rf_config parameter for the train_random_forest
-            # step
-
-            ##################
-            # Implement here #
-            ##################
-
-            pass
+            _ = mlflow.run(
+                f"{config['main']['components_repository']}/train_random_forest",
+                "main",
+                version='main',
+                env_manager="conda",
+                parameters={
+                    "train_data": "data_train.csv:latest",
+                    "val_data": "data_val.csv:latest",
+                    "rf_config": rf_config,
+                    "max_tfidf_features": config["modeling"]["max_tfidf_features"],
+                    "artifact_root": "random_forest_export",
+                    "artifact_type": "model_export",
+                    "artifact_description": "Random Forest Model Export"
+                },
+            )
 
         if "test_regression_model" in active_steps:
-
-            ##################
-            # Implement here #
-            ##################
-
-            pass
-
+            _ = mlflow.run(
+                f"{config['main']['components_repository']}/test_regression_model",
+                "main",
+                version='main',
+                env_manager="conda",
+                parameters={
+                    "model_export": "random_forest_export:prod",
+                    "test_data": "data_test.csv:latest"
+                },
+            )
 
 if __name__ == "__main__":
     go()
