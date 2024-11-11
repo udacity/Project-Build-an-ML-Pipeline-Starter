@@ -20,7 +20,7 @@ _steps = [
     # "test_regression_model"
 ]
 
-@hydra.main(config_path=".", config_name="config", version_base=None)
+@hydra.main(config_name='config')
 def go(config: DictConfig):
 
     # Setup the wandb experiment
