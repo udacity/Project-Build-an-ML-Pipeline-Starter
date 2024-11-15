@@ -51,10 +51,22 @@ def go(config: DictConfig):
             )
 
         if "basic_cleaning" in active_steps:
-            ##################
-            # Implement here #
-            ##################
-            pass
+            # Step: Basic Cleaning
+            # Cleans raw data by removing outliers and handling nulls
+            _ = mlflow.run(
+                f"{config['main']['components_repository']}/basic_cleaning",
+                "main",
+                version='main',
+                env_manager="conda",
+                parameters={
+                    "input_artifact": "sample.csv:latest",
+                    "output_artifact": "cleaned_data.csv",
+                    "output_type": "cleaned_data",
+                    "output_description": "Data after basic cleaning",
+                    "min_price": config["etl"]["min_price"],
+                    "max_price": config["etl"]["max_price"]
+                },
+            )
 
         if "data_check" in active_steps:
             ##################
