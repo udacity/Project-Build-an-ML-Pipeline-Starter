@@ -49,6 +49,8 @@ def go(config: DictConfig):
             )
 
         if "basic_cleaning" in active_steps:
+            # Step: Basic Cleaning
+            # Cleans raw data by removing outliers and handling nulls
             _ = mlflow.run(
                 f"{config['main']['components_repository']}/basic_cleaning",
                 "main",
@@ -56,13 +58,17 @@ def go(config: DictConfig):
                 env_manager="conda",
                 parameters={
                     "input_artifact": "sample.csv:latest",
-                    "artifact_name": "cleaned_data.csv",
-                    "artifact_type": "cleaned_data",
-                    "artifact_description": "Data after basic cleaning"
+                    "output_artifact": "cleaned_data.csv",
+                    "output_type": "cleaned_data",
+                    "output_description": "Data after basic cleaning",
+                    "min_price": config["etl"]["min_price"],
+                    "max_price": config["etl"]["max_price"]
                 },
             )
 
         if "data_check" in active_steps:
+            # Step: Data Check
+            # Validate cleaned data quality
             _ = mlflow.run(
                 f"{config['main']['components_repository']}/data_check",
                 "main",
@@ -78,6 +84,8 @@ def go(config: DictConfig):
             )
 
         if "data_split" in active_steps:
+            # Step: Data Split
+            # Split cleaned data into train, test, and validation sets
             _ = mlflow.run(
                 f"{config['main']['components_repository']}/data_split",
                 "main",
@@ -93,7 +101,9 @@ def go(config: DictConfig):
             )
 
         if "train_random_forest" in active_steps:
-            rf_config = os.path.abspath("rf_config.json")
+            # Step: Train Random Forest
+            # Train a random forest regressor
+            rf_config = os.path.join(tmp_dir, "rf_config.json")
             with open(rf_config, "w") as fp:
                 json.dump(dict(config["modeling"]["random_forest"].items()), fp)
 
@@ -114,6 +124,8 @@ def go(config: DictConfig):
             )
 
         if "test_regression_model" in active_steps:
+            # Step: Test Regression Model
+            # Test the trained model on the test set
             _ = mlflow.run(
                 f"{config['main']['components_repository']}/test_regression_model",
                 "main",
