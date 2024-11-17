@@ -17,6 +17,21 @@ In this project you will build such a pipeline.
   * [Pre-existing components](#pre-existing-components)
 
 ## Preliminary steps
+
+### Supported Operating Systems
+
+This project is compatible with the following operating systems:
+
+- **Ubuntu 22.04** (Jammy Jellyfish) - both Ubuntu installation and WSL (Windows Subsystem for Linux)
+- **Ubuntu 24.04** - both Ubuntu installation and WSL (Windows Subsystem for Linux)
+- **macOS** - compatible with recent macOS versions
+
+Please ensure you are using one of the supported OS versions to avoid compatibility issues.
+
+### Python Requirement
+
+This project requires **Python 3.10**. Please ensure that you have Python 3.10 installed and set as the default version in your environment to avoid any runtime issues.
+
 ### Fork the Starter kit
 Go to [https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter](https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter)
 and click on `Fork` in the upper right corner. This will create a fork in your Github account, i.e., a copy of the
@@ -128,6 +143,8 @@ You can see the parameters that they require by looking into their `MLproject` f
 - `train_val_test_split`: segrgate the data (splits the data) [MLproject](https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter/blob/main/components/train_val_test_split/MLproject)
 
 ## In case of errors
+
+### Environments
 When you make an error writing your `conda.yml` file, you might end up with an environment for the pipeline or one
 of the components that is corrupted. Most of the time `mlflow` realizes that and creates a new one every time you try
 to fix the problem. However, sometimes this does not happen, especially if the problem was in the `pip` dependencies.
@@ -147,6 +164,16 @@ If you are ok with that list, execute this command to clean them up:
 ```
 
 This will iterate over all the environments created by `mlflow` and remove them.
+
+### MLflow & Wandb
+
+If you see the any error while running the command:
+
+```
+> mlflow run .
+```
+
+Please, make sure all steps are using **the same** python version and that you have **conda installed**. Additionally, *mlflow* and *wandb* packages are crucial and should have the same version.
 
 
 ## License
