@@ -1,17 +1,30 @@
 #!/usr/bin/env python
 """
-This script splits the provided dataframe in test and remainder
+This script splits the provided dataframe into test and trainval sets.
 """
 import argparse
 import logging
 import pandas as pd
 import wandb
 import tempfile
+import os
 from sklearn.model_selection import train_test_split
-from wandb_utils.log_artifact import log_artifact
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
 logger = logging.getLogger()
+
+
+def log_artifact(filename, artifact_name, artifact_type, description, run):
+    """
+    Log an artifact to W&B.
+    """
+    artifact = wandb.Artifact(
+        name=artifact_name,
+        type=artifact_type,
+        description=description,
+    )
+    artifact.add_file(filename)
+    run.log_artifact(artifact)
 
 
 def go(args):
@@ -19,35 +32,47 @@ def go(args):
     run = wandb.init(job_type="train_val_test_split")
     run.config.update(args)
 
-    # Download input artifact. This will also note that this script is using this
-    # particular version of the artifact
-    logger.info(f"Fetching artifact {args.input}")
-    artifact_local_path = run.use_artifact(args.input).file()
+    try:
+        # Download input artifact
+        logger.info(f"Fetching artifact {args.input}")
+        artifact_local_path = run.use_artifact(args.input).file()
+        df = pd.read_csv(artifact_local_path)
 
-    df = pd.read_csv(artifact_local_path)
+        # Splitting the dataset
+        logger.info("Splitting trainval and test")
+        trainval, test = train_test_split(
+            df,
+            test_size=args.test_size,
+            random_state=args.random_seed,
+            stratify=df[args.stratify_by] if args.stratify_by != 'none' else None,
+        )
 
-    logger.info("Splitting trainval and test")
-    trainval, test = train_test_split(
-        df,
-        test_size=args.test_size,
-        random_state=args.random_seed,
-        stratify=df[args.stratify_by] if args.stratify_by != 'none' else None,
-    )
+        # Save and log the splits
+        for split_df, split_name in zip([trainval, test], ['trainval', 'test']):
+            logger.info(f"Uploading {split_name}_data.csv dataset")
+            with tempfile.NamedTemporaryFile("w", suffix=".csv", delete=False) as temp_file:
+                split_df.to_csv(temp_file.name, index=False)
+                temp_file.close()
 
-    # Save to output files
-    for df, k in zip([trainval, test], ['trainval', 'test']):
-        logger.info(f"Uploading {k}_data.csv dataset")
-        with tempfile.NamedTemporaryFile("w") as fp:
+                # Log the artifact
+                log_artifact(
+                    temp_file.name,
+                    f"{split_name}_data",
+                    "dataset",
+                    f"{split_name} split of the dataset",
+                    run,
+                )
 
-            df.to_csv(fp.name, index=False)
+                # Clean up temporary file
+                os.remove(temp_file.name)
 
-            log_artifact(
-                f"{k}_data.csv",
-                f"{k}_data",
-                f"{k} split of dataset",
-                fp.name,
-                run,
-            )
+    except Exception as e:
+        logger.error(f"Error during dataset splitting: {e}")
+        raise
+
+    finally:
+        # Ensure W&B run is closed
+        run.finish()
 
 
 if __name__ == "__main__":
