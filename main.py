@@ -107,7 +107,7 @@ def go(config: DictConfig):
                 os.path.join(hydra.utils.get_original_cwd(), "src", "test_regression_model"),
                 "main",
                 parameters={
-                    "model_export": "random_forest_export:latest",
+                    "mlflow_export": "random_forest_export:latest",
                     "test_data": "test_data.csv:latest",
                     "metrics_output": "test_metrics.json",
                 },
