@@ -7,10 +7,8 @@ dependencies:
   - pip=23.3.1
   - requests=2.24.0
   - scikit-learn=1.3.2
-  - pandas=2.1.3
   - numpy=1.24
   - pip:
       - mlflow==2.8.1
       - wandb==0.16.0
-      - https://github.com/JLJ55/Project-Build-an-ML-Pipeline-Starter.git#components
-
+      - git+https://github.com/JLJ55/Project-Build-an-ML-Pipeline-Starter.git#egg=wandb-utils&subdirectory=components
