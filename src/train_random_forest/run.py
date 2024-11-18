@@ -27,7 +27,7 @@ import wandb
 
 def delta_date_feature(dates):
     """
-    Given a 2d array containing dates (in any format recognized by pd.to_datetime), it returns the delta in days
+    Given a 2D array containing dates (in any format recognized by pd.to_datetime), it returns the delta in days
     between each date and the most recent date in its column.
     """
     date_sanitized = pd.DataFrame(dates).apply(pd.to_datetime)
@@ -38,38 +38,54 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
 logger = logging.getLogger()
 
 
+def validate_and_correct_types(df):
+    """
+    Ensures all columns in the dataframe have types compatible with MLflow.
+    """
+    for col in df.columns:
+        if df[col].dtype == "object":
+            # Attempt conversion to string
+            try:
+                df[col] = df[col].astype(str)
+            except Exception as e:
+                raise ValueError(f"Cannot convert column '{col}' to string. Error: {e}")
+        elif df[col].dtype.name not in ["int64", "float64", "bool"]:
+            raise ValueError(f"Column '{col}' has unsupported type '{df[col].dtype}' for MLflow.")
+    return df
+
+
 def go(args):
     run = wandb.init(job_type="train_random_forest")
     run.config.update(args)
 
-    # Get the Random Forest configuration and update W&B
+    # Load Random Forest configuration
     with open(args.rf_config) as fp:
         rf_config = json.load(fp)
     run.config.update(rf_config)
 
-    # Fix the random seed for the Random Forest, so we get reproducible results
+    # Fix the random seed for reproducibility
     rf_config['random_state'] = args.random_seed
 
-    # Use run.use_artifact(...).file() to get the train and validation artifact
+    # Load the training dataset artifact
     trainval_local_path = run.use_artifact(args.trainval_artifact).file()
     X = pd.read_csv(trainval_local_path)
     y = X.pop("price")
 
     logger.info(f"Minimum price: {y.min()}, Maximum price: {y.max()}")
 
+    # Train-test split
     X_train, X_val, y_train, y_val = train_test_split(
         X, y, test_size=args.val_size, stratify=X[args.stratify_by] if args.stratify_by != "none" else None, random_state=args.random_seed
     )
 
     logger.info("Preparing sklearn pipeline")
-
     sk_pipe, processed_features = get_inference_pipeline(rf_config, args.max_tfidf_features)
 
-    # Fit the pipeline sk_pipe by calling the .fit method on X_train and y_train
+    # Fit the pipeline
     logger.info("Fitting")
     sk_pipe.fit(X_train, y_train)
 
-    # Compute r2 and MAE
+    # Evaluate the model
     logger.info("Scoring")
     r_squared = sk_pipe.score(X_val, y_val)
     y_pred = sk_pipe.predict(X_val)
@@ -78,9 +94,12 @@ def go(args):
     logger.info(f"Score: {r_squared}")
     logger.info(f"MAE: {mae}")
 
-    logger.info("Exporting model")
+    # Ensure column types are valid for MLflow
+    logger.info("Validating data types for MLflow")
+    X_val = validate_and_correct_types(X_val)
 
-    # Save model package in the MLFlow sklearn format
+    # Save and log the model
+    logger.info("Exporting model")
     if os.path.exists("random_forest_dir"):
         shutil.rmtree("random_forest_dir")
 
@@ -92,7 +111,6 @@ def go(args):
         input_example=X_train.iloc[:5],
     )
 
-    # Upload the model we just exported to W&B
     artifact = wandb.Artifact(
         args.output_artifact,
         type='model_export',
@@ -105,12 +123,12 @@ def go(args):
     # Plot feature importance
     fig_feat_imp = plot_feature_importance(sk_pipe, processed_features)
 
-    # Save metrics to W&B
+    # Log metrics and feature importance visualization to W&B
     run.summary['r2'] = r_squared
     run.summary['mae'] = mae
-
-    # Upload the feature importance visualization to W&B
     run.log({"feature_importance": wandb.Image(fig_feat_imp)})
+
+    run.finish()
 
 
 def plot_feature_importance(pipe, feat_names):
@@ -243,4 +261,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     go(args)
+
 
