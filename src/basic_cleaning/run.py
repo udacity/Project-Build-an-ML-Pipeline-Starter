@@ -11,7 +11,7 @@ import pandas as pd
 logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
 logger = logging.getLogger()
 
-
+# DO NOT MODIFY
 def go(args):
 
     run = wandb.init(job_type="basic_cleaning")
@@ -43,51 +43,54 @@ def go(args):
  )
     artifact.add_file("clean_sample.csv")
     run.log_artifact(artifact)
+
+
+# TODO: In the code below, fill in the data type for each argumemt. The data type should be str, float or int. 
+# TODO: In the code below, fill in a description for each argument. The description should be a string.
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="A very basic data cleaning")
-
-
+  
     parser.add_argument(
         "--input_artifact", 
-        type=str,
-        help='Input data',
-        required=True
+        type = ## INSERT TYPE HERE: str, float or int,
+        help = ## INSERT DESCRIPTION HERE,
+        required = True
     )
 
     parser.add_argument(
         "--output_artifact", 
-        type=str,
-        help='Cleaned data',
-        required=True
+        type = ## INSERT TYPE HERE: str, float or int,
+        help = ## INSERT DESCRIPTION HERE,
+        required = True
     )
 
     parser.add_argument(
         "--output_type", 
-        type=str,
-        help='Csv file',
-        required=True
+        type = ## INSERT TYPE HERE: str, float or int,
+        help = ## INSERT DESCRIPTION HERE,
+        required = True
     )
 
     parser.add_argument(
         "--output_description", 
-        type=str,
-        help='Preprocessed data',
-        required=True
+        type = ## INSERT TYPE HERE: str, float or int,
+        help = ## INSERT DESCRIPTION HERE,
+        required = True
     )
 
     parser.add_argument(
         "--min_price", 
-        type=float,
-        help='Minimum rent price',
-        required=True
+        type = ## INSERT TYPE HERE: str, float or int,
+        help = ## INSERT DESCRIPTION HERE,
+        required = True
     )
 
     parser.add_argument(
-        "--max_price", 
-        type=float,
-        help='Maximum rent price',
-        required=True
+        "--max_price",
+        type = ## INSERT TYPE HERE: str, float or int,
+        help = ## INSERT DESCRIPTION HERE,
+        required = True
     )
 
 
