@@ -7,19 +7,19 @@ entry_points:
 
       input_artifact:
         description: Ininital artifact to be cleaned
-        type: str
+        type: string
 
       output_artifact:
         description: Output artifact for cleaned data
-        type: str
+        type: string
 
       output_type:
         description: Type of the output dataset
-        type: str
+        type: string
 
       output_description:
         description: Description of the output dataset
-        type: str
+        type: string
 
       min_price:
         description: Minimum house price to be considered
