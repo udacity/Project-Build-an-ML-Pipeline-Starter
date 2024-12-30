@@ -122,8 +122,21 @@ def go(config: DictConfig):
             ##################
             # Implement here #
             ##################
-
-            pass
+            _ = mlflow.run(
+                f"{config['main']['src_repository']}/train_random_forest",
+                "main",
+                version='main',
+                env_manager="conda",
+                parameters={
+                    "trainval_artifact": "trainval_data.csv:latest",
+                    "val_size": config["modeling"]["val_size"],
+                    "random_seed": config["modeling"]["random_seed"],
+                    "stratify_by": config["modeling"]["stratify_by"],
+                    "rf_config": rf_config,
+                    "max_tfidf_features": config["modeling"]["max_tfidf_features"],
+                    "output_artifact": "random_forest_export.csv"
+                },
+            ) 
 
         if "test_regression_model" in active_steps:
 
