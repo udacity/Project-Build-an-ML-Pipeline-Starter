@@ -49,6 +49,8 @@ cd Project-Build-an-ML-Pipeline-Starter
 Commit and push to the repository often while you make progress towards the solution. Remember 
 to add meaningful commit messages.
 
+git hub link: https://github.com/jcoo573/Project-Build-an-ML-Pipeline-Starter.git
+
 ### Create environment
 Make sure to have conda installed and ready, then create a new environment using the ``environment.yaml``
 file provided in the root of the repository and activate it:
@@ -64,8 +66,9 @@ Let's make sure we are logged in to Weights & Biases. Get your API key from W&B 
 then paste your key into this command:
 
 ```bash
-> wandb login [your API key]
+> wandb login 8e55b75b9c081e2823114b0a2a621ce5718e946d
 ```
+wandb workspace: https://wandb.ai/jcoo573-wgu/nyc_airbnb?nw=nwuserjcoo573
 
 You should see a message similar to:
 ```
