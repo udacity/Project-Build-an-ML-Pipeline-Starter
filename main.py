@@ -83,7 +83,7 @@ def go(config: DictConfig):
                 env_manager="conda",
                 parameters={
                     "csv": "cleaned_data.csv:latest",
-                    "ref": "ccleaned_data.csv:reference",
+                    "ref": "cleaned_data.csv:reference",
                     "kl_threshold": config["data_check"]["kl_threshold"],
                     "min_price": config["etl"]["min_price"],
                     "max_price": config["etl"]["max_price"]
