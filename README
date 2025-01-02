@@ -1,0 +1,65 @@
+NYC Airbnb Price Prediction Pipeline
+This repository contains the implementation of a machine learning pipeline for predicting Airbnb prices in New York City. The pipeline is designed to handle data ingestion, preprocessing, model training, hyperparameter tuning, and evaluation. It is part of the Udacity Machine Learning DevOps Nanodegree and integrates Weights & Biases for experiment tracking, artifact management, and visualization.
+
+  
+Project Overview
+This project applies a random forest regression model to predict Airbnb prices based on provided datasets. The pipeline is fully reproducible using MLflow and allows for modular experimentation and robust data handling.
+
+Project Links
+Weights & Biases Project Dashboard: https://wandb.ai/efransen0828-na/nyc_airbnb?nw=nwuserefransen0828 
+GitHub Repository: https://github.com/efransen0828/Project-Build-an-ML-Pipeline-Starter
+
+
+Key Features:
+Data Cleaning: Ensures the data is within valid geographic boundaries and removes anomalies.
+Model Training: Trains a random forest regressor with hyperparameter tuning.
+Artifact Management: Utilizes Weights & Biases (W&B) for storing data artifacts and model lineage tracking.
+Pipeline Automation: Entire process is reproducible with MLflow runs.
+
+
+Setup Instructions
+Prerequisites
+Python 3.8+
+Miniconda/Conda
+Weights & Biases account
+GitHub account with SSH or token authentication
+
+
+Steps
+1. Clone the repository:
+git clone https://github.com/efransen0828/Project-Build-an-ML-Pipeline-Starter.git
+cd Project-Build-an-ML-Pipeline-Starter
+
+2. Create and activate a Conda environment:
+conda create --name nyc_airbnb_dev python=3.10 -y
+conda activate nyc_airbnb_dev
+
+3. Install dependencies:
+pip install -r requirements.txt
+
+4. Set up W&B:
+wandb login
+
+
+Running the Pipeline
+1. Train the model on sample1.csv
+mlflow run https://github.com/efransen0828/Project-Build-an-ML-Pipeline-Starter.git \
+  -v 1.0.0 \
+  -P hydra_options="etl.sample='sample1.csv'"
+
+2. Train the model on sample2.csv
+mlflow run https://github.com/efransen0828/Project-Build-an-ML-Pipeline-Starter.git \
+  -v 1.0.1 \
+  -P hydra_options="etl.sample='sample2.csv'"
+
+
+Releasing the Pipeline
+The pipeline was released on GitHub using versioning:
+Version 1.0.0: Initial pipeline release.
+Version 1.0.1: Bug fix for out-of-boundary issues.
+
+
+Results
+Metrics for sample2.csv:
+Mean Absolute Error (MAE): [Provide Metric]
+R-squared (R²): [Provide Metric]
