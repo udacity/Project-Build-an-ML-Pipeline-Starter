@@ -53,7 +53,9 @@ def go(args):
 
     # Use run.use_artifact(...).file() to get the train and validation artifact
     # and save the returned path in train_local_pat
-    trainval_local_path = run.use_artifact(args.trainval_artifact).file()
+    # trainval_local_path = run.use_artifact(args.trainval_artifact).file()
+    trainval_local_path = run.use_artifact("lbekel-western-governors-university/nyc_airbnb/trainval_data.csv:latest").file()
+
    
     X = pd.read_csv(trainval_local_path)
     y = X.pop("price")  # this removes the column "price" from X and puts it into y
@@ -100,7 +102,7 @@ def go(args):
     mlflow.sklearn.save_model(
         # YOUR CODE HERE
         sk_pipe,
-        "random_forest_dir",
+        path="random_forest_dir",
         serialization_format="cloudpickle",
         input_example = X_train.iloc[:5]
     )
@@ -108,15 +110,26 @@ def go(args):
 
 
     # Upload the model we just exported to W&B
-    artifact = wandb.Artifact(
-        args.output_artifact,
-        type = 'model_export',
-        description = 'Trained ranfom forest artifact',
-        metadata = rf_config
-    )
-    artifact.add_dir('random_forest_dir')
-    run.log_artifact(artifact)
-
+    # artifact = wandb.Artifact(
+    #     args.output_artifact,
+    #     type = 'model_export',
+    #     description = 'Trained ranfom forest artifact',
+    #     metadata = rf_config
+    # )
+    # artifact.add_dir('random_forest_dir')
+    # run.log_artifact(artifact)
+    if os.path.exists("random_forest_dir"):
+        print("✅ Logging model to W&B...")
+        artifact = wandb.Artifact(
+            args.output_artifact,
+            type="model_export",
+            description="Trained random forest artifact",
+            metadata=rf_config
+        )
+        artifact.add_dir("random_forest_dir")
+        run.log_artifact(artifact)
+    else:
+        print("❌ ERROR: random_forest_dir is missing!")
     # Plot feature importance
     fig_feat_imp = plot_feature_importance(sk_pipe, processed_features)
 
@@ -300,3 +313,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     go(args)
+

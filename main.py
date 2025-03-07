@@ -55,7 +55,7 @@ def go(config: DictConfig):
             # Implement here #
             ##################
             _ = mlflow.run(
-                "src/basic_cleaning",
+                f"{config['main']['components_repository']}/get_data",
                 "main",
                 parameters={
                     "input_artifact": "lbekel-western-governors-university/nyc_airbnb/sample.csv:latest",
@@ -72,7 +72,7 @@ def go(config: DictConfig):
             # Implement here #
             ##################
             _ = mlflow.run(
-                "src/data_check",
+                f"{config['main']['components_repository']}/get_data",
                 "main",
                 parameters={
                     "csv": "lbekel-western-governors-university/nyc_airbnb/clean_sample:latest",
@@ -111,7 +111,7 @@ def go(config: DictConfig):
             ##################
 
             _ = mlflow.run(
-                "src/train_random_forest",
+                f"{config['main']['components_repository']}/get_data",
                 "main",
                 parameters={
                     "trainval_artifact": "lbekel-western-governors-university/nyc_airbnb/trainval_data:latest",
@@ -130,7 +130,14 @@ def go(config: DictConfig):
             # Implement here #
             ##################
 
-            pass
+            _ = mlflow.run(
+                f"{config['main']['components_repository']}/get_data",
+                "main",
+                parameters={
+                    "mlflow_model": "lbekel-western-governors-university/Project-Build-an-ML-Pipeline-Starter-src_train_random_forest/random_forest_export_maxdepth50:prod",
+                    "test_dataset": "lbekel-western-governors-university/nyc_airbnb/test_data:latest"
+                },
+            )
 
 
 if __name__ == "__main__":
