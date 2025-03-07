@@ -54,19 +54,47 @@ def go(config: DictConfig):
             ##################
             # Implement here #
             ##################
-            pass
+            _ = mlflow.run(
+                "src/basic_cleaning",
+                "main",
+                parameters={
+                    "input_artifact": "lbekel-western-governors-university/nyc_airbnb/sample.csv:latest",
+                    "output_artifact": "lbekel-western-governors-university/nyc_airbnb/clean_sample",
+                    "output_type": "cleaned_data",
+                    "output_description": "Cleaned Airbnb dataset with outlier removal and missing values handled",
+                    "min_price": config["etl"]["min_price"],
+                    "max_price": config["etl"]["max_price"]
+                },
+            )
 
         if "data_check" in active_steps:
             ##################
             # Implement here #
             ##################
-            pass
+            _ = mlflow.run(
+                "src/data_check",
+                "main",
+                parameters={
+                    "csv": "lbekel-western-governors-university/nyc_airbnb/clean_sample:latest",
+                    "ref": "lbekel-western-governors-university/nyc_airbnb/clean_sample:reference",
+                    "kl_threshold": config["data_check"]["kl_threshold"],
+                    "min_price": config["etl"]["min_price"],
+                    "max_price": config["etl"]["max_price"]
+                },
+            )
 
         if "data_split" in active_steps:
-            ##################
-            # Implement here #
-            ##################
-            pass
+            _ = mlflow.run(
+                f"{config['main']['components_repository']}/train_val_test_split",
+                "main",
+                parameters={
+                    "input": "lbekel-western-governors-university/nyc_airbnb/clean_sample:latest",
+                    "test_size": config["modeling"]["test_size"],
+                    "random_seed": config["modeling"]["random_seed"],
+                    "stratify_by": config["modeling"]["stratify_by"]
+                },
+            )
+
 
         if "train_random_forest" in active_steps:
 
@@ -82,7 +110,19 @@ def go(config: DictConfig):
             # Implement here #
             ##################
 
-            pass
+            _ = mlflow.run(
+                "src/train_random_forest",
+                "main",
+                parameters={
+                    "trainval_artifact": "lbekel-western-governors-university/nyc_airbnb/trainval_data:latest",
+                    "val_size": config["modeling"]["val_size"],
+                    "random_seed": config["modeling"]["random_seed"],
+                    "stratify_by": config["modeling"]["stratify_by"],
+                    "rf_config": "rf_config.json",
+                    "max_tfidf_features": config["modeling"]["max_tfidf_features"],
+                    "output_artifact": "random_forest_export"
+                },
+            )
 
         if "test_regression_model" in active_steps:
 
