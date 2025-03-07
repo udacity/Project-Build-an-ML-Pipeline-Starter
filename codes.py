@@ -36,3 +36,4 @@ api = wandb.Api()
 artifacts = api.artifact_type("dataset", "your_username/nyc_airbnb").collections()
 for artifact in artifacts:
     print(artifact.name)
+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
