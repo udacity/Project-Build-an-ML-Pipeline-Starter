@@ -54,15 +54,15 @@ def go(config: DictConfig):
         if "basic_cleaning" in active_steps:
             # Basic cleaning
             _ = mlflow.run(
-                f"{config['main']['components_repository']}/basic_cleaning",
+                os.path.join(hydra.utils.get_original_cwd(), "src", "basic_cleaning"),
                 "main",
                 version="main",
                 env_manager="conda",
                 parameters={
                     "input_artifact": "sample.csv:latest",
-                    "output_artifact": "cleaned_sample.csv",
-                    "output_type": "cleaned_data",
-                    "output_description": "Data after basic cleaning",
+                    "artifact_name": "cleaned_sample.csv",
+                    "artifact_type": "clean_sample",
+                    "artifact_description": "Data preprocessing and basic cleaning",
                     "min_price": config["etl"]["min_price"],
                     "max_price": config["etl"]["max_price"],
                 },
