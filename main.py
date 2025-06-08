@@ -5,7 +5,7 @@ import tempfile
 import os
 import wandb
 import hydra
-from omegaconf import DictConfig
+from omegaconf import DictConfig, OmegaConf
 
 _steps = [
     "download",
@@ -63,26 +63,39 @@ def go(config: DictConfig):
             pass
 
         if "data_split" in active_steps:
-            ##################
-            # Implement here #
-            ##################
-            pass
+            _ = mlflow.run(
+                f"{config['main']['components_repository']}/train_val_test_split", 'main',
+                parameters={
+                    "input": "clean_sample.csv:latest",
+                    "test_size": config["modeling"]["test_size"],
+                    "random_seed": config["modeling"]["random_seed"],
+                    "stratify_by": config["modeling"]["stratify_by"]
+                }
+            )
 
+        
         if "train_random_forest" in active_steps:
-
             # NOTE: we need to serialize the random forest configuration into JSON
-            rf_config = os.path.abspath("rf_config.json")
+            rf_config = os.path.join(tmp_dir, "rf_config.json")
             with open(rf_config, "w+") as fp:
                 json.dump(dict(config["modeling"]["random_forest"].items()), fp)  # DO NOT TOUCH
-
             # NOTE: use the rf_config we just created as the rf_config parameter for the train_random_forest
-            # step
+            absolute_run_py_path = OmegaConf.to_absolute_path("src/train_random_forest/run.py")
+            _ = mlflow.run(
+                ".",
+                entry_point=absolute_run_py_path,
+                env_manager="local",
+                parameters={
+                    "trainval_artifact": "trainval_data.csv:latest",
+                    "rf_config": os.path.abspath(rf_config),  # ✅ Pass absolute path explicitly
+                    "output_artifact": "random_forest_export",
+                    "val_size": config["modeling"]["val_size"],
+                    "random_seed": config["modeling"]["random_seed"],
+                    "stratify_by": config["modeling"]["stratify_by"],
+                    "max_tfidf_features": config["modeling"]["max_tfidf_features"]
+                }
+            )
 
-            ##################
-            # Implement here #
-            ##################
-
-            pass
 
         if "test_regression_model" in active_steps:
 
