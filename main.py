@@ -51,22 +51,37 @@ def go(config: DictConfig):
             )
 
         if "basic_cleaning" in active_steps:
-            ##################
-            # Implement here #
-            ##################
-            pass
+            _ = mlflow.run(
+                ".",
+                entry_point="basic_cleaning",
+                parameters={
+                    "input_artifact": "sample.csv:latest",
+                    "output_artifact": "clean_sample.csv",
+                    "output_type": "dataset",
+                    "output_description": "Cleaned dataset after removing outliers and fixing date format",
+                    "min_price": config["basic_cleaning"]["min_price"],
+                    "max_price": config["basic_cleaning"]["max_price"]
+                },
+            )
 
         if "data_check" in active_steps:
-            ##################
-            # Implement here #
-            ##################
-            pass
+            _ = mlflow.run(
+                ".",
+                entry_point="data_check",
+                parameters={
+                    "csv": "clean_sample.csv:latest",
+                    "ref": "clean_sample.csv:latest",
+                    "kl_threshold": config["data_check"]["kl_threshold"],
+                    "min_price": config["data_check"]["min_price"],
+                    "max_price": config["data_check"]["max_price"],
+                },
+            )
 
         if "data_split" in active_steps:
             _ = mlflow.run(
                 f"{config['main']['components_repository']}/train_val_test_split", 'main',
                 parameters={
-                    "input": "clean_sample.csv:latest",
+                    "input_artifact": "clean_sample.csv:latest",
                     "test_size": config["modeling"]["test_size"],
                     "random_seed": config["modeling"]["random_seed"],
                     "stratify_by": config["modeling"]["stratify_by"]
@@ -80,13 +95,13 @@ def go(config: DictConfig):
             with open(rf_config, "w+") as fp:
                 json.dump(dict(config["modeling"]["random_forest"].items()), fp)  # DO NOT TOUCH
             # NOTE: use the rf_config we just created as the rf_config parameter for the train_random_forest
-            absolute_run_py_path = OmegaConf.to_absolute_path("src/train_random_forest/run.py")
             _ = mlflow.run(
                 ".",
-                entry_point=absolute_run_py_path,
+                entry_point="train_random_forest",
                 env_manager="local",
                 parameters={
                     "trainval_artifact": "trainval_data.csv:latest",
+                    "test_artifact": "test_data.csv:latest",
                     "rf_config": os.path.abspath(rf_config),  # ✅ Pass absolute path explicitly
                     "output_artifact": "random_forest_export",
                     "val_size": config["modeling"]["val_size"],

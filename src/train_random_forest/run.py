@@ -53,10 +53,14 @@ def go(args):
 
     # Use run.use_artifact(...).file() to get the train and validation artifact
     # and save the returned path in train_local_pat
-    trainval_local_path = run.use_artifact(args.trainval_artifact).file()
+    trainval_local_path = run.use_artifact(args.trainval_artifact).download()
    
     X = pd.read_csv(trainval_local_path)
     y = X.pop("price")  # this removes the column "price" from X and puts it into y
+
+    test_local_path = run.use_artifact(args.test_artifact).download()
+    X_test = pd.read_csv(test_local_path)
+    y_test = X_test.pop("price")
 
     logger.info(f"Minimum price: {y.min()}, Maximum price: {y.max()}")
 
@@ -93,7 +97,7 @@ def go(args):
     # Save the sk_pipe pipeline as a mlflow.sklearn model in the directory "random_forest_dir"
     # HINT: use mlflow.sklearn.save_model
     mlflow.sklearn.save_model(
-        sk_pipe,,
+        sk_pipe,
         "random_forest_dir",
         input_example = X_train.iloc[:5]
     )
@@ -130,7 +134,7 @@ def go(args):
 
 def plot_feature_importance(pipe, feat_names):
     # We collect the feature importance for all non-nlp features first
-    feat_imp = pipe["random_forest"].feature_importances_[: len(feat_names)-1]
+    feat_imp = sk_pipe.named_steps["random_forest"].feature_importances_[: len(feat_names)-1]
     # For the NLP feature we sum across all the TF-IDF dimensions into a global
     # NLP importance
     nlp_importance = sum(pipe["random_forest"].feature_importances_[len(feat_names) - 1:])
