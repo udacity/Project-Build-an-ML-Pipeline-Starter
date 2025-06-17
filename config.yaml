@@ -21,8 +21,8 @@ modeling:
   stratify_by: "neighbourhood_group"
   max_tfidf_features: 5
   random_forest:
-    n_estimators: 100
-    max_depth: 15
+    n_estimators: 200
+    max_depth: 50
     min_samples_split: 4
     min_samples_leaf: 3
     n_jobs: -1
