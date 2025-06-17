@@ -3,10 +3,16 @@ conda_env: conda.yml
 
 entry_points:
   main:
+    # We still define parameters here for MLflow's internal validation and UI.
+    # However, the 'command' will no longer explicitly pass them as CLI args,
+    # as Hydra in run.py will manage config composition.
     parameters:
-
       trainval_artifact:
         description: Train dataset
+        type: string
+
+      test_artifact:
+        description: Test dataset
         type: string
 
       val_size:
@@ -23,10 +29,10 @@ entry_points:
         type: string
         default: 'none'
 
+      # rf_config is now expected as a path to a JSON file
       rf_config:
-        description: Random forest configuration. A path to a JSON file with the configuration that will
-                     be passed to the scikit-learn constructor for RandomForestRegressor.
-        type: path
+        description: Path to a JSON file containing Random Forest configuration.
+        type: string # Use string, as type: path can sometimes be strict in MLflow/Hydra interactions
 
       max_tfidf_features:
         description: Maximum number of words to consider for the TFIDF
@@ -36,11 +42,14 @@ entry_points:
         description: Name for the output artifact
         type: string
 
+    # --- SIMPLIFIED COMMAND: Hydra in run.py handles config loading ---
     command: >-
-      python run.py --trainval_artifact {trainval_artifact} \
-                    --val_size {val_size} \
-                    --random_seed {random_seed} \
-                    --stratify_by {stratify_by} \
-                    --rf_config {rf_config} \
-                    --max_tfidf_features {max_tfidf_features} \
-                    --output_artifact {output_artifact}
+      python run.py
+      trainval_artifact={trainval_artifact}
+      test_artifact={test_artifact}
+      val_size={val_size}
+      random_seed={random_seed}
+      stratify_by={stratify_by}
+      rf_config={rf_config}
+      max_tfidf_features={max_tfidf_features}
+      output_artifact={output_artifact}

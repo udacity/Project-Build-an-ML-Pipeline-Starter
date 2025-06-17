@@ -4,15 +4,60 @@ conda_env: conda.yml
 entry_points:
   main:
     parameters:
-
       steps:
         description: Comma-separated list of steps to execute (useful for debugging)
         type: str
         default: all
-
       hydra_options:
         description: Other configuration parameters to override
         type: str
         default: ''
-
     command: "python main.py main.steps=\\'{steps}\\' $(echo {hydra_options})"
+
+  basic_cleaning:
+    command: "python src/basic_cleaning/run.py --input_artifact {input_artifact} --output_artifact {output_artifact} --output_type {output_type} --output_description {output_description} --min_price {min_price} --max_price {max_price}"
+    parameters:
+      input_artifact: str
+      output_artifact: str
+      output_type: str
+      output_description: str
+      min_price: float
+      max_price: float
+
+  data_check:
+    command: "python src/data_check/run.py --csv {csv} --ref {ref} --kl_threshold {kl_threshold} --min_price {min_price} --max_price {max_price}"
+    parameters:
+      csv: str
+      ref: str
+      kl_threshold: float
+      min_price: float
+      max_price: float
+
+  data_split:
+    command: "python components/train_val_test_split/run.py"
+    parameters:
+      input_artifact: str
+      test_size: float
+      random_seed: int
+      stratify_by: str
+
+  train_random_forest:
+    parameters:
+      trainval_artifact: str
+      test_artifact: str
+      rf_config: str
+      output_artifact: str
+      val_size: float
+      random_seed: int
+      stratify_by: str
+      max_tfidf_features: int
+    command: >-
+      python src/train_random_forest/run.py
+      trainval_artifact={trainval_artifact}
+      test_artifact={test_artifact}
+      rf_config={rf_config}
+      output_artifact={output_artifact}
+      val_size={val_size}
+      random_seed={random_seed}
+      stratify_by={stratify_by}
+      max_tfidf_features={max_tfidf_features}

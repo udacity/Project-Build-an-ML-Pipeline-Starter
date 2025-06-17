@@ -1,71 +1,66 @@
 import pytest
 import pandas as pd
 import wandb
-
+import os
 
 def pytest_addoption(parser):
     parser.addoption("--csv", action="store")
     parser.addoption("--ref", action="store")
-    parser.addoption("--kl_threshold", action="store")
-    parser.addoption("--min_price", action="store")
-    parser.addoption("--max_price", action="store")
+    parser.addoption("--kl_threshold", action="store", type=float, default=0.2)
+    parser.addoption("--min_price", action="store", type=float, default=10.0)
+    parser.addoption("--max_price", action="store", type=float, default=350.0)
 
 
 @pytest.fixture(scope='session')
 def data(request):
-    run = wandb.init(job_type="data_tests", resume=True)
-
-    # Download input artifact. This will also note that this script is using this
-    # particular version of the artifact
-    data_path = run.use_artifact("mcan128-western-governors-university/nyc_airbnb/clean_sample.csv:latest").file()
+    csv_artifact_name = request.config.getoption("--csv")
     
-    if data_path is None:
+    if not csv_artifact_name:
         pytest.fail("You must provide the --csv option on the command line")
 
-    df = pd.read_csv(data_path)
-
+    run = wandb.init(job_type="data_tests", resume="allow")
+    
+    try:
+        current_artifact = run.use_artifact(csv_artifact_name)
+        data_dir = current_artifact.download()
+        df = pd.read_csv(os.path.join(data_dir, "clean_sample.csv"))
+    except Exception as e:
+        pytest.fail(f"Failed to load data from artifact '{csv_artifact_name}': {e}")
+    finally:
+        run.finish()
+        
     return df
 
 
 @pytest.fixture(scope='session')
 def ref_data(request):
-    run = wandb.init(job_type="data_tests", resume=True)
-
-    # Download input artifact. This will also note that this script is using this
-    # particular version of the artifact
-    data_path = run.use_artifact("mcan128-western-governors-university/nyc_airbnb/clean_sample.csv:reference").file()
-
-    if data_path is None:
+    
+    ref_artifact_name = request.config.getoption("--ref")
+    
+    if not ref_artifact_name:
         pytest.fail("You must provide the --ref option on the command line")
 
-    df = pd.read_csv(data_path)
-
+    run = wandb.init(job_type="data_tests", resume="allow")
+    
+    try:
+        ref_artifact = run.use_artifact(ref_artifact_name)
+        ref_data_dir = ref_artifact.download()
+        df = pd.read_csv(os.path.join(ref_data_dir, "clean_sample.csv"))
+    except Exception as e:
+        pytest.fail(f"Failed to load reference data from artifact '{ref_artifact_name}' : {e}")
+    finally:
+        run.finish()
     return df
 
 
 @pytest.fixture(scope='session')
 def kl_threshold(request):
-    kl_threshold = request.config.option.kl_threshold or 0.1
-
-    if kl_threshold is None:
-        pytest.fail("You must provide a threshold for the KL test")
-
-    return float(kl_threshold)
+    return request.config.getoption("--kl_threshold")
 
 @pytest.fixture(scope='session')
 def min_price(request):
-    min_price = request.config.option.min_price or 50
-
-    if min_price is None:
-        pytest.fail("You must provide min_price")
-
-    return float(min_price)
+    return request.config.getoption("--min_price")
 
 @pytest.fixture(scope='session')
 def max_price(request):
-    max_price = request.config.option.max_price or 500
-
-    if max_price is None:
-        pytest.fail("You must provide max_price")
-
-    return float(max_price)
+    return request.config.getoption("--max_price")

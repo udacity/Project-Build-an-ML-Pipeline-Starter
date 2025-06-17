@@ -1,0 +1,23 @@
+trainval_artifact: "trainval_data.csv:latest"
+test_artifact: "test_data.csv:latest"
+output_artifact: "random_forest_export"
+
+val_size: 0.2
+random_seed: 42
+stratify_by: "none"
+max_tfidf_features: 10
+rf_config: "dummy_rf_config.json" 
+
+modeling:
+  random_forest:
+    n_estimators: 100
+    max_depth: 15
+    min_samples_split: 4
+    min_samples_leaf: 3
+    n_jobs: -1
+    criterion: squared_error
+    max_features: 0.5
+    oob_score: true
+
+main:
+  project_name: "nyc_airbnb"
