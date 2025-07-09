@@ -145,3 +145,6 @@ mlruns/
 outputs/
 random_forest_dir/
 multirun/
+
+# scratchpad
+scratchpad/
