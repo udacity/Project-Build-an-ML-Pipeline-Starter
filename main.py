@@ -54,22 +54,23 @@ def go(config: DictConfig):
             ##################
             # Implement here #
             ##################
-            """
+            #"""
             _ = mlflow.run(
-                f"{config['main']['components_repository']}/basic_cleaning",
-                "main",
-                version='main',
+                uri=f"{config['main']['components_repository']}#src/basic_cleaning",
+                entry_point="main",
+                version="main",
                 env_manager="conda",
                 parameters={
-                    "input_artifact": "sample.csv:latest",
+                    "input_artifact": "sample1.csv:latest",
                     "output_artifact": "cleaned_data.csv",
                     "output_type": "cleaned_data",
                     "output_description": "Cleaned data after basic cleaning",
                     "min_price": config["etl"]["min_price"],
-                    "max_price": config["etl"]["max_price"],
+                    "max_price": config["etl"]["max_price"]
                 },
-            )"""
-            pass
+            )
+            #"""
+            #pass
 
         if "data_check" in active_steps:
             ##################
