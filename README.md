@@ -10,7 +10,7 @@ Report: https://wandb.ai/tlemes-western-governors-university/nyc_airbnb/reports/
 https://wandb.ai/tlemes-western-governors-university/nyc_airbnb?nw=nwusertlemes
 
 # GitHub
-
+https://github.com/ThaisLemes/Project-Build-an-ML-Pipeline-Starter
 
 ## Table of contents
 
