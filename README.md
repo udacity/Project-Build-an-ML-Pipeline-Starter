@@ -5,6 +5,12 @@ on the price of similar properties. Your company receives new data in bulk every
 to be retrained with the same cadence, necessitating an end-to-end pipeline that can be reused.
 
 In this project you will build such a pipeline.
+# W&B project link: 
+Report: https://wandb.ai/tlemes-western-governors-university/nyc_airbnb/reports/NYC-Airbnb-Dataset-project-Report--VmlldzoxMzU5MDg2MQ?accessToken=e6uedivrkyvwbjrr701otecnc3kyuakdywl7g9qciv0xnd80mkbefexwiubg6ji0
+https://wandb.ai/tlemes-western-governors-university/nyc_airbnb?nw=nwusertlemes
+
+# GitHub
+
 
 ## Table of contents
 
