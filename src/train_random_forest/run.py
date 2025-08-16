@@ -21,7 +21,7 @@ from sklearn.preprocessing import OrdinalEncoder, FunctionTransformer, OneHotEnc
 
 import wandb
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_absolute_error
+from sklearn.metrics import mean_absolute_error, r2_score
 from sklearn.pipeline import Pipeline, make_pipeline
 
 
@@ -78,7 +78,7 @@ def go(args):
 
     # Compute r2 and MAE
     logger.info("Scoring")
-    r_squared = sk_pipe.score(X_val, y_val)
+    r_squared = r2_score(y_val, y_pred)
 
     y_pred = sk_pipe.predict(X_val)
     mae = mean_absolute_error(y_val, y_pred)
