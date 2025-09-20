@@ -145,3 +145,9 @@ mlruns/
 outputs/
 random_forest_dir/
 multirun/
+
+mlruns/
+wandb/
+outputs/
+**/.hydra/
+
