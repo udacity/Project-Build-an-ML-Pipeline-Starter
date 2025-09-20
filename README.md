@@ -59,17 +59,21 @@ file provided in the root of the repository and activate it:
 ```
 
 ### Get API key for Weights and Biases
+
+project URL: https://wandb.ai/hato-dove-wgu/Project-Build-an-ML-Pipeline-Starter?nw=nwuserhatodove
+project URL: https://wandb.ai/hato-dove-wgu/nyc_airbnb?nw=nwuserhatodove
+
 Let's make sure we are logged in to Weights & Biases. Get your API key from W&B by going to 
 [https://wandb.ai/authorize](https://wandb.ai/authorize) and click on the + icon (copy to clipboard), 
 then paste your key into this command:
 
 ```bash
-> wandb login [your API key]
+> wandb login 480fd0d1eccdea835bc776de6c7770fe94aa5537
 ```
 
 You should see a message similar to:
 ```
-wandb: Appending key for api.wandb.ai to your netrc file: /home/[your username]/.netrc
+wandb: Appending key for api.wandb.ai to your netrc file: /home/hato-dove/.netrc
 ```
 
 
