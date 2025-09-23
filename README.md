@@ -1,10 +1,7 @@
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
-You are working for a property management company renting rooms and properties for short periods of 
-time on various rental platforms. You need to estimate the typical price for a given property based 
-on the price of similar properties. Your company receives new data in bulk every week. The model needs 
-to be retrained with the same cadence, necessitating an end-to-end pipeline that can be reused.
+You work for a property management company renting rooms and properties for short periods of time on various platforms. You need to estimate the typical price for a given property based on similar listings. New data arrives weekly, so the model must be retrained on the same cadence — requiring a reusable, end-to-end pipeline.
 
-In this project you will build such a pipeline.
+This repo implements that pipeline with MLflow, Hydra, scikit-learn, and Weights & Biases (W&B). It also includes local and HTTP prediction helpers and convenient make targets.
 
 ## Table of contents
 
@@ -16,8 +13,9 @@ In this project you will build such a pipeline.
   * [Running the entire pipeline or just a selection of steps](#Running-the-entire-pipeline-or-just-a-selection-of-steps)
   * [Pre-existing components](#pre-existing-components)
 
-## Preliminary steps
 
+* [Preliminary steps](#preliminary-steps)
+## Preliminary steps
 ### Supported Operating Systems
 
 This project is compatible with the following operating systems:
@@ -122,18 +120,28 @@ re-usable components. While you have a copy in your fork, you will be using them
 repository by accessing them through their GitHub link, like:
 
 ```python
+# Example snippet
+import mlflow
+
+config = {
+    "main": {
+        "components_repository": "https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter/tree/main/components"
+    },
+    "etl": {"sample": 1.0},
+}
+
 _ = mlflow.run(
-                f"{config['main']['components_repository']}/get_data",
-                "main",
-                version='main',
-                env_manager="conda",
-                parameters={
-                    "sample": config["etl"]["sample"],
-                    "artifact_name": "sample.csv",
-                    "artifact_type": "raw_data",
-                    "artifact_description": "Raw file as downloaded"
-                },
-            )
+    f"{config['main']['components_repository']}/get_data",
+    "main",
+    version="main",
+    env_manager="conda",
+    parameters={
+        "sample": config["etl"]["sample"],
+        "artifact_name": "sample.csv",
+        "artifact_type": "raw_data",
+        "artifact_description": "Raw file as downloaded",
+    },
+)
 ```
 where `config['main']['components_repository']` is set to 
 [https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter/tree/main/components](https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter/tree/main/components).
@@ -172,6 +180,51 @@ If you see the any error while running the command:
 ```
 > mlflow run .
 ```
+## Reproducibility Proof — Screenshots & Links
+
+This section shows exactly how to reproduce the results and includes screenshots + links captured from my local run.
+
+### Environment
+
+![Environment versions](images/01_env_versions.png)
+
+### Repo
+
+![Environment versions](images/02_repo_layout.png)
+
+### Data sanity (first rows + columns)
+
+![Environment versions](images/03_data_head.png)
+
+### Train the model (with W&B)
+
+
+![Environment versions](images/04_train_console.png)
+
+![Environment versions](images/04_train_console_02.png)
+
+![Environment versions](images/05_wandb_run.png)
+
+### Confirm the exported model exists
+
+![Environment versions](images/06_model_dir.png)
+
+### Local prediction (no server)
+
+![Environment versions](images/07_predict_local.png)
+
+### Serve the model (Terminal 1)
+
+![Environment versions](images/08_server_listening.png)
+
+### HTTP health & prediction (Terminal 2)
+
+![Environment versions](images/09_ping_200.png)
+
+### Stop the server
+
+![Environment versions](images/10_predict_http.png)
+
 
 Please, make sure all steps are using **the same** python version and that you have **conda installed**. Additionally, *mlflow* and *wandb* packages are crucial and should have the same version.
 

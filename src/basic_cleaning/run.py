@@ -8,44 +8,64 @@ import logging
 import pandas as pd
 import wandb
 
-
 logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
 logger = logging.getLogger()
 
 
-# DO NOT MODIFY
+# DO NOT MODIFY THE SIGNATURE
 def go(args):
     run = wandb.init(job_type="basic_cleaning")
     run.config.update(vars(args))
 
-    # Download input artifact (and record that we used it)
+    # ------------------------------------------------------------------
+    # 1) Download input artifact (and record that we used it)
+    # ------------------------------------------------------------------
     logger.info("Downloading artifact %s", args.input_artifact)
     artifact_local_path = run.use_artifact(args.input_artifact).file()
 
-    # Load data
+    # ------------------------------------------------------------------
+    # 2) Load data
+    # ------------------------------------------------------------------
     logger.info("Reading dataset")
     df = pd.read_csv(artifact_local_path)
 
-    # Drop outliers by price
-    logger.info("Filtering price between %.2f and %.2f", args.min_price, args.max_price)
-    idx = df["price"].between(args.min_price, args.max_price)
-    df = df[idx].copy()
+    # Basic hygiene: ensure critical columns exist
+    required_cols = {"price", "latitude", "longitude", "last_review"}
+    missing = required_cols - set(df.columns)
+    if missing:
+        raise ValueError(f"Missing required columns in input data: {missing}")
 
-    # Convert last_review to datetime
+    # Drop obvious bad rows
+    df = df.dropna(subset=["price", "latitude", "longitude"]).copy()
+
+    # ------------------------------------------------------------------
+    # 3) Cleaning steps (price bounds, dates, NYC bbox)
+    # ------------------------------------------------------------------
+    logger.info("Filtering price between %.2f and %.2f", args.min_price, args.max_price)
+    df = df[df["price"].between(args.min_price, args.max_price)].copy()
+
     logger.info("Converting last_review to datetime")
     df["last_review"] = pd.to_datetime(df["last_review"], errors="coerce")
 
-    # Keep only listings within NYC bounds
     logger.info("Filtering by latitude/longitude bounds")
-    idx = df["longitude"].between(-74.25, -73.50) & df["latitude"].between(40.5, 41.2)
-    df = df[idx].copy()
+    in_bbox = df["longitude"].between(-74.25, -73.50) & df["latitude"].between(40.5, 41.2)
+    df = df[in_bbox].copy()
 
-    # Save cleaned file (use the output_artifact name as the local filename)
+    # Finalize
+    df = df.reset_index(drop=True)
+    if df.empty:
+        raise ValueError("Cleaned dataset is empty after filtering steps.")
+
+    # ------------------------------------------------------------------
+    # 4) Save cleaned file (use the output_artifact name as the local filename)
+    # ------------------------------------------------------------------
     output_path = args.output_artifact  # e.g., "clean_sample.csv"
     logger.info("Saving cleaned data to %s", output_path)
     df.to_csv(output_path, index=False)
 
-    # Log the new artifact (with aliases so tests can use :latest and :reference)
+    # ------------------------------------------------------------------
+    # 5) Log the new artifact (with aliases so tests can use :latest and :reference)
+    # ------------------------------------------------------------------
     logger.info(
         "Logging cleaned artifact to W&B: name=%s type=%s",
         args.output_artifact,
@@ -57,6 +77,7 @@ def go(args):
         description=args.output_description,
     )
     artifact.add_file(output_path)
+    # CRUCIAL for data_check step:
     run.log_artifact(artifact, aliases=["latest", "reference"])
 
     run.finish()
