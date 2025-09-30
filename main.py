@@ -52,7 +52,23 @@ def go(config: DictConfig):
 
         if "basic_cleaning" in active_steps:
             ##################
-            # Implement here #
+
+            step_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "src", "basic_cleaning")
+            print(f"[debug] basic_cleaning step_path: {step_path}")
+
+            _ = mlflow.run(
+                step_path,
+                "main",
+                env_manager="conda",
+                parameters={
+                    "input_artifact": "sample.csv:latest",
+                    "output_artifact": "clean_sample.csv",
+                    "output_type": "clean_data",
+                    "output_description": "Data after basic cleaning",
+                    "min_price": config["etl"]["min_price"],
+                    "max_price": config["etl"]["max_price"]
+                },
+            )
             ##################
             pass
 
