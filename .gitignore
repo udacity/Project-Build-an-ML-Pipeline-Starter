@@ -145,3 +145,11 @@ mlruns/
 outputs/
 random_forest_dir/
 multirun/
+
+# Pipeline outputs
+src/basic_cleaning/clean_sample.csv
+mlruns/
+wandb/
+multirun/
+outputs/
+mlflow.db
