@@ -1,14 +1,14 @@
-name: basic_cleaning
+name: train_random_forest
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.10.0
-  - hydra-core=1.3.2
-  - matplotlib=3.8.2
-  - pandas=2.1.3
-  - pip=23.3.1
-  - scikit-learn=1.5.2
+  - python=3.13.0
+  - hydra-core=1.3.3
+  - matplotlib=3.10.6
+  - pandas=2.3.2
+  - pip=24.3.1
+  - scikit-learn=1.7.2
   - pip:
-      - mlflow==2.8.1
-      - wandb==0.16.0
+      - mlflow==3.4.0
+      - wandb==0.22.0
