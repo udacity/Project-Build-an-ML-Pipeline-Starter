@@ -74,13 +74,38 @@ def go(config: DictConfig):
 
         if "data_check" in active_steps:
             ##################
-            # Implement here #
+            step_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "src", "data_check")
+            print(f"[debug] data_check step_path: {step_path}")
+
+            _ = mlflow.run(
+                step_path,
+                "main",
+                env_manager="conda",
+                parameters={
+                    "csv": "clean_sample.csv:latest",
+                    "ref": "clean_sample.csv:reference",
+                    "kl_threshold": config["data_check"]["kl_threshold"],
+                    "min_price": config["etl"]["min_price"],
+                    "max_price": config["etl"]["max_price"],
+                }
+            )
             ##################
             pass
 
         if "data_split" in active_steps:
             ##################
-            # Implement here #
+            _ = mlflow.run(
+                f"{config['main']['components_repository']}/train_val_test_split",
+                'main',
+                env_manager="conda",
+                parameters = {
+                    "input": "clean_sample.csv:latest",
+                    "test_size": config["modeling"]["test_size"],
+                    "random_seed": config["modeling"]["random_seed"],
+                    "stratify_by": config["modeling"]["stratify_by"],
+                }
+
+            )
             ##################
             pass
 
@@ -95,7 +120,23 @@ def go(config: DictConfig):
             # step
 
             ##################
-            # Implement here #
+            step_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "src", "train_random_forest")
+            print(f"[debug] train_random_forest step_path: {step_path}")
+
+            _ = mlflow.run(
+                step_path,
+                "main",
+                env_manager="conda",
+                parameters={
+                    "trainval_artifact": "trainval_data.csv:latest",
+                    "val_size": config["modeling"]["val_size"],
+                    "random_seed": config["modeling"]["random_seed"],
+                    "stratify_by": config["modeling"]["stratify_by"],
+                    "rf_config": rf_config,
+                    "max_tfidf_features": config["modeling"]["max_tfidf_features"],
+                    "output_artifact": "random_forest_export",
+                }
+            )
             ##################
 
             pass
@@ -103,7 +144,15 @@ def go(config: DictConfig):
         if "test_regression_model" in active_steps:
 
             ##################
-            # Implement here #
+            _ = mlflow.run(
+                f"{config['main']['components_repository']}/test_regression_model",
+                "main",
+                env_manager="conda",
+                parameters={
+                    "mlflow_model": "random_forest_export:prod",
+                    "test_dataset": "test_data.csv:latest"
+                }
+            )
             ##################
 
             pass
