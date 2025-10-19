@@ -145,3 +145,17 @@ mlruns/
 outputs/
 random_forest_dir/
 multirun/
+# MLflow & local state
+mlruns/
+mlflow.db
+
+# W&B local cache
+wandb_data/
+wandb_tmp/
+
+# Python noise
+__pycache__/
+*.pyc
+
+# OS noise
+.DS_Store
