@@ -3,4 +3,4 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - mlflow=3.4.0
+  - mlflow=3.3.2
