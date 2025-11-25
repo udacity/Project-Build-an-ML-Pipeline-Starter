@@ -131,8 +131,7 @@ def go(config: DictConfig):
 
             _ = mlflow.run(
                 f"{config['main']['components_repository']}/test_regression_model",
-                version='main',
-                env_manager='conda',
+                entry_point='main',
                 parameters={
                     'mlflow_model': 'random_forest_export:prod',
                     'test_dataset': 'test_data.csv:latest'
