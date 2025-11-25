@@ -30,9 +30,11 @@ def go(args):
     # Convert last_review to datetime
     df['last_review'] = pd.to_datetime(df['last_review'])
 
-    idx = df['longitude'].between(-74.25, -73.50) & df['latitude'].between(40.5, 41.2)
-    df = df[idx].copy()
-    # Save the cleaned file
+    # Step 6: TODO
+    # Add longitude and latitude filter to allow test_proper_boundaries to pass
+    # ENTER CODE HERE
+
+    # Save the cleaned data
     df.to_csv('clean_sample.csv',index=False)
 
     # log the new data.
@@ -45,7 +47,7 @@ def go(args):
     run.log_artifact(artifact)
 
 
-# TODO: In the code below, fill in the data type for each argumemt. The data type should be str, float or int. 
+# TODO: In the code below, fill in the data type for each argument. The data type should be str, float or int. 
 # TODO: In the code below, fill in a description for each argument. The description should be a string.
 if __name__ == "__main__":
 
