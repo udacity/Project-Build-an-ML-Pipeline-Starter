@@ -145,3 +145,8 @@ mlruns/
 outputs/
 random_forest_dir/
 multirun/
+
+# local
+mlflow/
+rf_config.json
+
