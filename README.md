@@ -175,6 +175,32 @@ If you see the any error while running the command:
 
 Please, make sure all steps are using **the same** python version and that you have **conda installed**. Additionally, *mlflow* and *wandb* packages are crucial and should have the same version.
 
+## Step 2 — Data cleaning component (verification run)
+
+### Why we run this in Step 2
+Before running the full pipeline, we run the `basic_cleaning` component by itself to verify that:
+
+- We can download the raw dataset artifact from Weights & Biases (W&B)
+- The component executes successfully in an isolated, reproducible MLflow environment
+- The cleaning rules work as expected (e.g., price filtering)
+- A cleaned dataset artifact can be produced consistently
+
+This is a quick validation step to catch configuration or artifact issues early, before moving on to the next pipeline steps.
+
+### How to reproduce Step 2 locally
+Make sure you are in the project root (the folder that contains `MLproject`), then run:
+
+```bash
+export WANDB_ENTITY="nage-murphy-western-governors-university"
+export WANDB_PROJECT="nyc_airbnb"
+
+mlflow run src/basic_cleaning \
+  -P input_artifact="$WANDB_ENTITY/$WANDB_PROJECT/sample.csv:latest" \
+  -P output_artifact="clean_sample.csv" \
+  -P output_type="clean_sample" \
+  -P output_description="Cleaned_sample_dataset_verification_run" \
+  -P min_price=10 \
+  -P max_price=350
 
 ## License
 
