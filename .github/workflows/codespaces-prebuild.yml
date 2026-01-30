@@ -1,0 +1,34 @@
+name: Codespaces Prebuild Trigger
+
+on:
+  push:
+    branches:
+      - main
+      - feat/**
+      - feature/**
+    paths:
+      - '.devcontainer/**'
+      - 'environment.yml'
+      - 'conda.yml'
+      - 'components/**/conda.yml'
+      - 'src/**/conda.yml'
+  workflow_dispatch:
+
+jobs:
+  trigger-prebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Codespaces Prebuild
+        uses: actions/github-script@v7
+        with:
+          script: |
+            console.log('🚀 Codespaces Prebuild Trigger Workflow');
+            console.log('');
+            console.log('This workflow signals to GitHub that devcontainer configuration has changed.');
+            console.log('GitHub Codespaces will automatically rebuild the prebuild image in the background.');
+            console.log('');
+            console.log('ℹ️  Prebuild configuration is managed in:');
+            console.log('   Repository Settings → Codespaces → Prebuilds');
+            console.log('');
+            console.log('⏱️  Prebuild typically completes in 3-5 minutes.');
+            console.log('   New Codespaces will use the updated prebuild once complete.');

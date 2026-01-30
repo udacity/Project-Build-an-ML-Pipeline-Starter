@@ -18,9 +18,22 @@ In this project you will build such a pipeline.
 
 ## Preliminary steps
 
-### Supported Operating Systems
+### Quick Start with GitHub Codespaces (Recommended)
 
-This project is compatible with the following operating systems:
+The fastest way to get started is using **GitHub Codespaces**, which provides a fully configured cloud development environment:
+
+✨ **Benefits:**
+- No local setup required
+- Pre-configured Python 3.13 environment
+- All dependencies pre-installed
+- MLflow UI and Jupyter Lab ready to use
+- Works on any device with a web browser
+
+📖 **See [CODESPACES_QUICKSTART.md](CODESPACES_QUICKSTART.md) for complete setup instructions.**
+
+### Local Setup - Supported Operating Systems
+
+If you prefer to work locally, this project is compatible with the following operating systems:
 
 - **Ubuntu 22.04** (Jammy Jellyfish) - both Ubuntu installation and WSL (Windows Subsystem for Linux)
 - **Ubuntu 24.04** - both Ubuntu installation and WSL (Windows Subsystem for Linux)
@@ -34,7 +47,7 @@ This project requires **Python 3.13**. Please ensure that you have Python 3.13 i
 
 ### Fork the Starter kit
 Go to [https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter](https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter)
-and click on `Fork` in the upper right corner. This will create a fork in your Github account, i.e., a copy of the
+and click on `Fork` in the upper right corner. This will create a fork in your GitHub account, i.e., a copy of the
 repository that is under your control. Now clone the repository locally so you can start working on it:
 
 ```
