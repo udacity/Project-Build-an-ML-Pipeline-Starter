@@ -9,5 +9,5 @@ dependencies:
   - scikit-learn=1.7.2
   - pip:
       - mlflow==3.3.2
-      - wandb==0.22.0
+      - wandb==0.24.0
       - -e ..

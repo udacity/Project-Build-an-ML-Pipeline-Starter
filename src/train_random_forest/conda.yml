@@ -12,4 +12,4 @@ dependencies:
   - numpy=2.1.0
   - pip:
       - mlflow==3.3.2
-      - wandb==0.22.0
+      - wandb==0.24.0
