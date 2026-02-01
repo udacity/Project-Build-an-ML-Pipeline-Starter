@@ -1,0 +1,99 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Cleanup MLflow Environments",
+      "type": "shell",
+      "command": "bash .devcontainer/scripts/cleanup-mlflow-envs.sh",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Full Pipeline",
+      "type": "shell",
+      "command": "mlflow run .",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Download Step",
+      "type": "shell",
+      "command": "mlflow run . -P steps=download",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Basic Cleaning Step",
+      "type": "shell",
+      "command": "mlflow run . -P steps=basic_cleaning",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Data Check Step",
+      "type": "shell",
+      "command": "mlflow run . -P steps=data_check",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Data Split Step",
+      "type": "shell",
+      "command": "mlflow run . -P steps=data_split",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Train Random Forest Step",
+      "type": "shell",
+      "command": "mlflow run . -P steps=train_random_forest",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Test Regression Model Step",
+      "type": "shell",
+      "command": "mlflow run . -P steps=test_regression_model",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Open Jupyter Lab (EDA)",
+      "type": "shell",
+      "command": "mlflow run src/eda",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

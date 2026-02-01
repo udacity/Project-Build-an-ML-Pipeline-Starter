@@ -1,0 +1,96 @@
+{
+  "name": "NYC Airbnb ML Pipeline",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "16gb",
+    "storage": "32gb"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": true,
+      "installOhMyZsh": true,
+      "upgradePackages": true,
+      "username": "vscode",
+      "userUid": "1000",
+      "userGid": "1000"
+    },
+    "ghcr.io/devcontainers/features/git:1": {
+      "version": "latest",
+      "ppa": false
+    }
+  },
+  "secrets": {
+    "WANDB_API_KEY": {
+      "description": "Weights & Biases API key for experiment tracking"
+    }
+  },
+  "remoteEnv": {
+    "MLFLOW_EXPERIMENT_NAME": "nyc_airbnb"
+  },
+  "forwardPorts": [5000, 8888, 8889],
+  "portsAttributes": {
+    "5000": {
+      "label": "MLflow UI",
+      "onAutoForward": "notify"
+    },
+    "8888": {
+      "label": "Jupyter Lab",
+      "onAutoForward": "openBrowser"
+    },
+    "8889": {
+      "label": "Jupyter Notebook",
+      "onAutoForward": "silent"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.black-formatter",
+        "ms-toolsai.jupyter",
+        "redhat.vscode-yaml",
+        "tamasfe.even-better-toml",
+        "GrapeCity.gc-excelviewer",
+        "eamodio.gitlens",
+        "GitHub.copilot"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/opt/conda/envs/nyc_airbnb_dev/bin/python",
+        "python.terminal.activateEnvironment": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": false,
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 1000,
+        "terminal.integrated.defaultProfile.linux": "zsh",
+        "terminal.integrated.profiles.linux": {
+          "zsh": {
+            "path": "/usr/bin/zsh"
+          }
+        },
+        "jupyter.notebookFileRoot": "${workspaceFolder}",
+        "[python]": {
+          "editor.defaultFormatter": "ms-python.black-formatter",
+          "editor.formatOnSave": true,
+          "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+          }
+        }
+      }
+    },
+    "codespaces": {
+      "openFiles": [
+        "README.md",
+        "CODESPACES_QUICKSTART.md"
+      ]
+    }
+  },
+  "onCreateCommand": "bash .devcontainer/scripts/on-create.sh",
+  "postCreateCommand": "bash .devcontainer/scripts/post-create.sh",
+  "postStartCommand": "bash .devcontainer/scripts/post-start.sh",
+  "remoteUser": "vscode"
+}
