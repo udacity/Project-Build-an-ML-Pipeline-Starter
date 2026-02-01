@@ -9,5 +9,5 @@ dependencies:
   - pyarrow=21.0.0
   - pip:
       - mlflow==3.3.2
-      - wandb==0.22.0
+      - wandb==0.24.0
       - -e ..
