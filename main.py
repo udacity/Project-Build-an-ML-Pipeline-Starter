@@ -121,12 +121,13 @@ def go(config: DictConfig):
         if "test_regression_model" in active_steps:
 
             _ = mlflow.run(
-                uri="file://" + os.path.abspath("src/test_regression_model"),
+                uri=os.path.abspath("components/test_regression_model"),
                 entry_point="main",
+                version=None,
                 env_manager="local",
                 parameters={
                     "mlflow_model": "random_forest_export:prod",
-                    "test_artifact": "test_data.csv:latest"
+                    "test_dataset": "test_data.csv:latest"
                 }
             )
 

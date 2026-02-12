@@ -9,6 +9,12 @@ import mlflow
 import pandas as pd
 from sklearn.metrics import mean_absolute_error
 
+import sys
+import os
+
+#Add the components folder to sys.path so we can import wandb_utils
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from wandb_utils.log_artifact import log_artifact
 
 
