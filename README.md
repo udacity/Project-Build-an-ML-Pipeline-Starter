@@ -6,6 +6,23 @@ to be retrained with the same cadence, necessitating an end-to-end pipeline that
 
 In this project you will build such a pipeline.
 
+## Public Repository
+The complete project repository can be accessed here:
+
+https://wandb.ai/asm3387-western-governors-university/nyc_airbnb/overview
+
+https://github.com/sohojin07/Project-Build-an-ML-Pipeline-Starter
+
+## Project Summary
+
+This project builds a machine learning pipeline using:
+-Hydra for configuration management
+-MLflow for pipeline orchestration
+-Weights & Biases for experiment tracking and artifact management
+-Scikit-learn for model training
+
+The pipeline automates data ingestion, cleaning, validation, training, and evaluation for short-term rental price prediction in NYC.
+
 ## Table of contents
 
 - [Preliminary steps](#preliminary-steps)
@@ -30,7 +47,7 @@ Please ensure you are using one of the supported OS versions to avoid compatibil
 
 ### Python Requirement
 
-This project requires **Python 3.13**. Please ensure that you have Python 3.13 installed and set as the default version in your environment to avoid any runtime issues.
+This project requires **Python 3.10**. The pipeline, MLflow runs, and environments were all tested using Python 3.10.
 
 ### Fork the Starter kit
 Go to [https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter](https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter)
