@@ -9,6 +9,8 @@ In this project you will build such a pipeline.
 ## Public Repository
 The complete project repository can be accessed here:
 
+https://wandb.ai/asm3387-western-governors-university/nyc_airbnb/overview
+
 https://github.com/sohojin07/Project-Build-an-ML-Pipeline-Starter
 
 ## Project Summary
