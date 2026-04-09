@@ -12,4 +12,4 @@ dependencies:
   - jupyterlab=4.4.7
   - pip:
       - mlflow==3.4.0
-      - wandb==0.22.0
+      - wandb==0.24.0
