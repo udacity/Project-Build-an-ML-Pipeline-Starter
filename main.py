@@ -53,7 +53,7 @@ def go(config: DictConfig):
         if "basic_cleaning" in active_steps:
             # HMB 2026-04-12 Path code obtained from Udacity Knowledge Base
             # https://knowledge.udacity.com/questions/1059727
-            mlflow.run(
+            _ = mlflow.run(
             os.path.join(hydra.utils.get_original_cwd(), "src", "basic_cleaning"),
             entry_point="main",
             parameters={
@@ -67,7 +67,7 @@ def go(config: DictConfig):
         )
 
         if "data_check" in active_steps:
-            mlflow.run(
+            _ = mlflow.run(
             os.path.join(hydra.utils.get_original_cwd(), "src", "data_check"),
             entry_point="main",
             parameters={
