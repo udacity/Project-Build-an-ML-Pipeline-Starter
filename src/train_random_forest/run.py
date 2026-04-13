@@ -74,7 +74,7 @@ def go(args):
     ######################################
     # Fit the pipeline sk_pipe by calling the .fit method on X_train and y_train
     # YOUR CODE HERE
-    sk_pipe.fit(X_train,y_train)
+    sk_pipe.fit(X_train, y_train)
     ######################################
 
     # Compute r2 and MAE
@@ -98,7 +98,7 @@ def go(args):
     # HINT: use mlflow.sklearn.save_model
     mlflow.sklearn.save_model(
         sk_model = sk_pipe,
-        path = os.path("random_forest_dir"),
+        path = "random_forest_dir",
         input_example = X_train.iloc[:5]
     )
     ######################################
@@ -194,7 +194,10 @@ def get_inference_pipeline(rf_config, max_tfidf_features):
     )
 
     # Some minimal NLP for the "name" column
-    reshape_to_1d = FunctionTransformer(np.reshape, kw_args={"newshape": -1})
+    ######HMB 2026-04-12 Modified this line 
+    ######TypeError: reshape() got an unexpected keyword argument 'newshape' 
+    # reshape_to_1d = FunctionTransformer(np.reshape, kw_args={"newshape": -1})
+    reshape_to_1d = FunctionTransformer(lambda x: np.reshape(x, -1))
     name_tfidf = make_pipeline(
         SimpleImputer(strategy="constant", fill_value=""),
         reshape_to_1d,
