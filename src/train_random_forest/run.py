@@ -52,7 +52,7 @@ def go(args):
     rf_config['random_state'] = args.random_seed
 
     # Use run.use_artifact(...).file() to get the train and validation artifact
-    # and save the returned path in train_local_pat
+    # and save the returned path in train_local_path
     trainval_local_path = run.use_artifact(args.trainval_artifact).file()
    
     X = pd.read_csv(trainval_local_path)
