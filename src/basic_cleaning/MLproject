@@ -6,7 +6,7 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: Ininital artifact to be cleaned
+        description: Initial artifact to be cleaned
         type: string
 
       output_artifact:
