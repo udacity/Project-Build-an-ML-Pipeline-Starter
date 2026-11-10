@@ -103,8 +103,9 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# Pycharm
+# IDE
 .idea/
+.vscode/
 
 ### macOS ###
 # General
